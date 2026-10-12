@@ -3,7 +3,7 @@ title: Klub
 heading: Kdo jsme
 eyebrow: SK Vodní slalom České Budějovice
 lead: Sportovní klub s tradicí od roku 1965 a zhruba stovkou aktivních členů. Vychováváme děti a mládež, závodíme od krajských pohárů po mistrovství světa a staráme se o kanál, který jsme si sami postavili.
-hero: photos/akce/2026-07-eca-cup-cb/02.jpg
+hero: photos/hero/09.jpg
 ---
 Jsme sportovní klub vodního slalomu z Českých Budějovic. Naši zakladatelé vybudovali v osmdesátých letech slalomovou dráhu v Českém Vrbném a v roce 2012 jsme ji přestavěli do olympijských parametrů jako **Vodácký areál Lídy Polesné** – pro sportovce i pro veřejnost.
 
