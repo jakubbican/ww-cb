@@ -3,7 +3,7 @@ title: Úspěchy
 heading: Úspěchy členů a odchovanců
 eyebrow: Od Plánského jezu po mistrovství světa
 lead: Za víc než půl století prošly budějovickým slalomem stovky dětí. Někteří z nich došli až na olympiádu a na stupně vítězů mistrovství světa. Tady je výběr – stránku průběžně doplňujeme.
-hero: photos/akce/2026-07-kuba-mistr/01.jpg
+hero: photos/hero/08.jpg
 ---
 ## Jakub Krejčí – mistr světa a Evropy 2026
 

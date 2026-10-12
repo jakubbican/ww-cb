@@ -6,7 +6,7 @@
   "thumb": "longest side 600px, *_thumb.jpg"
  },
  "counts": {
-  "hero": 7,
+  "hero": 8,
   "areal": 9,
   "historie": 16,
   "akce": 83
@@ -216,6 +216,19 @@
    "height": 1200,
    "source": "Dokumenty nástěnky SK VS ČB/Galerie/2026/NKZ/20260919NKZCB (66).JPG",
    "original_name": "20260919NKZCB (66).JPG"
+  },
+  {
+   "path": "hero/08.jpg",
+   "thumb": "hero/08_thumb.jpg",
+   "group": "hero",
+   "event_slug": null,
+   "event_folder": "ECA2022 TOP",
+   "title": "Jakub Krejčí – mistr Evropy U23 2022 na domácí trati (ME juniorů a U23, České Budějovice 2022)",
+   "date": "2022-07-17",
+   "width": 1680,
+   "height": 1364,
+   "source": "ECA2022/03 Marketing/09 Výstupy/Oddil + zajimave/TOP/_DSC7262 (1).jpg",
+   "original_name": "_DSC7262 (1).jpg"
   },
   {
    "path": "areal/01.jpg",
