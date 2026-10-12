@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap">
+  <div class="article-head">
+    <div class="meta">Kronika</div>
+    <h1>Co se u nás dělo</h1>
+    <p class="lead">Závody, soustředění, brigády a všechno kolem kanálu. Příspěvky píšou trenéři a členové klubu.</p>
+  </div>
+  {% for year, items in by_year %}
+  <div class="year-block">
+    <h2>{{ year }}</h2>
+    <div class="list-posts">
+      {% for p in items %}
+      <a class="post-card" href="{{ rel }}kronika/{{ p.slug }}/">
+        <div class="img">{% if p.thumb %}<img src="{{ rel }}{{ p.thumb }}" alt="" loading="lazy">{% endif %}</div>
+        <div class="meta">{{ p.date_cz }} · {{ p.category }}</div>
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.excerpt }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

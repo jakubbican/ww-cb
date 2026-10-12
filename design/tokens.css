@@ -1,0 +1,10 @@
+/* SK Vodní slalom České Budějovice — design tokens v1.0.0
+   Zdroj pravdy: https://github.com/jakubbican/skvscb-design/tokens/tokens.json
+   Písma: Google Fonts – Barlow (400–800) a Barlow Condensed (600–800). */
+:root{
+  --navy:#002E5D; --navy-deep:#0B1F3A; --orange:#F05A28; --sand:#F4F1EA; --water:#CFE0EE;
+  --ink:#0B1F3A; --muted:#4A5668; --line:#D9D4C8; --line-soft:#ECE8DF; --white:#fff;
+  --display:'Barlow Condensed',system-ui,sans-serif; --body:'Barlow',system-ui,sans-serif;
+  --radius-sm:4px; --radius-md:6px; --radius-lg:8px;
+  --max:1180px;
+}

@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="bg" style="background-image:url('{{ rel }}{{ hero.path }}')"></div>
+  <div class="fade"></div>
+  <img class="frag" src="{{ rel }}assets/logo-white.svg" alt="">
+  <div class="wrap">
+    <div class="eyebrow">Areál Lídy Polesné · České Vrbné</div>
+    <h1>Vodní slalom<br>v Budějovicích<br>od roku 1965</h1>
+    <p>Trénujeme děti, vychováváme reprezentanty a pořádáme závody od lokálních po mezinárodní. Postavili jsme svůj kanál a rozvíjíme areál, ve kterém jsou všichni vítáni.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="{{ rel }}klub/#nabor">Přidej se k nám</a>
+      <a class="btn btn-outline-light" href="{{ rel }}kronika/">Kronika klubu</a>
+    </div>
+  </div>
+</section>
+
+{% include "partners.html" %}
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><h2>Co u nás najdeš</h2></div>
+    <div class="grid-3">
+      <article class="card">
+        <div class="img"><img src="{{ rel }}{{ feat.deti }}" alt="" loading="lazy"></div>
+        <div class="body"><h3>Děti a mládež</h3><p>Nábor od 8 let, tréninky na kanále i v bazénu, zimní a letní soustředění. Dovednosti na vodě i výkonnostní sport.</p><a class="more" href="{{ rel }}klub/#nabor">Jak se přihlásit →</a></div>
+      </article>
+      <article class="card">
+        <div class="img"><img src="{{ rel }}{{ feat.areal }}" alt="" loading="lazy"></div>
+        <div class="body"><h3>Areál Lídy Polesné</h3><p>Divoká voda, kemp, restaurace. Výkonnostní sport, zábava i odpočinek pro všechny příchozí.</p><a class="more" href="{{ rel }}areal/">Více o areálu →</a></div>
+      </article>
+      <article class="card">
+        <div class="img"><img src="{{ rel }}{{ feat.zavody }}" alt="" loading="lazy"></div>
+        <div class="body"><h3>Závody a akce</h3><p>Veřejné, kvalifikační i mezinárodní závody. Propozice, výsledky a informace pro návštěvníky.</p><a class="more" href="{{ rel }}akce/">Kalendář →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><h2>Kronika</h2><a class="more" style="color:var(--navy)" href="{{ rel }}kronika/">Všechny příspěvky →</a></div>
+    <div class="grid-3">
+      {% for p in latest %}
+      <a class="post-card" href="{{ rel }}kronika/{{ p.slug }}/">
+        <div class="img">{% if p.thumb %}<img src="{{ rel }}{{ p.thumb }}" alt="" loading="lazy">{% endif %}</div>
+        <div class="meta">{{ p.date_cz }} · {{ p.category }}</div>
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.excerpt }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="dark">
+  <div class="wrap">
+    <div style="max-width:640px">
+      <div class="eyebrow">Historie místa</div>
+      <h2>Kanál, který si klub postavil sám</h2>
+      <p>Od propusti starého jezu, kde trénovala Lída Polesná, přes dráhu postavenou brigádnicky členy oddílu až po přestavbu do olympijských parametrů. Areál nese jméno čtyřnásobné mistryně světa, která u toho byla od začátku.</p>
+    </div>
+    <div class="timeline">
+      <div><div class="year">1965</div><p>Založen oddíl kanoistiky TJ Škoda České Budějovice – předchůdce dnešního klubu.</p></div>
+      <div><div class="year">1983</div><p>Umělá slalomová dráha v Českém Vrbném předána do provozu – postavená z velké části rukama členů.</p></div>
+      <div><div class="year">2012</div><p>Přestavba na olympijské parametry za 26 mil. Kč; nominace na OH v Londýně se jede u nás.</p></div>
+      <div><div class="year">2022</div><p>Mistrovství Evropy juniorů a U23 – poprvé v historii v České republice.</p></div>
+    </div>
+    <a class="btn btn-outline-light" style="align-self:flex-start" href="{{ rel }}historie/">Celý příběh místa</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><div><h2>V areálu dál najdeš</h2><p>Kanál žije i mimo oddíl. Každý má svoje — tady je rozcestník, aby se v tom návštěvník vyznal.</p></div></div>
+    <div class="grid-4">
+      {% for d in directory %}
+      <a class="dir" href="{{ d.url }}" {% if d.external %}target="_blank" rel="noopener"{% endif %}><b>{{ d.name }}</b><span>{{ d.text }}</span><span class="more">{{ d.label }} →</span></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

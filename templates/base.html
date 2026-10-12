@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title %}{{ title }} · {% endif %}SK Vodní slalom České Budějovice</title>
+<meta name="description" content="{{ description or 'SK Vodní slalom České Budějovice – klub vodního slalomu v Areálu Lídy Polesné v Českém Vrbném. Děti a mládež, závodní oddíl, závody a akce.' }}">
+{% if og_image %}<meta property="og:image" content="{{ og_image }}">{% endif %}
+<meta property="og:title" content="{{ title or 'SK Vodní slalom České Budějovice' }}">
+<meta property="og:type" content="website">
+<link rel="icon" href="{{ rel }}assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ rel }}assets/tokens.css">
+<link rel="stylesheet" href="{{ rel }}assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ rel }}">
+      <img src="{{ rel }}assets/logo-navy.svg" alt="SK Vodní slalom České Budějovice">
+      <span>SK Vodní slalom<small>České Budějovice</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">Menu</button>
+    <nav class="nav" id="nav">
+      <a href="{{ rel }}klub/" {% if section=='klub' %}class="active"{% endif %}>Klub</a>
+      <a href="{{ rel }}kronika/" {% if section=='kronika' %}class="active"{% endif %}>Kronika</a>
+      <a href="{{ rel }}historie/" {% if section=='historie' %}class="active"{% endif %}>Historie</a>
+      <a href="{{ rel }}uspechy/" {% if section=='uspechy' %}class="active"{% endif %}>Úspěchy</a>
+      <a href="{{ rel }}areal/" {% if section=='areal' %}class="active"{% endif %}>Areál</a>
+      <a href="{{ rel }}akce/" {% if section=='akce' %}class="active"{% endif %}>Akce</a>
+      <a href="{{ rel }}kontakt/" {% if section=='kontakt' %}class="active"{% endif %}>Kontakt</a>
+      <a href="{{ rel }}klub/#nabor" class="cta">Chci do oddílu</a>
+    </nav>
+  </div>
+</header>
+
+{% block content %}{% endblock %}
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="brandcol">
+      <img src="{{ rel }}assets/logo-white.svg" alt="">
+      <div class="col">
+        <strong>SK Vodní slalom České Budějovice, z. s.</strong>
+        <span>Vodácký areál Lídy Polesné</span>
+        <span>České Vrbné 1995, 370 11 České Budějovice</span>
+        <span>IČO 15770729</span>
+      </div>
+    </div>
+    <div class="col">
+      <strong>Kontakt</strong>
+      <a href="mailto:info@ww-cb.cz">info@ww-cb.cz</a>
+      <a href="{{ rel }}kontakt/">Kontakty a jak k nám</a>
+      <a href="{{ rel }}klub/#nabor">Nábor dětí</a>
+    </div>
+    <div class="col">
+      <strong>Sleduj nás</strong>
+      <div class="social">
+        <a href="https://www.facebook.com/skvscb" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg>Facebook</a>
+        <a href="https://www.instagram.com/vodnislalomcb" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm6-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0zM21 8.4c-.1-1.5-.4-2.8-1.5-3.9S17.1 3.1 15.6 3c-1.6-.1-6.3-.1-7.9 0-1.5.1-2.8.4-3.9 1.5S2.4 6.9 2.3 8.4c-.1 1.6-.1 6.3 0 7.9.1 1.5.4 2.8 1.5 3.9s2.4 1.4 3.9 1.5c1.6.1 6.3.1 7.9 0 1.5-.1 2.8-.4 3.9-1.5s1.4-2.4 1.5-3.9c.1-1.6.1-6.3 0-7.9zm-2 9.6a3 3 0 0 1-1.7 1.7c-1.2.5-4 .4-5.3.4s-4.1.1-5.3-.4A3 3 0 0 1 5 18c-.5-1.2-.4-4-.4-5.3s-.1-4.1.4-5.3A3 3 0 0 1 6.7 5.7c1.2-.5 4-.4 5.3-.4s4.1-.1 5.3.4A3 3 0 0 1 19 7.4c.5 1.2.4 4 .4 5.3s.1 4.1-.4 5.3z"/></svg>Instagram</a>
+      </div>
+    </div>
+  </div>
+  <div class="bottom">© {{ year }} SK Vodní slalom České Budějovice, z. s. · Fotografie: archiv klubu</div>
+</footer>
+<div class="lightbox" id="lb" onclick="this.classList.remove('open')"><button aria-label="Zavřít">Zavřít ×</button><img alt=""></div>
+<script>
+document.addEventListener('click',function(e){var a=e.target.closest('a[data-lb]');if(!a)return;e.preventDefault();var lb=document.getElementById('lb');lb.querySelector('img').src=a.getAttribute('href');lb.classList.add('open');});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')document.getElementById('lb').classList.remove('open');});
+</script>
+</body>
+</html>

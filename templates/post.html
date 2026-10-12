@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap">
+  <div class="article-head">
+    <div class="meta">{{ p.date_cz }} · {{ p.category }}</div>
+    <h1>{{ p.title }}</h1>
+  </div>
+  {% if p.cover %}<div class="cover"><a href="{{ rel }}{{ p.cover }}" data-lb><img src="{{ rel }}{{ p.cover }}" alt=""></a></div>{% endif %}
+  <div class="two-col">
+    <article class="prose">{{ p.html | safe }}
+      {% if p.gallery %}<div class="gallery">{% for g in p.gallery %}<a href="{{ rel }}{{ g.full }}" data-lb><img src="{{ rel }}{{ g.thumb }}" alt="" loading="lazy"></a>{% endfor %}</div>{% endif %}
+    </article>
+    <aside class="aside">
+      <h3>Další z kroniky</h3>
+      <ul>{% for o in others %}<li><a href="{{ rel }}kronika/{{ o.slug }}/">{{ o.title }}</a> <span class="muted">({{ o.date_cz }})</span></li>{% endfor %}</ul>
+      <p style="margin:14px 0 0"><a class="more" href="{{ rel }}kronika/">Celá kronika →</a></p>
+    </aside>
+  </div>
+  <div class="pager">
+    <span>{% if p.next %}<a href="{{ rel }}kronika/{{ p.next.slug }}/">← {{ p.next.title }}</a>{% endif %}</span>
+    <span>{% if p.prev %}<a href="{{ rel }}kronika/{{ p.prev.slug }}/">{{ p.prev.title }} →</a>{% endif %}</span>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap">
+  <div class="article-head">
+    <div class="meta">Závody a akce</div>
+    <h1>Co pořádáme</h1>
+    <p class="lead">Veřejné závody, nominační závody, Český pohár, mistrovství i mezinárodní akce v Areálu Lídy Polesné a na Lipně. Aktuální propozice a výsledky najdeš na <a href="https://www.kanoe.cz" target="_blank" rel="noopener">kanoe.cz</a> a <a href="https://zive.results.cz" target="_blank" rel="noopener">results.cz</a>.</p>
+  </div>
+  <div class="two-col">
+    <div>
+    {% for year, items in by_year %}
+    <div class="year-block">
+      <h2>{{ year }}</h2>
+      <ul class="events">
+        {% for e in items %}
+        <li><span class="d">{{ e.date_range }}</span><span><span class="t">{{ e.title }}</span>{% if e.location %}<br><span class="l">{{ e.location }}</span>{% endif %}{% if e.description %}<br><span class="l">{{ e.description }}</span>{% endif %}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+    </div>
+    <aside class="aside">
+      <h3>Tradiční závody</h3>
+      <ul>
+        <li><b>Jarní slalomy</b> – duben, veřejný závod a nominace mládeže</li>
+        <li><b>Letní slalomy</b> – červenec, veřejný závod a Český pohár veteránů</li>
+        <li><b>NKZ České Vrbné</b> – nominační a kvalifikační závod</li>
+        <li><b>Český pohár žáků</b></li>
+        <li><b>MČR a Český pohár na Lipně</b> – srpen</li>
+        <li><b>Mezinárodní akce</b> – ECA Junior Cup, evropské poháry ve sprintu a raftingu</li>
+      </ul>
+    </aside>
+  </div>
+</div>
+{% endblock %}

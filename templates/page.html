@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+{% if hero_img %}
+<section class="hero hero-sub">
+  <div class="bg" style="background-image:url('{{ rel }}{{ hero_img }}')"></div>
+  <div class="fade"></div>
+  <div class="wrap">
+    {% if eyebrow %}<div class="eyebrow">{{ eyebrow }}</div>{% endif %}
+    <h1>{{ heading or title }}</h1>
+    {% if lead %}<p>{{ lead }}</p>{% endif %}
+  </div>
+</section>
+{% else %}
+<div class="wrap"><div class="article-head">
+  {% if eyebrow %}<div class="meta">{{ eyebrow }}</div>{% endif %}
+  <h1>{{ heading or title }}</h1>
+  {% if lead %}<p class="lead">{{ lead }}</p>{% endif %}
+</div></div>
+{% endif %}
+<div class="wrap" style="padding-top:40px">
+  {% block body %}
+  <div class="two-col">
+    <article class="prose">{{ html | safe }}</article>
+    {% if aside %}<aside class="aside">{{ aside | safe }}</aside>{% endif %}
+  </div>
+  {% endblock %}
+</div>
+{% endblock %}
