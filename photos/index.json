@@ -6,7 +6,7 @@
   "thumb": "longest side 600px, *_thumb.jpg"
  },
  "counts": {
-  "hero": 12,
+  "hero": 13,
   "areal": 9,
   "historie": 16,
   "akce": 83
@@ -279,6 +279,19 @@
    "date": "2022-07-16",
    "width": 1800,
    "height": 1350,
+   "source": "ECA2022/03 Marketing/09 Výstupy/Oddil + zajimave/TOP",
+   "original_name": ""
+  },
+  {
+   "path": "hero/13.jpg",
+   "thumb": "hero/13_thumb.jpg",
+   "group": "hero",
+   "event_slug": null,
+   "event_folder": "ECA2022 TOP",
+   "title": "ME juniorů a U23 2022 – K1 v brance 2",
+   "date": "2022-07-16",
+   "width": 1800,
+   "height": 1200,
    "source": "ECA2022/03 Marketing/09 Výstupy/Oddil + zajimave/TOP",
    "original_name": ""
   },
