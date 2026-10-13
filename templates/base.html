@@ -25,7 +25,7 @@
     <button class="nav-toggle" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">Menu</button>
     <nav class="nav" id="nav">
       <a href="{{ rel }}klub/" {% if section=='klub' %}class="active"{% endif %}>Klub</a>
-      <a href="{{ rel }}kronika/" {% if section=='kronika' %}class="active"{% endif %}>Kronika</a>
+      <a href="{{ rel }}kronika/" {% if section=='kronika' %}class="active"{% endif %}>Zápisník</a>
       <a href="{{ rel }}historie/" {% if section=='historie' %}class="active"{% endif %}>Historie</a>
       <a href="{{ rel }}uspechy/" {% if section=='uspechy' %}class="active"{% endif %}>Úspěchy</a>
       <a href="{{ rel }}areal/" {% if section=='areal' %}class="active"{% endif %}>Areál</a>

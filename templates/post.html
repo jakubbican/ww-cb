@@ -11,7 +11,7 @@
       {% if p.gallery %}<div class="gallery">{% for g in p.gallery %}<a href="{{ rel }}{{ g.full }}" data-lb><img src="{{ rel }}{{ g.thumb }}" alt="" loading="lazy"></a>{% endfor %}</div>{% endif %}
     </article>
     <aside class="aside">
-      <h3>Další z kroniky</h3>
+      <h3>Další ze zápisníku</h3>
       <ul>{% for o in others %}<li><a href="{{ rel }}kronika/{{ o.slug }}/">{{ o.title }}</a> <span class="muted">({{ o.date_cz }})</span></li>{% endfor %}</ul>
       <p style="margin:14px 0 0"><a class="more" href="{{ rel }}kronika/">Celá kronika →</a></p>
     </aside>

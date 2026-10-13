@@ -4,7 +4,7 @@ Statický web klubu SK Vodní slalom České Budějovice. Pracuj česky. Čtená
 
 ## Jak to funguje
 - `python build.py` → `dist/`. Žádný JS framework, žádný CMS. Šablony Jinja2 v `templates/`, styl `static/style.css`.
-- Obsah: `content/posts/` (kronika), `content/events/` (akce), `content/pages/` (klub, areal, kontakt, uspechy, wave, historie-src). Formát hlaviček viz README.
+- Obsah: `content/posts/` (zápisník – v menu a nadpisech „Zápisník“, URL zůstává `/kronika/`), `content/events/` (akce), `content/pages/` (klub, areal, kontakt, uspechy, wave, historie-src). Formát hlaviček viz README.
 - Obrázky článků `img/<slug>/NN.jpg` (build zmenší na 1600 px a vyrobí náhledy `_t.jpg`), fotky archivu `photos/` + `photos/index.json` (skupiny hero/areal/historie/wave/akce).
 - „Dnes teče voda“ na HP: `build.py` stáhne rozpis z itdev.cz (`fetch_voda`, 14 dní) a vloží ho do stránky jako JSON; JS vybere dnes/zítra (po 19:00). Workflow běží i denně ráno (cron), aby byl rozpis čerstvý. Při výpadku zdroje se řádek nezobrazí. `--no-voda` build bez stahování.
 - Čísla na HP (pod partnery): blok `STATS` v `build.py`.

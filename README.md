@@ -1,6 +1,6 @@
 # ww-cb – web SK Vodní slalom České Budějovice
 
-Statický web klubu (kronika, historie, úspěchy, areál, akce, kontakt). Generuje ho `build.py` z Markdown souborů; nasazuje se automaticky na GitHub Pages při pushi do `main`.
+Statický web klubu (zápisník, historie, úspěchy, areál, akce, kontakt). Generuje ho `build.py` z Markdown souborů; nasazuje se automaticky na GitHub Pages při pushi do `main`.
 
 - Web: https://jakubbican.github.io/ww-cb/ (cíl: ww-cb.cz)
 - Design: https://github.com/jakubbican/skvscb-design (tokeny a loga vendorované v `design/`, verze v `design/DESIGN_VERSION`)
@@ -12,7 +12,7 @@ python build.py            # → dist/
 python -m http.server -d dist 8000
 ```
 
-## Přidat článek do kroniky
+## Přidat článek do zápisníku
 1. `content/posts/<slug>.md` – hlavička:
    ```
    ---

@@ -10,7 +10,7 @@
     <p>Trénujeme děti, vychováváme reprezentanty a pořádáme závody od lokálních po mezinárodní. Postavili jsme svůj kanál a rozvíjíme areál, ve kterém jsou všichni vítáni.</p>
     <div class="actions">
       <a class="btn btn-primary" href="{{ rel }}akce/">Přijď se podívat</a>
-      <a class="btn btn-outline-light" href="{{ rel }}kronika/">Kronika klubu</a>
+      <a class="btn btn-outline-light" href="{{ rel }}kronika/">Zápisník klubu</a>
     </div>
     {% if voda %}
     <div class="wl" id="voda" hidden><b></b><span></span><a href="{{ voda_url }}" target="_blank" rel="noopener">celý rozpis</a></div>
@@ -73,7 +73,7 @@
 
 <section class="section">
   <div class="wrap">
-    <div class="section-head"><h2>Kronika</h2><a class="more" style="color:var(--navy)" href="{{ rel }}kronika/">Všechny příspěvky →</a></div>
+    <div class="section-head"><h2>Zápisník</h2><a class="more" style="color:var(--navy)" href="{{ rel }}kronika/">Všechny příspěvky →</a></div>
     <div class="grid-3">
       {% for p in latest %}
       <a class="post-card" href="{{ rel }}kronika/{{ p.slug }}/">

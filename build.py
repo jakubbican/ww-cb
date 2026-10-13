@@ -277,7 +277,7 @@ for p in posts:
 # kronika – seznam
 by_year = {}
 for p in posts: by_year.setdefault(p['year'], []).append(p)
-render('kronika.html', OUT / 'kronika' / 'index.html', '../', title='Kronika', section='kronika',
+render('kronika.html', OUT / 'kronika' / 'index.html', '../', title='Zápisník', section='kronika',
        by_year=sorted(by_year.items(), reverse=True))
 
 # ---------- akce ----------
@@ -309,14 +309,14 @@ def content_page(name, section, extra_html='', aside=None, hero=None):
 
 content_page('klub', 'klub', extra_html='<h2>Z klubového života</h2>' + gallery_html(
     photos_in('akce', '2025-04-den-zeme') + photos_in('akce', '2022-10-brigada') + photos_in('akce', '2024-06-odm'), '../'),
-    aside='<h3>Rychle</h3><ul><li><a href="#nabor">Nábor dětí od 8 let</a></li><li><a href="../kronika/">Kronika</a></li><li><a href="../akce/">Závody a akce</a></li><li><a href="../uspechy/">Úspěchy</a></li><li><a href="../kontakt/">Kontakt</a></li></ul>'
+    aside='<h3>Rychle</h3><ul><li><a href="#nabor">Nábor dětí od 8 let</a></li><li><a href="../kronika/">Zápisník</a></li><li><a href="../akce/">Závody a akce</a></li><li><a href="../uspechy/">Úspěchy</a></li><li><a href="../kontakt/">Kontakt</a></li></ul>'
           '<h3 style="margin-top:18px">Bylo nebylo</h3><p>Film o lásce ke sportu, vodácích, závodech a síle, která nás pohání vpřed.</p><p><a class="more" href="https://www.youtube.com/watch?v=XQZUWNTBx80" target="_blank" rel="noopener">Přehrát na YouTube →</a></p>')
 content_page('areal', 'areal', extra_html='<h2>Areál z výšky i z vody</h2>' + gallery_html(photos_in('areal') + photos_in('hero'), '../'),
     aside='<h3>Praktické</h3><ul><li>Tréninkové hodiny, kemp, ubytovna, půjčovna: <a href="https://raftingcb.cz/" target="_blank" rel="noopener">raftingcb.cz</a></li><li>Hospoda Na Kanále: otevřeno denně duben–září</li><li>Adresa: České Vrbné 1995, 370 11 České Budějovice</li><li><a href="../kontakt/">Jak k nám</a></li></ul>')
 content_page('kontakt', 'kontakt', hero=None)
 content_page('uspechy', 'uspechy', extra_html='<h2>Kuba mistrem světa 2026</h2>' + gallery_html(photos_in('akce', '2026-07-kuba-mistr'), '../') +
     '<h2>ME juniorů a U23 2022 u nás</h2>' + gallery_html(photos_in('akce', '2026-07-eca-cup-cb')[:3], '../'),
-    aside='<h3>Sleduj výsledky</h3><ul><li><a href="https://www.kanoe.cz" target="_blank" rel="noopener">kanoe.cz – Český svaz kanoistů</a></li><li><a href="https://zive.results.cz" target="_blank" rel="noopener">results.cz – živé výsledky</a></li><li><a href="https://www.canoeicf.com" target="_blank" rel="noopener">canoeicf.com</a></li></ul><h3 style="margin-top:18px">Z kroniky</h3><ul><li><a href="../kronika/jakub-krejci-na-mistrovstvi-sveta/">Jakub Krejčí na mistrovství světa</a></li><li><a href="../kronika/jakub-krejci-ovladl-anketu-sportovec-okresu-za-rok-2025/">Sportovec okresu 2025</a></li><li><a href="../kronika/ms-rafting-u23/">MS v raftingu U23</a></li><li><a href="../kronika/mlade-nadeje-skvscb-sbiraji-oceneni/">Mladé naděje sbírají ocenění</a></li></ul>')
+    aside='<h3>Sleduj výsledky</h3><ul><li><a href="https://www.kanoe.cz" target="_blank" rel="noopener">kanoe.cz – Český svaz kanoistů</a></li><li><a href="https://zive.results.cz" target="_blank" rel="noopener">results.cz – živé výsledky</a></li><li><a href="https://www.canoeicf.com" target="_blank" rel="noopener">canoeicf.com</a></li></ul><h3 style="margin-top:18px">Ze zápisníku</h3><ul><li><a href="../kronika/jakub-krejci-na-mistrovstvi-sveta/">Jakub Krejčí na mistrovství světa</a></li><li><a href="../kronika/jakub-krejci-ovladl-anketu-sportovec-okresu-za-rok-2025/">Sportovec okresu 2025</a></li><li><a href="../kronika/ms-rafting-u23/">MS v raftingu U23</a></li><li><a href="../kronika/mlade-nadeje-skvscb-sbiraji-oceneni/">Mladé naděje sbírají ocenění</a></li></ul>')
 
 # ---------- historie (z rešerše) ----------
 hist_src = CONTENT / 'historie-src.md'
@@ -380,7 +380,7 @@ render('home.html', OUT / 'index.html', '', title=None, section='home', latest=p
 # 404 + .nojekyll
 (OUT / '.nojekyll').write_text('')
 render('page.html', OUT / '404.html', args.base, title='Stránka nenalezena', heading='Tady nic neteče', eyebrow='404',
-       lead='Stránka, kterou hledáš, neexistuje. Zkus úvodní stránku nebo kroniku.', html=f'<p><a class="btn btn-primary" href="{args.base}">Na úvod</a></p>', section='')
+       lead='Stránka, kterou hledáš, neexistuje. Zkus úvodní stránku nebo zápisník.', html=f'<p><a class="btn btn-primary" href="{args.base}">Na úvod</a></p>', section='')
 
 print(f'OK: {len(posts)} příspěvků, {len(events)} akcí, {len(photo_list)} fotek; čas {time.time()-T0:.0f}s; nezpracované obrázky: {pending}')
 if pending:
