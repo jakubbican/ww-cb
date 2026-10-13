@@ -113,7 +113,7 @@ p{margin:0 0 1em}
 .post-card:hover h3{color:var(--orange)}
 
 /* dark history strip */
-.dark{background:var(--navy-deep);color:#fff}
+.dark{background:var(--navy);color:#fff}
 .dark h2{color:#fff}
 .dark .wrap{padding-top:72px;padding-bottom:72px;display:flex;flex-direction:column;gap:32px}
 .dark p{color:var(--water);font-size:17px}
