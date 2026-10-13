@@ -3,6 +3,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '15 3 * * *'   # denně ~5:15 CEST – obnoví rozpis vody
 permissions:
   contents: read
   pages: write

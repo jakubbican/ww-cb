@@ -12,6 +12,27 @@
       <a class="btn btn-primary" href="{{ rel }}akce/">Přijď se podívat</a>
       <a class="btn btn-outline-light" href="{{ rel }}kronika/">Kronika klubu</a>
     </div>
+    {% if voda %}
+    <div class="wl" id="voda" hidden><b></b><span></span><a href="{{ voda_url }}" target="_blank" rel="noopener">celý rozpis</a></div>
+    <script type="application/json" id="voda-data">{{ voda | tojson }}</script>
+    <script>
+    (function(){
+      var el=document.getElementById('voda'); if(!el) return;
+      var data=JSON.parse(document.getElementById('voda-data').textContent);
+      var now=new Date(), d=new Date(now);
+      var label='Dnes teče voda';
+      if(now.getHours()>=19){ d.setDate(d.getDate()+1); label='Zítra teče voda'; }
+      var key=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+      var day=null; for(var i=0;i<data.length;i++){ if(data[i].date===key){ day=data[i]; break; } }
+      if(!day) return;                                   // mimo rozpis → nic
+      var slots=day.slots.map(function(s){return s[0]+'–'+s[1];});
+      if(!slots.length){ label=(label.indexOf('Zítra')===0?'Zítra':'Dnes')+' voda neteče'; el.classList.add('off'); }
+      el.querySelector('b').textContent=label;
+      el.querySelector('span').textContent=slots.join(' · ');
+      el.hidden=false;
+    })();
+    </script>
+    {% endif %}
   </div>
 </section>
 

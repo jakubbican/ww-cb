@@ -51,6 +51,11 @@ p{margin:0 0 1em}
 .hero p{font-size:20px;max-width:560px;color:var(--water);margin:0}
 .hero .eyebrow{margin:0}
 .hero .actions{display:flex;flex-wrap:wrap;gap:12px}
+.hero .wl{font-size:14px;color:var(--water);display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:-6px}
+.hero .wl::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--orange);flex:none}
+.hero .wl.off::before{background:var(--water);opacity:.5}
+.hero .wl b{color:#fff;font-weight:600}
+.hero .wl a{color:var(--water);text-decoration:underline;text-underline-offset:3px}
 .hero-sub{min-height:360px}
 .hero-sub .wrap{padding-top:90px;padding-bottom:56px}
 .hero-sub h1{font-size:clamp(36px,5.5vw,64px)}

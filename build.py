@@ -24,6 +24,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE  # kořen repa ww-cb
 ap = argparse.ArgumentParser()
 ap.add_argument('--out', default=str(ROOT / 'dist'))
+ap.add_argument('--no-voda', action='store_true', help='nestahovat rozpis vody')
 ap.add_argument('--base', default='/ww-cb/', help='absolutní základ URL pro 404 stránku (GitHub Pages: /<repo>/)')
 ap.add_argument('--budget', type=float, default=140.0, help='časový limit pro zpracování obrázků (s)')
 ap.add_argument('--no-images', action='store_true')
@@ -179,6 +180,38 @@ for i, p in enumerate(posts):
 
 # ---------- výstupní adresáře a assety ----------
 OUT.mkdir(parents=True, exist_ok=True)
+
+# ---------- rozpis vody (itdev.cz) ----------
+VODA_URL = 'http://itdev.cz/SlalomCourse/OpeningTimes.aspx'
+
+def fetch_voda():
+    """Stáhne rozpis pouštění vody (14 dní dopředu). Při chybě vrátí [] – web se bez toho obejde."""
+    import urllib.request
+    try:
+        req = urllib.request.Request(VODA_URL, headers={'User-Agent': 'ww-cb build (github.com/jakubbican/ww-cb)'})
+        src = urllib.request.urlopen(req, timeout=15).read().decode('utf-8', 'ignore')
+    except Exception as e:
+        print(f'  voda: nestaženo ({e})'); return []
+    rows = re.findall(r'<tr class="rg(?:Alt)?Row"[^>]*>(.*?)</tr>', src, flags=re.S)
+    out, year, prev_month = [], date.today().year, None
+    for r in rows:
+        cells = [re.sub(r'<[^>]+>', ' ', c) for c in re.findall(r'<td[^>]*>(.*?)</td>', r, flags=re.S)]
+        cells = [html.unescape(c).split() for c in cells]
+        if len(cells) < 7: continue
+        m = re.search(r'(\d{1,2})\.(\d{1,2})\.', ' '.join(cells[0]))
+        if not m: continue
+        d, mo = int(m.group(1)), int(m.group(2))
+        if prev_month and mo < prev_month: year += 1          # přelom roku
+        prev_month = mo
+        slots = []
+        for a, bb in ((2, 3), (5, 6)):
+            if cells[a] and cells[bb]: slots.append([cells[a][0], cells[bb][0]])
+        out.append(dict(date=f'{year:04d}-{mo:02d}-{d:02d}', slots=slots))
+    print(f'  voda: {len(out)} dní, {sum(1 for o in out if o["slots"])} s vodou')
+    return out
+
+VODA = fetch_voda() if not args.no_voda else []
+
 (OUT / 'assets').mkdir(exist_ok=True)
 shutil.copy(HERE / 'static' / 'style.css', OUT / 'assets' / 'style.css')
 shutil.copy(DESIGN / 'tokens.css', OUT / 'assets' / 'tokens.css')
@@ -337,7 +370,7 @@ STATS = [
     dict(n='4', l='Olympionici', d='a řada mistrů světa – odchovanci klubu od Lídy Polesné po Jakuba Krejčího', m='Úspěchy →', href='uspechy/'),
 ]
 
-render('home.html', OUT / 'index.html', '', title=None, section='home', latest=posts[:3], stats=STATS,
+render('home.html', OUT / 'index.html', '', title=None, section='home', latest=posts[:3], stats=STATS, voda=VODA, voda_url=VODA_URL,
        hero=dict(path='photos/hero/13.jpg'),
        feat=dict(deti=first_photo('akce', '2025-05-cp-zaci-veltrusy', 'photos/akce/2024-06-odm/01.jpg'),
                  areal=(photos_in('areal')[1]['path'] if len(photos_in('areal')) > 1 else first_photo('areal')),

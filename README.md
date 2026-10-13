@@ -34,6 +34,9 @@ python -m http.server -d dist 8000
 ## Přidat akci
 `content/events/<slug>.md` s `kind: "event"`, `date`, `end_date`, `location`, `description`.
 
+## Dnes teče voda
+Homepage ukazuje dnešní (po 19:00 zítřejší) časy pouštění vody. Build je stahuje z http://itdev.cz/SlalomCourse/OpeningTimes.aspx; workflow proto běží každý den ráno. `python build.py --no-voda` build přeskočí stahování.
+
 ## Struktura
 `content/pages/` stránky · `content/posts/` kronika · `content/events/` akce · `content/wix-pages/` archiv stránek ze starého Wixu (nepoužívá se) · `img/` obrázky článků · `photos/` vybrané fotky z archivu · `design/` tokeny a loga · `templates/`, `static/` · `scripts/sync-design.sh`
 
