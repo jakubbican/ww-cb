@@ -22,7 +22,7 @@ Odchovanec našeho klubu, narozený v Českých Budějovicích. Na kanále v Če
 - **Vlastimil Ouředník** – K1, olympijské hry 1972 v Mnichově (20. místo); mistr republiky 1972, 1973 a 1974. Člen TJ Stadion České Budějovice, později Dukla.
 - **Lída Polesná** – K1, olympijské hry 1972 v Mnichově (16. místo). Čtyřnásobná mistryně světa (1961, 1963, 1967, 1969), v letech 1962–1964 závodila za Dynamo České Budějovice. Areál nese její jméno. Více v sekci [Historie](../historie/).
 - **Jakub Prüher** – C1, olympijské hry 1992 v Barceloně (29. místo). Odchovanec TJ Škoda České Budějovice, dnes předseda klubu a autor koncepce nového kanálu.
-- **Tomáš Kobes** – K1, olympijské hry 2000 v Sydney (7. místo ve finále, v kvalifikaci 6.). Bronz z mistrovství světa 1999 v hlídkách 3×K1, medailista z mistrovství Evropy. Rodák z Českého Krumlova, druhý jihočeský slalomář na olympiádě.
+- **Tomáš Kobes** – K1, olympijské hry 2000 v Sydney (7. místo ve finále, v kvalifikaci 6.). Bronz z mistrovství světa 1999 v hlídkách 3×K1, medailista z mistrovství Evropy; jako junior mistr světa 1996 (Lipno) a mistr Evropy 1995 v hlídkách. Od poloviny 90. let závodil za náš klub, později za Duklu. Dobré výsledky doma i ve světě sbíral i jeho bratr **Jan Kobes**.
 
 ## Reprezentanti a medailisté současnosti
 

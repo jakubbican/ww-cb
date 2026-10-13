@@ -49,7 +49,7 @@ Podklad pro stránku „Historie“ nového klubového webu. Zdroje jsou uvedeny
 - **1992** – Jakub Prüher startuje v C1 na OH v Barceloně (29. místo) – první olympijské hry s vodním slalomem po dvaceti letech.
 - **Začátek 90. let** – Oddíl kanoistiky TJ Škoda se osamostatňuje jako **Sportovní klub vodní slalom České Budějovice** (IČO 15770729) **[ověřit přesný rok]**.
 - **1995** – Klub vydává brožuru „Vodácké centrum Lídy Polesné České Budějovice – České Vrbné“ – název po Lídě Polesné je tedy používán nejpozději od poloviny 90. let, ne až od přestavby **[ověřit, kdy byl název oficiálně přijat]**.
-- **2000** – Tomáš Kobes jako druhý jihočeský slalomář startuje na OH (Sydney) **[ověřit klubovou příslušnost]**.
+- **2000** – Tomáš Kobes, odchovanec klubu z 90. let, startuje jako druhý jihočeský slalomář na OH v Sydney (7. místo K1).
 - **2002** – Srpnová povodeň vážně poškozuje umělé dráhy na Vltavě a Labi včetně Českého Vrbného; areál je po opravě znovu zprovozněn.
 - **2007–2008** – Příprava revitalizace: hydraulický model trati v měřítku 1:15 na ČVUT v Praze; 2008 rozhodnuto o stavbě po přiznání dotace z EU (ROP Jihozápad).
 - **2009** – Mezinárodní vodácký festival Wave (opakovaně i v dalších letech, 2014 spojený s ECA Junior Cupem). Koncem roku 2009 začíná demolice staré dráhy – včetně betonového Kolovadla.
