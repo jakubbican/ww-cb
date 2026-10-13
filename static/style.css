@@ -62,7 +62,7 @@ p{margin:0 0 1em}
 .partners .row + .row{border-top:1px solid var(--line-soft);padding-top:16px}
 .partners .label{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);width:150px;white-space:nowrap}
 .partners .logos{display:flex;flex-wrap:wrap;align-items:center;gap:14px 40px;flex:1}
-.partners .logos img{width:auto}
+.partners .logos a{display:inline-flex;align-items:center}.partners .logos img{width:auto}
 .partners .main img{height:56px}.partners .main img.kraj{height:36px}
 .partners .supp .logos{gap:12px 28px}
 .partners .supp img{height:36px}.partners .supp img.s{height:26px}.partners .supp img.xs{height:15px;opacity:.85}
