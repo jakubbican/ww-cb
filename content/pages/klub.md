@@ -2,7 +2,7 @@
 title: Klub
 heading: Kdo jsme
 eyebrow: SK Vodní slalom České Budějovice
-lead: Sportovní klub s tradicí od roku 1965 a zhruba stovkou aktivních členů. Vychováváme děti a mládež, závodíme od krajských pohárů po mistrovství světa a staráme se o kanál, který jsme si sami postavili.
+lead: Sportovní klub s tradicí od roku 1965 a zhruba stovkou aktivních členů. Vychováváme děti a mládež, závodíme od krajských pohárů po mistrovství světa a staráme se o slalomovou trať, kterou jsme si sami postavili.
 hero: photos/hero/09.jpg
 ---
 Jsme sportovní klub vodního slalomu z Českých Budějovic. Naši zakladatelé vybudovali v osmdesátých letech slalomovou dráhu v Českém Vrbném a v roce 2012 jsme ji přestavěli do olympijských parametrů jako **Vodácký areál Lídy Polesné** – pro sportovce i pro veřejnost.
@@ -13,11 +13,11 @@ Pořádáme vrcholové závody, závody pro děti i sportovně-kulturní akce pr
 
 ## Co děláme
 
-- **Děti a mládež** – přípravka a žákovské skupiny, tréninky na kanále, v bazénu a v tělocvičně, letní a zimní soustředění. Sportovní centrum mládeže (SCM) pro ty, kdo míří výš.
+- **Děti a mládež** – přípravka a žákovské skupiny, tréninky na trati, v bazénu a v tělocvičně, letní a zimní soustředění. Sportovní centrum mládeže (SCM) pro ty, kdo míří výš.
 - **Závodní oddíl** – dorost, junioři, U23 a dospělí. Český pohár, mistrovství republiky, nominace do reprezentace, mezinárodní závody.
 - **Veteráni** – závodíme v každém věku. Český pohár veteránů má u nás jeden ze svých domovských závodů.
 - **Pořádání závodů a akcí** – Jarní a Letní slalomy, nominační závody, Český pohár, mistrovství republiky na Lipně, mezinárodní závody ECA a ICF.
-- **Péče o areál** – kanál, loděnice, zázemí. Brigády, opravy, rozvoj.
+- **Péče o areál** – trať, loděnice, zázemí. Brigády, opravy, rozvoj.
 
 ## Naše hodnoty
 

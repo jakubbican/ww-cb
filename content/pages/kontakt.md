@@ -18,9 +18,9 @@ Sociální sítě: [Facebook](https://www.facebook.com/skvscb) · [Instagram](ht
 
 Zájem o tréninky dětí a mládeže: [info@ww-cb.cz](mailto:info@ww-cb.cz) nebo přímo na tréninku v areálu. Víc v sekci [Klub – nábor](../klub/#nabor).
 
-## Kanál, ubytování, kemp, půjčovna
+## Trať, ubytování, kemp, půjčovna
 
-Tréninkové hodiny na kanále, ubytovnu, kemp a půjčovnu spravuje Rafting CB: [info@raftingcb.cz](mailto:info@raftingcb.cz) · [raftingcb.cz](https://raftingcb.cz/)
+Tréninkové hodiny na slalomové trati, ubytovnu, kemp a půjčovnu spravuje Rafting CB: [info@raftingcb.cz](mailto:info@raftingcb.cz) · [raftingcb.cz](https://raftingcb.cz/)
 
 Hospoda Na Kanále: [Facebook](https://www.facebook.com/hospodanakanale/)
 

@@ -348,9 +348,9 @@ if hist_src.exists():
     intro = '<h2 id="filmy">Bylo nebylo</h2><p>Film o lásce ke sportu, vodácích, závodech a síle, která nás pohání vpřed.</p>' + yt('XQZUWNTBx80', 'Bylo nebylo – film o klubu a areálu')
     h = intro + h
     render('page.html', OUT / 'historie' / 'index.html', rel, title='Historie', heading='Příběh místa', eyebrow='Historie klubu a areálu',
-           lead='Od propusti starého jezu, kde trénovala Lída Polesná, přes dráhu postavenou rukama členů oddílu až po kanál olympijských parametrů.',
+           lead='Od propusti starého jezu, kde trénovala Lída Polesná, přes dráhu postavenou rukama členů oddílu až po trať olympijských parametrů.',
            hero_img=first_photo('historie', fallback='photos/areal/01.jpg'), section='historie', html=h,
-           aside='<h3>V kostce</h3><ul><li><b>1950</b> první slalom v jižních Čechách</li><li><b>1965</b> založen oddíl TJ Škoda</li><li><b>1978–1983</b> stavba umělé dráhy</li><li><b>2002</b> povodeň</li><li><b>2009–2012</b> přestavba kanálu</li><li><b>2019–2022</b> nové zázemí</li><li><b>2022</b> ME juniorů a U23</li></ul>',
+           aside='<h3>V kostce</h3><ul><li><b>1950</b> první slalom v jižních Čechách</li><li><b>1965</b> založen oddíl TJ Škoda</li><li><b>1978–1983</b> stavba umělé dráhy</li><li><b>2002</b> povodeň</li><li><b>2009–2012</b> přestavba trati</li><li><b>2019–2022</b> nové zázemí</li><li><b>2022</b> ME juniorů a U23</li></ul>',
            description='Historie SK Vodní slalom České Budějovice a Vodáckého areálu Lídy Polesné.')
 
 # ---------- úvodní stránka ----------
@@ -358,14 +358,14 @@ directory = [
     dict(name='Rafting CB', text='Rafty, půjčovna, komerční jízdy, ubytování a kemp.', url='https://raftingcb.cz/', label='raftingcb.cz', external=True),
     dict(name='Hospoda Na Kanále', text='Jídlo, pití a terasa nad vodou. Otevřeno denně duben–září.', url='https://www.facebook.com/hospodanakanale/', label='Facebook', external=True),
     dict(name='BUDE Sport', text='Paddleboarding na klidné vodě nad jezem.', url='../areal/', label='Více v areálu', external=False),
-    dict(name='River surf', text='Surfování na stojaté vlně na prvním stupni kanálu.', url='../areal/', label='Více v areálu', external=False),
+    dict(name='River surf', text='Surfování na stojaté vlně na prvním stupni slalomové trati.', url='../areal/', label='Více v areálu', external=False),
     dict(name='CB Dragons', text='Dračí lodě — tréninky a firemní jízdy na klidné vodě.', url='../areal/', label='Více v areálu', external=False),
 ]
 for d in directory:
     if not d['external']: d['url'] = d['url'].replace('../', '')
 # Čísla na HP (pod partnery) – upravit tady
 STATS = [
-    dict(n='130', l='Členů', d='z toho 50 dětí a mládeže – trénujeme celoročně, na kanále i v bazénu', m='Kdo jsme →', href='klub/'),
+    dict(n='130', l='Členů', d='z toho 50 dětí a mládeže – trénujeme celoročně, na vodě i v bazénu', m='Kdo jsme →', href='klub/'),
     dict(n='28 000', l='Startů', d='na závodech, které jsme uspořádali od otevření nové trati v roce 2012 – nejvíc v Česku', m='Co se u nás děje →', href='akce/'),
     dict(n='4', l='Olympionici', d='a řada mistrů světa – odchovanci klubu od Lídy Polesné po Jakuba Krejčího', m='Úspěchy →', href='uspechy/'),
 ]

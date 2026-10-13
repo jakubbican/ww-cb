@@ -7,7 +7,7 @@
   <div class="wrap">
     <div class="eyebrow">Areál Lídy Polesné · České Vrbné</div>
     <h1>Vodní slalom<br>v Budějovicích<br>od roku 1965</h1>
-    <p>Trénujeme děti, vychováváme reprezentanty a pořádáme závody od lokálních po mezinárodní. Postavili jsme svůj kanál a rozvíjíme areál, ve kterém jsou všichni vítáni.</p>
+    <p>Trénujeme děti, vychováváme reprezentanty a pořádáme závody od lokálních po mezinárodní. Slalomovou trať jsme si postavili sami a rozvíjíme areál, ve kterém jsou všichni vítáni.</p>
     <div class="actions">
       <a class="btn btn-primary" href="{{ rel }}akce/">Přijď se podívat</a>
       <a class="btn btn-outline-light" href="{{ rel }}kronika/">Zápisník klubu</a>
@@ -57,7 +57,7 @@
     <div class="grid-3">
       <article class="card">
         <div class="img"><img src="{{ rel }}{{ feat.deti }}" alt="" loading="lazy"></div>
-        <div class="body"><h3>Děti a mládež</h3><p>Nábor od 8 let, tréninky na kanále i v bazénu, zimní a letní soustředění. Dovednosti na vodě i výkonnostní sport.</p><a class="more" href="{{ rel }}klub/#nabor">Jak se přihlásit →</a></div>
+        <div class="body"><h3>Děti a mládež</h3><p>Nábor od 8 let, tréninky na vodě i v bazénu, zimní a letní soustředění. Dovednosti na vodě i výkonnostní sport.</p><a class="more" href="{{ rel }}klub/#nabor">Jak se přihlásit →</a></div>
       </article>
       <article class="card">
         <div class="img"><img src="{{ rel }}{{ feat.areal }}" alt="" loading="lazy"></div>
@@ -106,7 +106,7 @@
 
 <section class="section">
   <div class="wrap">
-    <div class="section-head"><div><h2>V areálu dál najdeš</h2><p>Kanál žije i mimo oddíl. Každý má svoje — tady je rozcestník, aby se v tom návštěvník vyznal.</p></div></div>
+    <div class="section-head"><div><h2>V areálu dál najdeš</h2><p>Areál žije i mimo oddíl. Každý má svoje — tady je rozcestník, aby se v tom návštěvník vyznal.</p></div></div>
     <div class="grid-4">
       {% for d in directory %}
       <a class="dir" href="{{ d.url }}" {% if d.external %}target="_blank" rel="noopener"{% endif %}><b>{{ d.name }}</b><span>{{ d.text }}</span><span class="more">{{ d.label }} →</span></a>

@@ -1,6 +1,6 @@
 ## Festival Wave (2006–2015)
 
-**Když se na kanál sjel celý vodácký svět.** V létě 2006 uspořádal klub na dráze v Českém Vrbném první ročník Mezinárodního vodáckého festivalu WAVE. Myšlenka byla na české poměry neobvyklá: spojit špičkový mezinárodní slalom zařazený v kalendáři ICF s mládežnickými závody, hromadnými starty, raftingem a večerním kulturním programem pod širým nebem – a dát tomu všemu atmosféru, kvůli které se po finále nejezdilo domů.
+**Když se do Českého Vrbného sjel celý vodácký svět.** V létě 2006 uspořádal klub na dráze v Českém Vrbném první ročník Mezinárodního vodáckého festivalu WAVE. Myšlenka byla na české poměry neobvyklá: spojit špičkový mezinárodní slalom zařazený v kalendáři ICF s mládežnickými závody, hromadnými starty, raftingem a večerním kulturním programem pod širým nebem – a dát tomu všemu atmosféru, kvůli které se po finále nejezdilo domů.
 
 Hned první rok se na startu objevili olympijští vítězové **Tony Estanguet** a **Štěpánka Hilgertová** a mistr světa **Stanislav Ježek**; v dalších letech přijížděly výpravy z Francie, Německa, Slovinska, Británie, Japonska, Austrálie či Nového Zélandu. Mezi vítězi Wave najdeme Vavřince Hradilka, Mateje Beňuše, Nica Bettgeho i patnáctiletého **Jiřího Prskavce**, který tu v roce 2008 vyhrál Teen Cup a v roce 2012 už hlavní závod. Festival měl vlastní web, vlastní filmy a pověst akce, kde pátek a sobota patřily kapelám, mezi závody se jel masokros v nafukovacích lodích, raft rodeo nebo plavání v divoké vodě – a vstup byl zdarma.
 
