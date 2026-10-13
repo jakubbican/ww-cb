@@ -311,7 +311,9 @@ content_page('klub', 'klub', extra_html='<h2>Z klubového života</h2>' + galler
     photos_in('akce', '2025-04-den-zeme') + photos_in('akce', '2022-10-brigada') + photos_in('akce', '2024-06-odm'), '../'),
     aside='<h3>Rychle</h3><ul><li><a href="#nabor">Nábor dětí od 8 let</a></li><li><a href="../kronika/">Zápisník</a></li><li><a href="../akce/">Závody a akce</a></li><li><a href="../uspechy/">Úspěchy</a></li><li><a href="../kontakt/">Kontakt</a></li></ul>'
           '<h3 style="margin-top:18px">Bylo nebylo</h3><p>Film o lásce ke sportu, vodácích, závodech a síle, která nás pohání vpřed.</p><p><a class="more" href="https://www.youtube.com/watch?v=XQZUWNTBx80" target="_blank" rel="noopener">Přehrát na YouTube →</a></p>')
-content_page('areal', 'areal', extra_html='<h2>Areál z výšky i z vody</h2>' + gallery_html(photos_in('areal') + photos_in('hero'), '../'),
+# Z hero sady do galerie Areálu jen celkové záběry areálu (ne závodní detaily)
+AREAL_HERO = {'01.jpg', '02.jpg', '03.jpg', '10.jpg', '12.jpg'}
+content_page('areal', 'areal', extra_html='<h2>Areál z výšky i z vody</h2>' + gallery_html(photos_in('areal') + [h for h in photos_in('hero') if h['path'].rsplit('/',1)[-1] in AREAL_HERO], '../'),
     aside='<h3>Praktické</h3><ul><li>Tréninkové hodiny, kemp, ubytovna, půjčovna: <a href="https://raftingcb.cz/" target="_blank" rel="noopener">raftingcb.cz</a></li><li>Hospoda Na Kanále: otevřeno denně duben–září</li><li>Adresa: České Vrbné 1995, 370 11 České Budějovice</li><li><a href="../kontakt/">Jak k nám</a></li></ul>')
 content_page('kontakt', 'kontakt', hero=None)
 content_page('uspechy', 'uspechy', extra_html='<h2>Kuba mistrem světa 2026</h2>' + gallery_html(photos_in('akce', '2026-07-kuba-mistr'), '../') +
