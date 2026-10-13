@@ -331,7 +331,7 @@ directory = [
 for d in directory:
     if not d['external']: d['url'] = d['url'].replace('../', '')
 render('home.html', OUT / 'index.html', '', title=None, section='home', latest=posts[:3],
-       hero=dict(path='photos/hero/10.jpg'),
+       hero=dict(path='photos/hero/11.jpg'),
        feat=dict(deti=first_photo('akce', '2025-05-cp-zaci-veltrusy', 'photos/akce/2024-06-odm/01.jpg'),
                  areal=(photos_in('areal')[1]['path'] if len(photos_in('areal')) > 1 else first_photo('areal')),
                  zavody=first_photo('akce', '2026-09-nkz-cb', first_photo('hero'))),
