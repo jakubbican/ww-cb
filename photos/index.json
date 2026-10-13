@@ -6,7 +6,7 @@
   "thumb": "longest side 600px, *_thumb.jpg"
  },
  "counts": {
-  "hero": 13,
+  "hero": 17,
   "areal": 9,
   "historie": 16,
   "akce": 83
@@ -289,6 +289,58 @@
    "event_slug": null,
    "event_folder": "ECA2022 TOP",
    "title": "ME juniorů a U23 2022 – K1 v brance 2",
+   "date": "2022-07-16",
+   "width": 1800,
+   "height": 1200,
+   "source": "ECA2022/03 Marketing/09 Výstupy/Oddil + zajimave/TOP",
+   "original_name": ""
+  },
+  {
+   "path": "hero/14.jpg",
+   "thumb": "hero/14_thumb.jpg",
+   "group": "hero",
+   "event_slug": null,
+   "event_folder": "ECA2022 TOP",
+   "title": "Jakub Krejčí v brance 2 (ME JUN&U23 2022)",
+   "date": "2022-07-16",
+   "width": 1800,
+   "height": 1200,
+   "source": "ECA2022/03 Marketing/09 Výstupy/Oddil + zajimave/TOP",
+   "original_name": ""
+  },
+  {
+   "path": "hero/15.jpg",
+   "thumb": "hero/15_thumb.jpg",
+   "group": "hero",
+   "event_slug": null,
+   "event_folder": "ECA2022 TOP",
+   "title": "K1 v peřeji pod zdí (ME JUN&U23 2022)",
+   "date": "2022-07-16",
+   "width": 1800,
+   "height": 1200,
+   "source": "ECA2022/03 Marketing/09 Výstupy/Oddil + zajimave/TOP",
+   "original_name": ""
+  },
+  {
+   "path": "hero/16.jpg",
+   "thumb": "hero/16_thumb.jpg",
+   "group": "hero",
+   "event_slug": null,
+   "event_folder": "ECA2022 TOP",
+   "title": "K1M U23 mezi brankami 4 a 5 (ME JUN&U23 2022)",
+   "date": "2022-07-16",
+   "width": 1800,
+   "height": 1200,
+   "source": "ECA2022/03 Marketing/09 Výstupy/Oddil + zajimave/TOP",
+   "original_name": ""
+  },
+  {
+   "path": "hero/17.jpg",
+   "thumb": "hero/17_thumb.jpg",
+   "group": "hero",
+   "event_slug": null,
+   "event_folder": "ECA2022 TOP",
+   "title": "Kateřina Švehlová ve válci (ME JUN&U23 2022)",
    "date": "2022-07-16",
    "width": 1800,
    "height": 1200,
