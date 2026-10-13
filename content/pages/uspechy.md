@@ -28,6 +28,7 @@ Odchovanec našeho klubu, narozený v Českých Budějovicích. Na kanále v Če
 
 - **Rozárie Švehlová** – rafting. **Absolutní mistryně světa do 23 let** (zlato v celkovém pořadí, slalomu i raft crossu, stříbro ve sprintu), s českou mix posádkou dva bronzy.
 - **Kateřina Švehlová** – K1 ženy, mistryně světa v raftingu 2022; vítězka Jarních slalomů 2026 s absolutně nejrychlejším časem.
+- **Ondřej Pinkava** – C1, dlouholetý reprezentant ve slalomu (SK VS ČB, Dukla Brandýs); v raftingu s posádkou HIKO trojnásobný mistr Evropy R4 (2010, 2012, 2014), medailista z mistrovství světa a mistr Evropy 2023 na domácí trati v Českých Budějovicích (R4 i R6 masters).
 - **Václav Kuna** – C1 muži, dvojnásobný absolutní vítěz Jarních slalomů 2026.
 - **Jana Matulková** – C1 a K1 ženy, zlatý double na Jarních slalomech 2026; trenérka mládeže.
 - **Vilém Vlčnovský** – C1 muži, dvě absolutní vítězství na Vodáckých závodech v Českém Krumlově 2026.

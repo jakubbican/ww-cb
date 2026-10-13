@@ -330,7 +330,14 @@ directory = [
 ]
 for d in directory:
     if not d['external']: d['url'] = d['url'].replace('../', '')
-render('home.html', OUT / 'index.html', '', title=None, section='home', latest=posts[:3],
+# Čísla na HP (pod partnery) – upravit tady
+STATS = [
+    dict(n='130', l='Členů', d='z toho 50 dětí a mládeže – trénujeme celoročně, na kanále i v bazénu', m='Kdo jsme →', href='klub/'),
+    dict(n='28 000', l='Startů', d='na závodech, které jsme uspořádali od otevření nové trati v roce 2012 – nejvíc v Česku', m='Co se u nás děje →', href='akce/'),
+    dict(n='4', l='Olympionici', d='a řada mistrů světa – odchovanci klubu od Lídy Polesné po Jakuba Krejčího', m='Úspěchy →', href='uspechy/'),
+]
+
+render('home.html', OUT / 'index.html', '', title=None, section='home', latest=posts[:3], stats=STATS,
        hero=dict(path='photos/hero/13.jpg'),
        feat=dict(deti=first_photo('akce', '2025-05-cp-zaci-veltrusy', 'photos/akce/2024-06-odm/01.jpg'),
                  areal=(photos_in('areal')[1]['path'] if len(photos_in('areal')) > 1 else first_photo('areal')),
