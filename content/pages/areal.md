@@ -3,7 +3,7 @@ title: Areál
 heading: Vodácký areál Lídy Polesné
 eyebrow: České Vrbné · Vltava
 lead: Umělá slalomová dráha olympijských parametrů, klidná voda nad jezem, kemp, hospoda a cyklostezka do města i na Hlubokou. Ostrov mezi kanálem a Vltavou, kde se potkává vrcholový sport s odpočinkem.
-hero: photos/areal/01.jpg
+hero: photos/areal/02_hero.jpg
 ---
 Areál leží v místě, kde Vltava opouští České Budějovice směrem na Hlubokou nad Vltavou. Umělá slalomová dráha vznikla v osmdesátých letech přebudováním části původního meandrujícího koryta řeky; vodní elektrárna České Vrbné jí zajistila dostatečný spád.
 
