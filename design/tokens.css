@@ -1,8 +1,16 @@
-/* SK Vodní slalom České Budějovice — design tokens v1.0.0
+/* SK Vodní slalom České Budějovice — design tokens v2.0.0
    Zdroj pravdy: https://github.com/jakubbican/skvscb-design/tokens/tokens.json
-   Písma: Google Fonts – Barlow (400–800) a Barlow Condensed (600–800). */
+   Písma: Google Fonts – Barlow (400–800) a Barlow Condensed (600–800).
+   Akcent = šafrán. Text na --accent je VŽDY navy (--navy), nikdy bílý.
+   --accent nikdy jako text ani tenká linka na světlém pozadí – tam --accent-text / --accent-strong.
+   --orange je zastaralý alias --accent (odstraní se ve 3.0.0). */
 :root{
-  --navy:#002E5D; --navy-deep:#0B1F3A; --orange:#F05A28; --sand:#F4F1EA; --water:#CFE0EE;
+  --navy:#002E5D; --navy-deep:#0B1F3A; --sand:#F4F1EA; --water:#CFE0EE;
+  --accent:#E8940A;          /* plochy: tlačítka, lem, štítky; text na něm navy */
+  --accent-strong:#A86A00;   /* obrysy, ikony, tečky na bílé/písku; text jen ≥18px tučný */
+  --accent-text:#8F5C00;     /* malý text na bílé/písku: štítky, data, odkazy */
+  --accent-on-navy:#F2A20C;  /* akcent na navy: eyebrow, tečky, odkaz v patičce */
+  --orange:var(--accent);    /* DEPRECATED alias */
   --ink:#0B1F3A; --muted:#4A5668; --line:#D9D4C8; --line-soft:#ECE8DF; --white:#fff;
   --display:'Barlow Condensed',system-ui,sans-serif; --body:'Barlow',system-ui,sans-serif;
   --radius-sm:4px; --radius-md:6px; --radius-lg:8px;
