@@ -6,8 +6,8 @@
   <img class="frag" src="{{ rel }}assets/logo-white.svg" alt="">
   <div class="wrap">
     <div class="eyebrow">Areál Lídy Polesné · České Vrbné</div>
-    <h1>Vodní slalom<br>v Budějovicích</h1>
-    <p>Klub a vodácký areál na severním okraji města. Trénujeme děti, pořádáme závody od krajského poháru po mistrovství Evropy a otevíráme trať i řeku všem, kdo chtějí na vodu.</p>
+    <h1>Vodní slalom<br>v Budějcích</h1>
+    <p>Klub a vodácký areál na řece Vltavě. Trénujeme děti, pořádáme závody od dětských po mistrovství Evropy a otevíráme trať i řeku všem, kdo chtějí na vodu.</p>
     <div class="actions">
       <a class="btn btn-primary" href="{{ rel }}kronika/">Zápisník klubu</a>
       <a class="btn btn-outline-light" href="{{ rel }}areal/">Pro návštěvníky</a>
@@ -58,8 +58,8 @@
       <div class="club-text">
         <div class="eyebrow">Oddíl</div>
         <h2>Učíme děti jezdit na divoké vodě</h2>
-        <p>Hledáme děti od 8 let, které se nebojí vody – plavat umět musí, pádlovat je naučíme. Trénujeme v areálu v Českém Vrbném od dubna do října, v zimě v bazénu a tělocvičně. Kdo chce, jezdí závody od krajských po mistrovství republiky.</p>
-        <div class="actions"><a class="more" href="{{ rel }}klub/#nabor">Chci do oddílu →</a><a class="more" href="{{ rel }}klub/">Kdo jsme →</a></div>
+        <p>Hledáme děti od 8 let, které se nebojí vody – plavat umět musí, pádlovat je naučíme. Trénujeme v areálu v Českém Vrbném od dubna do října, v zimě v bazénu a tělocvičně. Jezdíme na závody po celé republicey.</p>
+        <div class="actions"><a class="more" href="{{ rel }}klub/">Kdo jsme →</a></div>
       </div>
       <div class="club-img"><img src="{{ rel }}photos/klub/oddil.jpg" alt="Oddíl s medailemi po závodech" loading="lazy"></div>
     </div>
@@ -118,7 +118,7 @@
 
 <section class="section">
   <div class="wrap">
-    <div class="section-head"><div><h2>V areálu dál najdeš</h2><p>Areál žije i mimo oddíl. Každý má svoje — tady je rozcestník, aby se v tom návštěvník vyznal.</p></div></div>
+    <div class="section-head"><div><h2>V areálu dál najdeš</h2><p>Areál žije i mimo oddíl vodního slalomu. Tady se můžeš zorientovat, co všechno je k dispozici.</p></div></div>
     <div class="grid-4">
       {% for d in directory %}
       <a class="dir" href="{{ d.url }}" {% if d.external %}target="_blank" rel="noopener"{% endif %}><b>{{ d.name }}</b><span>{{ d.text }}</span><span class="more">{{ d.label }} →</span></a>
