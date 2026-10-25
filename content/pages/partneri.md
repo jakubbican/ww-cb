@@ -10,7 +10,7 @@ groups:
     wide: true
     partners:
       - name: Český svaz kanoistů
-        logo: csk.svg
+        logo: csk.png
         url: https://www.kanoe.cz/
         text: Náš mateřský svaz. Jsme jeho aktivním členem a nejčinnějším pořadatelem – řadu závodů vypsaných svazem pořádáme právě u nás. Spolupracujeme na velkých akcích, jako bylo ME juniorů a U23 2022 nebo MS ve sprintu na divoké vodě 2025, a přispíváme i technicky, třeba svazovou časomírou.
   - title: Veřejná podpora
@@ -32,6 +32,7 @@ groups:
         text: Přestavba trati do olympijských parametrů v letech 2010–2012 byla financována převážně z Regionálního operačního programu Jihozápad.
   - title: Partneři
     wide: true
+    noname: true
     partners:
       - name: SIKO koupelny a kuchyně
         logo: siko.png
@@ -39,6 +40,7 @@ groups:
         text: "Klíčový partner rekonstrukce loděnice a zázemí: příspěvek rodiny Valových na dokončení stavby a vybavení šaten i sociálního zázemí loděnice a areálu. Zakladatelka SIKO Jaroslava Valová je sestra Lídy Polesné, po které se areál jmenuje."
   - title: ""
     cols: 3
+    noname: true
     partners:
       - name: Alisy
         logo: alisy.jpg
@@ -54,6 +56,7 @@ groups:
         text: Ceny pro závodníky na našich závodech v posledních sezonách.
   - title: Spřízněné firmy našich členů, bez kterých by to nešlo
     cols: 3
+    noname: true
     partners:
       - name: Monekon
         logo: monekon.png

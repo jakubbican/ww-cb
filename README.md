@@ -57,7 +57,7 @@ Stránka Akce se skládá sama podle data: **Příští akce** (první budoucí)
 Pro vyzkoušení stavu k jinému datu: `WWCB_TODAY=2027-01-10 python build.py`.
 
 ## Partneři
-Stránka `/partneri/` se skládá z `content/pages/partneri.md`: v hlavičce `numbers` (čtyři čísla), `where` (odstavec), `groups` (skupiny: `title`, volitelně `sub`, `wide` = jeden řádek přes šířku, `cols: 3`; v každé `partners` s `name`, `logo` (soubor z `design/partneri/`), `url`, `text`), `contact_heading`/`contact_text`; tělo = úvodní odstavce. Nové logo = přidat do repa skvscb-design a spustit `scripts/sync-design.sh`.
+Stránka `/partneri/` se skládá z `content/pages/partneri.md`: v hlavičce `numbers` (čtyři čísla), `where` (odstavec), `groups` (skupiny: `title`, volitelně `sub`, `wide` = jeden řádek přes šířku, `cols: 3`, `noname: true` = bez názvu v textu (logo je slovní); v každé `partners` s `name`, `logo` (soubor z `design/partneri/`), `url`, `text`), `contact_heading`/`contact_text`; tělo = úvodní odstavce. Nové logo = přidat do repa skvscb-design a spustit `scripts/sync-design.sh`.
 
 ## Dnes teče voda
 Homepage ukazuje dnešní (po 19:00 zítřejší) časy pouštění vody. Build je stahuje z http://itdev.cz/SlalomCourse/OpeningTimes.aspx; workflow proto běží každý den ráno. `python build.py --no-voda` build přeskočí stahování.

@@ -147,10 +147,10 @@ p{margin:0 0 1em}
 .who .row a{display:block}
 .who .row b{display:block;font-family:var(--display);font-weight:700;font-size:22px;text-transform:uppercase;margin-bottom:4px}
 .who .row span{font-size:16px;color:var(--muted);max-width:68ch;display:block;line-height:1.5}
-.who .row img[src$='csk.svg']{max-width:200px;max-height:44px}
+.who .row img[src$='csk.png']{max-height:90px;max-width:170px}
 .who.three{grid-template-columns:repeat(3,1fr);gap:0 40px}
 .who.three .row{grid-template-columns:1fr;gap:12px;align-items:start;padding:26px 0}
-.who.three .row img{max-height:44px;max-width:150px}
+.who.three .row img{max-height:48px;max-width:160px;margin-bottom:2px}
 .who.three .row b{font-size:20px}
 .who.three .row span{font-size:15px}
 @media (max-width:900px){.who.three{grid-template-columns:1fr}.who.three .row{grid-template-columns:140px 1fr;gap:24px;align-items:center}}

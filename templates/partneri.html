@@ -31,7 +31,7 @@
       {% for p in g.partners %}
       <div class="row">
         {% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener"><img src="{{ rel }}assets/partneri/{{ p.logo }}" alt="{{ p.name }}" loading="lazy"></a>{% else %}<img src="{{ rel }}assets/partneri/{{ p.logo }}" alt="{{ p.name }}" loading="lazy">{% endif %}
-        <div><b>{{ p.name }}</b><span>{{ p.text }}</span></div>
+        <div>{% if not g.noname %}<b>{{ p.name }}</b>{% endif %}<span>{{ p.text }}</span></div>
       </div>
       {% endfor %}
     </div>
