@@ -13,7 +13,7 @@ python -m http.server -d dist 8000
 ```
 
 ## Přidat článek do zápisníku
-1. `content/posts/<slug>.md` – hlavička:
+1. `content/posts/YYYY-MM-<slug>.md` (rok a měsíc podle `date`; prefix slouží jen k řazení v adresáři, build ho odřízne – URL je `/kronika/<slug>/` a obrázky jsou v `img/<slug>/` bez prefixu) – hlavička:
    ```
    ---
    title: "Název článku"

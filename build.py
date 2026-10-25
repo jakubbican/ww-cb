@@ -160,13 +160,17 @@ def excerpt(fm, body, n=170):
     return (d[:n].rsplit(' ', 1)[0] + '…') if len(d) > n else d
 
 # ---------- načtení obsahu z ww-cb ----------
+def slug_from(path):
+    """Slug ze jména souboru bez volitelného prefixu YYYY-MM- (prefix slouží jen k řazení v adresáři)."""
+    return re.sub(r'^\d{4}-\d{2}-', '', path.stem)
+
 posts, events = [], []
 for f in sorted(POSTS_DIR.glob('*.md')):
     fm, body = read_md(f)
-    posts.append(dict(fm=fm, body=body, slug=f.stem, title=fm.get('title') or f.stem, dt=parse_dt(fm.get('date'))))
+    posts.append(dict(fm=fm, body=body, slug=slug_from(f), title=fm.get('title') or f.stem, dt=parse_dt(fm.get('date'))))
 for f in sorted(EVENTS_DIR.glob('*.md')):
     fm, body = read_md(f)
-    events.append(dict(fm=fm, body=body, slug=f.stem, title=fm.get('title') or f.stem, dt=parse_dt(fm.get('date'))))
+    events.append(dict(fm=fm, body=body, slug=slug_from(f), title=fm.get('title') or f.stem, dt=parse_dt(fm.get('date'))))
 
 posts.sort(key=lambda p: p['dt'] or datetime.min.replace(tzinfo=None), reverse=True)
 CAT_MAP = {'Závody': 'Závody', 'Oddíl': 'Oddíl', 'Areál': 'Areál', 'Akce': 'Akce'}
