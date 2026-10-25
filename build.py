@@ -376,7 +376,7 @@ _pfm, _pbody = read_md(CONTENT / 'partneri.md')
 _phtml, _ = md_to_html(strip_markers(_pbody), '../')
 render('partneri.html', OUT / 'partneri' / 'index.html', '../', title=_pfm.get('title'), heading=_pfm.get('heading'),
        eyebrow=_pfm.get('eyebrow'), lead=_pfm.get('lead'), description=_pfm.get('lead'), section='partneri', html=_phtml,
-       photo=_pfm.get('photo'), numbers=_pfm.get('numbers') or [], where=_pfm.get('where'), groups=_pfm.get('groups') or [],
+       photo=_pfm.get('photo'), stats=STATS, where=_pfm.get('where'), groups=_pfm.get('groups') or [],
        contact_heading=_pfm.get('contact_heading') or 'Pojďme se potkat u vody', contact_text=_pfm.get('contact_text') or '')
 
 content_page('uspechy', 'uspechy', extra_html='<h2>Kuba mistrem světa 2026</h2>' + gallery_html(photos_in('akce', '2026-07-kuba-mistr'), '../') +

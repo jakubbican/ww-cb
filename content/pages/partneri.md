@@ -2,18 +2,9 @@
 title: Partneři
 heading: Partnerství s klubem
 eyebrow: Pro firmy, město a kraj
-lead: Jsme nejaktivnější pořadatel závodů ve vodním slalomu v Česku a vychováváme děti v areálu, kam chodí celé město. Podpora partnerů je vidět na vodě, na dresech i na výsledkových listinách – tady je, jak to funguje.
+lead: Slalomovou trať jsme si postavili sami, ale klub by bez partnerů nefungoval. Tady je, kdo nám pomáhá, jak a kde je to vidět.
 photo: photos/hero/10.jpg
-numbers:
-  - n: "130"
-    l: členů, z toho 50 dětí a mládeže
-  - n: "28 000"
-    l: startů na našich závodech od roku 2012
-  - n: "7–10"
-    l: závodů ročně, z toho 1–2 mezinárodní
-  - n: "4"
-    l: olympionici a mistr světa 2026 mezi odchovanci
-where: "Podpora partnerů je u nás vidět na obyčejných místech: na dresech, které se fotí na každém pódiu, na bannerech u cílové branky, v hlášení během závodu a v propozicích a výsledcích, které jdou do celé republiky. Při mezinárodních akcích projdou areálem tisíce lidí. A kdo chce vidět, kam jeho podpora jde, toho vezmeme na vodu."
+where: "Partnery nenecháváme jen v patičce webu. Jejich jména nosíme na dresech, které se fotí na každém pódiu, stojí na bannerech u cílové branky, zazní v hlášení během závodu a jsou v propozicích a výsledcích, které jdou do celé republiky. A kdo chce vidět, kam jeho podpora jde, toho vezmeme na vodu."
 groups:
   - title: ""
     wide: true
@@ -89,6 +80,6 @@ groups:
 contact_heading: Pojďme se potkat u vody
 contact_text: Nejlíp to vysvětlíme přímo v areálu. Napište nebo zavolejte – kontakty najdete na stránce
 ---
-Od roku 2012, kdy jsme otevřeli novou trať, u nás startovalo přes 28 000 závodníků. Pořádali jsme mistrovství Evropy juniorů a U23, mistrovství Evropy v raftingu i Olympiádu dětí a mládeže. Padesátka dětí tu trénuje celý rok a v létě areál slouží celému městu jako místo ke sportu i odpočinku.
+Jsme zapsaný spolek s šedesátiletou tradicí. Trénujeme padesátku dětí, pořádáme závody od krajského poháru po mistrovství Evropy a staráme se o areál, který v létě slouží celému městu jako místo ke sportu i odpočinku.
 
-Klub je zapsaný spolek. Veřejná podpora – město, kraj, svaz, Národní sportovní agentura – drží areál a trenéry. Firmy a lidé kolem klubu přidávají to, co z dotací zaplatit nejde: od stanů na závody po dokončení loděnice.
+Peníze na to skládáme ze tří zdrojů. Veřejná podpora – město, kraj, svaz a Národní sportovní agentura – drží areál a trenéry. Firmy a lidé kolem klubu přidávají to, co z dotací zaplatit nejde: od startovních čísel po dokončení loděnice. A z nájmů od těch, kdo areál provozují pro veřejnost, financujeme provoz a drobné inovace.

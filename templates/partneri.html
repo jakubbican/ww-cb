@@ -12,11 +12,13 @@
     {% if photo %}<div class="img"><img src="{{ rel }}{{ photo }}" alt="" loading="lazy"></div>{% endif %}
   </div>
 
-  {% if numbers %}
-  <div class="p-nums">
-    {% for s in numbers %}<div><div class="n">{{ s.n }}</div><div class="l">{{ s.l }}</div></div>{% endfor %}
-  </div>
-  {% endif %}
+  <section class="stats inpage">
+    <div class="wrap">
+      {% for s in stats %}
+      <a href="{{ rel }}{{ s.href }}"><div class="n">{{ s.n }}</div><div class="l">{{ s.l }}</div><div class="d">{{ s.d }}</div><span class="m">{{ s.m }}</span></a>
+      {% endfor %}
+    </div>
+  </section>
 
   {% if where %}<div class="p-where"><p>{{ where }}</p></div>{% endif %}
 

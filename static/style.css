@@ -63,6 +63,7 @@ p{margin:0 0 1em}
 
 /* stats band (HP, pod partnery) */
 .stats{background:#fff;color:var(--navy);border-bottom:1px solid var(--line)}
+.stats.inpage{background:transparent;border-top:1px solid var(--line);margin-top:40px}.stats.inpage .wrap{padding-left:0;padding-right:0}
 .stats .wrap{padding-top:36px;padding-bottom:36px;display:grid;grid-template-columns:repeat(3,1fr);gap:0}
 .stats a{display:block;color:inherit;text-decoration:none;padding:8px 32px 8px 0}
 .stats a+a{padding-left:32px;border-left:1px solid var(--line)}
@@ -77,17 +78,17 @@ p{margin:0 0 1em}
 .partners .wrap{padding-top:22px;padding-bottom:22px;display:flex;flex-direction:column;gap:16px}
 .partners .row{display:flex;flex-wrap:wrap;align-items:center;gap:14px 40px}
 .partners .row + .row{border-top:1px solid var(--line-soft);padding-top:16px}
-.partners .label{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);width:150px;white-space:nowrap}
+.partners .label{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);width:150px;white-space:nowrap;text-decoration:none}a.label:hover{color:var(--navy)}
 .partners .logos{display:flex;flex-wrap:wrap;align-items:center;gap:14px 40px;flex:1}
 .partners .logos a{display:inline-flex;align-items:center}.partners .logos img{width:auto}
-.partners .main img{height:56px}.partners .main img.kraj{height:30px}.partners .main img.csk{height:34px}
+.partners .main img{height:56px}.partners .main img.kraj{height:30px}.partners .main img.csk{height:34px}.partners .main img.eu{height:30px}
 .partners .supp .logos{gap:12px 28px}
 .partners .supp img{height:36px}.partners .supp img.s{height:26px}.partners .supp img.xs{height:15px;opacity:.85}
 @media (max-width:700px){
   .partners .row{flex-direction:column;align-items:flex-start;gap:10px}
   .partners .label{width:auto}
   .partners .logos{gap:12px 22px}
-  .partners .main img{height:40px}.partners .main img.kraj{height:22px}.partners .main img.csk{height:26px}
+  .partners .main img{height:40px}.partners .main img.kraj{height:22px}.partners .main img.csk{height:26px}.partners .main img.eu{height:22px}
   .partners .supp img{height:28px}.partners .supp img.s{height:20px}.partners .supp img.xs{height:12px}
 }
 
@@ -134,11 +135,6 @@ p{margin:0 0 1em}
 .p-intro{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:40px;align-items:center;padding:8px 0}
 .p-intro .img img{border-radius:8px;aspect-ratio:4/3;object-fit:cover;width:100%}
 .p-intro-text p{font-size:18px;max-width:60ch}
-.p-nums{display:grid;grid-template-columns:repeat(4,1fr);margin:40px 0 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.p-nums div{padding:22px 24px 22px 0}
-.p-nums div+div{padding-left:24px;border-left:1px solid var(--line)}
-.p-nums .n{font-family:var(--display);font-weight:800;font-size:48px;line-height:1;color:var(--navy)}
-.p-nums .l{font-size:14px;color:var(--muted);margin-top:8px;max-width:26ch;line-height:1.35}
 .p-where{margin-top:36px}.p-where p{font-size:18px;max-width:64ch;margin:0}
 .p-sec{margin-top:56px}
 .p-sec h2{margin-bottom:6px}
@@ -156,9 +152,8 @@ p{margin:0 0 1em}
 .contact h2{color:#fff;margin:0 0 8px}
 .contact p{margin:0;color:var(--water);font-size:17px;max-width:60ch}
 .contact a{color:#fff;text-decoration:underline;text-underline-offset:3px}
-.partners .more-link{font-size:14px;font-weight:600;white-space:nowrap}
-@media (max-width:900px){.p-intro,.who,.who.three{grid-template-columns:1fr}.p-nums{grid-template-columns:1fr 1fr}.p-nums div+div{padding-left:0;border-left:0}.p-nums div:nth-child(odd){padding-right:24px}.p-nums div:nth-child(even){padding-left:24px;border-left:1px solid var(--line)}}
-@media (max-width:600px){.p-nums{grid-template-columns:1fr}.p-nums div:nth-child(even){padding-left:0;border-left:0}.p-nums div{padding:14px 0;border-top:1px solid var(--line)}.p-nums div:first-child{border-top:0}.who .row{grid-template-columns:90px 1fr}.who.one .row{grid-template-columns:1fr}}
+@media (max-width:900px){.p-intro,.who,.who.three{grid-template-columns:1fr}}
+@media (max-width:600px){.who .row{grid-template-columns:90px 1fr}.who.one .row{grid-template-columns:1fr}}
 
 /* footer */
 .site-footer{background:var(--navy);color:var(--water);margin-top:48px}
