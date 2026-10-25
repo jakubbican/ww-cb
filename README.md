@@ -56,6 +56,9 @@ links:
 Stránka Akce se skládá sama podle data: **Příští akce** (první budoucí), **Kalendář <rok>** (rok příští akce; bez budoucích akcí se měsíc po poslední akci překlopí na další rok), **Jak dopadl rok <předchozí>** (jen když je kalendář skoro prázdný) a text **Co pořádáme** z `content/pages/akce.md` (úvod, poznámka pro mezidobí a profily tradičních závodů – běžný Markdown, měsíc u nadpisu jako `### Název *měsíc*`).
 Pro vyzkoušení stavu k jinému datu: `WWCB_TODAY=2027-01-10 python build.py`.
 
+## Partneři
+Stránka `/partneri/` se skládá z `content/pages/partneri.md`: v hlavičce `numbers` (čtyři čísla), `where` (odstavec), `groups` (skupiny: `title`, volitelně `sub`, `wide` = jeden řádek přes šířku, `cols: 3`; v každé `partners` s `name`, `logo` (soubor z `design/partneri/`), `url`, `text`), `contact_heading`/`contact_text`; tělo = úvodní odstavce. Nové logo = přidat do repa skvscb-design a spustit `scripts/sync-design.sh`.
+
 ## Dnes teče voda
 Homepage ukazuje dnešní (po 19:00 zítřejší) časy pouštění vody. Build je stahuje z http://itdev.cz/SlalomCourse/OpeningTimes.aspx; workflow proto běží každý den ráno. `python build.py --no-voda` build přeskočí stahování.
 

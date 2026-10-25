@@ -4,11 +4,12 @@ Statický web klubu SK Vodní slalom České Budějovice. Pracuj česky. Čtená
 
 ## Jak to funguje
 - `python build.py` → `dist/`. Žádný JS framework, žádný CMS. Šablony Jinja2 v `templates/`, styl `static/style.css`.
-- Obsah: `content/posts/` (zápisník – v menu a nadpisech „Zápisník“, URL zůstává `/kronika/`), `content/events/` (akce – hlavička viz README: subtitle, organizer, why, links), `content/pages/` (klub, areal, akce, kontakt, uspechy, wave, historie-src). Formát hlaviček viz README.
+- Obsah: `content/posts/` (zápisník – v menu a nadpisech „Zápisník“, URL zůstává `/kronika/`), `content/events/` (akce – hlavička viz README: subtitle, organizer, why, links), `content/pages/` (klub, areal, akce, partneri, kontakt, uspechy, wave, historie-src). Formát hlaviček viz README.
 - Obrázky článků `img/<slug>/NN.jpg` (build zmenší na 1600 px a vyrobí náhledy `_t.jpg`), fotky archivu `photos/` + `photos/index.json` (skupiny hero/areal/historie/wave/akce).
 - „Dnes teče voda“ na HP: `build.py` stáhne rozpis z itdev.cz (`fetch_voda`, 14 dní) a vloží ho do stránky jako JSON; JS vybere dnes/zítra (po 19:00). Workflow běží i denně ráno (cron), aby byl rozpis čerstvý. Při výpadku zdroje se řádek nezobrazí. `--no-voda` build bez stahování.
 - Čísla na HP (pod partnery): blok `STATS` v `build.py`.
 - Stránka Akce = program areálu, ne archiv: příští akce, kalendář roku, ohlédnutí a text „Co pořádáme“ (`content/pages/akce.md`). Překlopení sezony řídí datum buildu (`WWCB_TODAY` pro test). Minulé ročníky se neukazují – odkazují se články v zápisníku.
+- Stránka Partneři (`/partneri/`, není v menu – odkaz z pásu partnerů a patičky): vše v hlavičce `content/pages/partneri.md` (čísla, skupiny partnerů s logem/textem/odkazem, kontakt), úvod v těle. Loga přes `design/partneri/` (sync).
 - Nasazení: GitHub Actions → GitHub Pages (`.github/workflows/pages.yml`). Odkazy jsou relativní, web funguje v podadresáři i na vlastní doméně; jen 404 stránka používá `--base`.
 
 ## Design – nesahat ručně

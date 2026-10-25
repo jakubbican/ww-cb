@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap">
+  <div class="article-head">
+    {% if eyebrow %}<div class="meta">{{ eyebrow }}</div>{% endif %}
+    <h1>{{ heading or title }}</h1>
+    {% if lead %}<p class="lead">{{ lead }}</p>{% endif %}
+  </div>
+
+  <div class="p-intro">
+    <div class="p-intro-text">{{ html | safe }}</div>
+    {% if photo %}<div class="img"><img src="{{ rel }}{{ photo }}" alt="" loading="lazy"></div>{% endif %}
+  </div>
+
+  {% if numbers %}
+  <div class="p-nums">
+    {% for s in numbers %}<div><div class="n">{{ s.n }}</div><div class="l">{{ s.l }}</div></div>{% endfor %}
+  </div>
+  {% endif %}
+
+  {% if where %}<div class="p-where"><p>{{ where }}</p></div>{% endif %}
+
+  <div class="p-sec">
+    <h2>Kdo s námi je</h2>
+    {% for g in groups %}
+    {% if g.title %}<h3 class="grp">{{ g.title }}</h3>{% endif %}
+    {% if g.sub %}<p class="sub">{{ g.sub }}</p>{% endif %}
+    <div class="who{% if g.wide %} one{% elif g.cols == 3 %} three{% endif %}">
+      {% for p in g.partners %}
+      <div class="row">
+        {% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener"><img src="{{ rel }}assets/partneri/{{ p.logo }}" alt="{{ p.name }}" loading="lazy"></a>{% else %}<img src="{{ rel }}assets/partneri/{{ p.logo }}" alt="{{ p.name }}" loading="lazy">{% endif %}
+        <div><b>{{ p.name }}</b><span>{{ p.text }}</span></div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="contact">
+    <h2>{{ contact_heading }}</h2>
+    <p>{{ contact_text }} <a href="{{ rel }}kontakt/">Kontakt</a>.</p>
+  </div>
+</div>
+{% endblock %}

@@ -370,6 +370,15 @@ AREAL_HERO = {'01.jpg', '02.jpg', '03.jpg', '10.jpg', '12.jpg'}
 content_page('areal', 'areal', extra_html='<h2>Areál z výšky i z vody</h2>' + gallery_html(photos_in('areal') + [h for h in photos_in('hero') if h['path'].rsplit('/',1)[-1] in AREAL_HERO], '../'),
     aside='<h3>Praktické</h3><ul><li>Tréninkové hodiny, kemp, ubytovna, půjčovna: <a href="https://raftingcb.cz/" target="_blank" rel="noopener">raftingcb.cz</a></li><li>Hospoda Na Kanále: otevřeno denně duben–září</li><li>Adresa: České Vrbné 1995, 370 11 České Budějovice</li><li><a href="../kontakt/">Jak k nám</a></li></ul>')
 content_page('kontakt', 'kontakt', hero=None)
+
+# partneři – strukturovaná stránka z content/pages/partneri.md (frontmatter: numbers, groups, …)
+_pfm, _pbody = read_md(CONTENT / 'partneri.md')
+_phtml, _ = md_to_html(strip_markers(_pbody), '../')
+render('partneri.html', OUT / 'partneri' / 'index.html', '../', title=_pfm.get('title'), heading=_pfm.get('heading'),
+       eyebrow=_pfm.get('eyebrow'), lead=_pfm.get('lead'), description=_pfm.get('lead'), section='partneri', html=_phtml,
+       photo=_pfm.get('photo'), numbers=_pfm.get('numbers') or [], where=_pfm.get('where'), groups=_pfm.get('groups') or [],
+       contact_heading=_pfm.get('contact_heading') or 'Pojďme se potkat u vody', contact_text=_pfm.get('contact_text') or '')
+
 content_page('uspechy', 'uspechy', extra_html='<h2>Kuba mistrem světa 2026</h2>' + gallery_html(photos_in('akce', '2026-07-kuba-mistr'), '../') +
     '<h2>ME juniorů a U23 2022 u nás</h2>' + gallery_html(photos_in('akce', '2026-07-eca-cup-cb')[:3], '../'),
     aside='<h3>Sleduj výsledky</h3><ul><li><a href="https://www.kanoe.cz" target="_blank" rel="noopener">kanoe.cz – Český svaz kanoistů</a></li><li><a href="https://zive.results.cz" target="_blank" rel="noopener">results.cz – živé výsledky</a></li><li><a href="https://www.canoeicf.com" target="_blank" rel="noopener">canoeicf.com</a></li></ul><h3 style="margin-top:18px">Ze zápisníku</h3><ul><li><a href="../kronika/jakub-krejci-na-mistrovstvi-sveta/">Jakub Krejčí na mistrovství světa</a></li><li><a href="../kronika/jakub-krejci-ovladl-anketu-sportovec-okresu-za-rok-2025/">Sportovec okresu 2025</a></li><li><a href="../kronika/ms-rafting-u23/">MS v raftingu U23</a></li><li><a href="../kronika/mlade-nadeje-skvscb-sbiraji-oceneni/">Mladé naděje sbírají ocenění</a></li></ul>')
