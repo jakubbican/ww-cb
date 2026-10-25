@@ -32,7 +32,7 @@ python -m http.server -d dist 8000
 3. Commit + push → za pár minut je článek na webu.
 
 ## Přidat akci
-`content/events/<slug>.md` – hlavička:
+`content/events/YYYY-MM-<název>.md` (rok a měsíc začátku akce, např. `2026-09-nkz.md`; nový ročník = zkopírovat loňský soubor a změnit rok v názvu i v `date`/`end_date`) – hlavička:
 ```
 ---
 title: "Jarní slalomy"
