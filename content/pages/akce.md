@@ -2,7 +2,7 @@
 title: Akce
 heading: Akce v areálu
 eyebrow: Areál Lídy Polesné · České Vrbné
-lead: Závody ve slalomu od otevřených závodů či veteránského poháru po mistrovství Evropy, k tomu rafty, paddleboardy a říční vlna. Pro diváky zdarma.
+lead: Závody ve slalomu od otevřených závodů či veteránského poháru po mistrovství světa, k tomu rafty, paddleboardy a říční vlna. Pro diváky zdarma.
 note: Termíny slalomových závodů doplníme v lednu, až se usadí termínová listina Českého svazu kanoistů. Ostatní pořadatelé v areálu přidávají svoje akce během zimy.
 ---
 ## Co pořádáme
@@ -27,7 +27,7 @@ Evropská série pro mládež do 18 let. Na jeden víkend se v areálu sejde př
 
 ### Mistrovství republiky na Lipně *srpen*
 
-Jediná naše akce mimo areál a naše chlouba: MČR ve vodním slalomu na přírodní trati pod lipenskou hrází, kterou pouštějí jen na pár dní v roce. Kdo chce vidět slalom tak, jak vznikal, na skutečné řece, jede na Lipno. Během jednoho víkendu se jede pod Lipnem několik závodů, které se snažíme koordinovat.
+Jediná naše akce mimo areál a naše chlouba: MČR ve vodním slalomu na přírodní trati pod lipenskou hrází, kterou pouštějí jen na pár dní v roce. Kdo chce vidět slalom tak, jak vznikal, na skutečné řece, jede na Lipno. Na téže trati jsme v roce 1996 pořádali mistrovství světa juniorů. Během jednoho víkendu se jede pod Lipnem několik závodů, které se snažíme koordinovat.
 
 ### NKZ České Vrbné *květen, červen nebo září*
 

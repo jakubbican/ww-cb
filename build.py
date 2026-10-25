@@ -424,8 +424,6 @@ if hist_src.exists():
 
 # ---------- úvodní stránka ----------
 directory = [
-    dict(name='Rafting CB', text='Rafty, půjčovna, komerční jízdy, ubytování a kemp.', url='https://raftingcb.cz/', label='raftingcb.cz', external=True),
-    dict(name='Hospoda Na Kanále', text='Jídlo, pití a terasa nad vodou. Otevřeno denně duben–září.', url='https://www.facebook.com/hospodanakanale/', label='Facebook', external=True),
     dict(name='BUDE Sport', text='Paddleboarding na klidné vodě nad jezem.', url='../areal/', label='Více v areálu', external=False),
     dict(name='River surf', text='Surfování na stojaté vlně na prvním stupni slalomové trati.', url='../areal/', label='Více v areálu', external=False),
     dict(name='CB Dragons', text='Dračí lodě — tréninky a firemní jízdy na klidné vodě.', url='../areal/', label='Více v areálu', external=False),

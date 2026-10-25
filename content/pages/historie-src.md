@@ -49,6 +49,7 @@ Podklad pro stránku „Historie“ nového klubového webu. Zdroje jsou uvedeny
 - **1992** – Jakub Prüher startuje v C1 na OH v Barceloně (29. místo) – první olympijské hry s vodním slalomem po dvaceti letech.
 - **Začátek 90. let** – Oddíl kanoistiky TJ Škoda se osamostatňuje jako **Sportovní klub vodní slalom České Budějovice** (IČO 15770729) **[ověřit přesný rok]**.
 - **1995** – Klub vydává brožuru „Vodácké centrum Lídy Polesné České Budějovice – České Vrbné“ – název po Lídě Polesné je tedy používán nejpozději od poloviny 90. let, ne až od přestavby **[ověřit, kdy byl název oficiálně přijat]**.
+- **11.–14. 7. 1996** – **Mistrovství světa juniorů ve vodním slalomu na Lipně** – pořádá oddíl ve spolupráci s Českým svazem kanoistů na přírodní trati pod lipenskou hrází. Čeští junioři získali 6 zlatých z 8 medailí, v hlídkách K1 i odchovanec klubu Tomáš Kobes.
 - **2000** – Tomáš Kobes, odchovanec klubu z 90. let, startuje jako druhý jihočeský slalomář na OH v Sydney (7. místo K1).
 - **2002** – Srpnová povodeň vážně poškozuje umělé dráhy na Vltavě a Labi včetně Českého Vrbného; areál je po opravě znovu zprovozněn.
 - **2007–2008** – Příprava revitalizace: hydraulický model trati v měřítku 1:15 na ČVUT v Praze; 2008 rozhodnuto o stavbě po přiznání dotace z EU (ROP Jihozápad).
@@ -108,6 +109,7 @@ Encyklopedie a klubové stránky:
 - https://cs.wikipedia.org/wiki/Ludmila_Polesn%C3%A1
 - https://en.wikipedia.org/wiki/Jakub_Pr%C3%BCher
 - https://en.wikipedia.org/wiki/2022_European_Junior_and_U23_Canoe_Slalom_Championships
+- https://en.wikipedia.org/wiki/1996_World_Junior_Canoe_Slalom_Championships (MS juniorů Lipno 1996 – termín a výsledky; pořadatelství: sdělení klubu)
 - https://www.ww-cb.cz , https://www.ww-cb.cz/bylo-nebylo (stránka obsahuje jen trailer a fotogalerie z MEJ 2022, žádný historický text), https://www.ww-cb.cz/activities , https://www.ww-cb.cz/en/wrr21
 - https://www.ww-cb.cz/_files/ugd/ce7577_17066c56a4d44441ad4ce97a1f1706bc.pdf (Bulletin č. 1, ME juniorů a U23 2022)
 - https://www.czechcanoe.cz/?catid=27&id=300&view=article

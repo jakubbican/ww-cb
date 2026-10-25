@@ -12,7 +12,7 @@ groups:
       - name: Český svaz kanoistů
         logo: csk-znak.svg
         url: https://www.kanoe.cz/
-        text: Náš mateřský svaz. Jsme jeho aktivním členem a nejčinnějším pořadatelem – řadu závodů vypsaných svazem pořádáme právě u nás. Spolupracujeme na velkých akcích, jako bylo ME juniorů a U23 2022 nebo MS ve sprintu na divoké vodě 2025, a přispíváme i technicky, třeba svazovou časomírou.
+        text: Náš mateřský svaz. Jsme jeho aktivním členem a nejčinnějším pořadatelem – řadu závodů vypsaných svazem pořádáme právě u nás. Spolupracujeme na velkých akcích – od MS juniorů na Lipně 1996 přes ME juniorů a U23 2022 po MS ve sprintu na divoké vodě 2025 – a přispíváme i technicky, třeba svazovou časomírou.
   - title: Veřejná podpora
     partners:
       - name: Statutární město České Budějovice
@@ -83,6 +83,6 @@ groups:
 contact_heading: Pojďme se potkat u vody
 contact_text: Nejlíp to vysvětlíme přímo v areálu. Napište nebo zavolejte – kontakty najdete na stránce
 ---
-Jsme zapsaný spolek s šedesátiletou tradicí. Trénujeme padesátku dětí, pořádáme závody od krajského poháru po mistrovství Evropy a staráme se o areál, který v létě slouží celému městu jako místo ke sportu i odpočinku.
+Jsme zapsaný spolek s šedesátiletou tradicí. Trénujeme padesátku dětí, pořádáme závody od krajského poháru po mistrovství světa a staráme se o areál, který v létě slouží celému městu jako místo ke sportu i odpočinku.
 
 Peníze na to skládáme ze tří zdrojů. Veřejná podpora – město, kraj, svaz a Národní sportovní agentura – drží areál a trenéry. Firmy a lidé kolem klubu přidávají to, co z dotací zaplatit nejde: od startovních čísel po dokončení loděnice. A z nájmů od těch, kdo areál provozují pro veřejnost, financujeme provoz a drobné inovace.

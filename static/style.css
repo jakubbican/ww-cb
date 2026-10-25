@@ -129,6 +129,12 @@ p{margin:0 0 1em}
 .ev-mini .d{font-family:var(--display);font-weight:700;font-size:18px;color:var(--navy);white-space:nowrap}
 .ev-mini .t a{color:var(--ink);text-decoration:none;font-weight:600}.ev-mini .t a:hover{color:var(--accent-text)}
 .ev-mini em{font-style:normal;color:var(--muted);font-size:14px}
+.tenants{display:flex;flex-wrap:wrap;gap:16px 36px;margin-top:26px;padding-top:22px;border-top:1px solid var(--line-soft)}
+.tenants a{display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--ink)}
+.tenants img{width:64px;height:64px;object-fit:contain;flex:none}
+.tenants span{display:flex;flex-direction:column;font-size:14px;color:var(--muted);line-height:1.3}
+.tenants b{font-family:var(--display);font-weight:700;font-size:19px;text-transform:uppercase;color:var(--navy);letter-spacing:.02em}
+.tenants a:hover b{color:var(--accent-text)}
 @media (max-width:760px){.club-main,.club-strip{grid-template-columns:1fr;gap:28px}.club-img{order:-1}.club-strip{margin-top:40px}}
 
 /* dark history strip */
