@@ -213,6 +213,12 @@ p{margin:0 0 1em}
 .recap li .d{color:var(--muted)}
 .recap li a{font-weight:600}
 .read-section{margin-top:56px}
+.read-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:40px;align-items:start}
+.read-fig{margin:0;display:flex;flex-direction:column;gap:6px;position:sticky;top:24px}
+.read-fig a{display:block}
+.read-fig img{border-radius:6px;aspect-ratio:4/3;object-fit:cover;width:100%}
+.read-fig figcaption{font-size:13px;color:var(--muted);margin-bottom:14px}
+@media (max-width:900px){.read-grid{grid-template-columns:1fr}.read-fig{position:static;display:grid;grid-template-columns:1fr 1fr;gap:4px 12px}.read-fig a{grid-row:1}.read-fig figcaption{grid-row:2;margin:0}.read-fig a:nth-of-type(3),.read-fig figcaption:nth-of-type(3){display:none}}
 .read h2{margin-bottom:6px;font-size:clamp(30px,4vw,40px)}
 .read h2+p{color:var(--muted);font-size:17px;margin-top:0;max-width:640px}
 .read h3{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:24px;margin:26px 0 6px}

@@ -64,7 +64,14 @@
   {% endif %}
 
   <div class="season read-section">
-    <article class="read">{{ body_html | safe }}</article>
+    <div class="read-grid">
+      <article class="read">{{ body_html | safe }}</article>
+      {% if read_photos %}
+      <figure class="read-fig">
+        {% for ph in read_photos %}<a href="{{ rel }}{{ ph.path }}" data-lb><img src="{{ rel }}{{ ph.path }}" alt="{{ ph.title }}" loading="lazy"></a><figcaption>{{ ph.title }}</figcaption>{% endfor %}
+      </figure>
+      {% endif %}
+    </div>
   </div>
 
   <div class="host">

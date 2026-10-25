@@ -346,7 +346,8 @@ akce_html, _ = md_to_html(strip_markers(akce_body), '../')
 render('akce.html', OUT / 'akce' / 'index.html', '../', title=akce_fm.get('title') or 'Akce', section='akce',
        heading=akce_fm.get('heading'), eyebrow=akce_fm.get('eyebrow'), lead=akce_fm.get('lead'), description=akce_fm.get('lead'),
        note=akce_fm.get('note'), cal_year=cal_year, cal_by_month=cal_by_month, next_event=next_event,
-       recap_year=recap_year, recap=recap, body_html=akce_html, stats=STATS)
+       recap_year=recap_year, recap=recap, body_html=akce_html, stats=STATS,
+       read_photos=[p for p in (photos_in('akce', '2026-09-nkz-cb')[1:2] + photos_in('akce', '2026-04-jarni-slalomy')[2:3] + photos_in('akce', '2026-07-eca-cup-cb')[1:2])])
 print(f'  akce: kalendář {cal_year} ({len(calendar)}), příští: {next_event["title"] if next_event else "–"}, ohlédnutí: {recap_year or "–"}')
 
 # ---------- vlastní stránky ----------
