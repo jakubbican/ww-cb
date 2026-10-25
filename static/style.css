@@ -139,15 +139,22 @@ p{margin:0 0 1em}
 .p-sec{margin-top:56px}
 .p-sec h2{margin-bottom:6px}
 .p-sec .sub{color:var(--muted);font-size:16px;margin:0 0 8px;max-width:64ch}
-.grp{margin:36px 0 4px;font-size:22px}
-.who{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 32px}
-.who .row{display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
-.who .row img{max-height:48px;width:auto;max-width:110px}
+.grp{margin:64px 0 10px;font-size:15px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-text);font-family:var(--display)}
+.p-sec .sub{margin:0 0 10px}
+.who{display:grid;grid-template-columns:1fr;gap:0}
+.who .row{display:grid;grid-template-columns:200px 1fr;gap:28px;align-items:center;padding:26px 0;border-bottom:1px solid var(--line)}
+.who .row img{max-height:56px;width:auto;max-width:170px}
 .who .row a{display:block}
-.who .row b{display:block;font-weight:700}
-.who .row span{font-size:14px;color:var(--muted)}
-.who.one{grid-template-columns:1fr}.who.one .row{grid-template-columns:260px 1fr;padding:18px 0}.who.one .row img{max-width:150px;max-height:56px}.who.one .row img[src$='csk.svg']{max-width:240px;max-height:40px}.who.one .row span{font-size:15px}
-.who.three{grid-template-columns:repeat(3,1fr)}
+.who .row b{display:block;font-family:var(--display);font-weight:700;font-size:22px;text-transform:uppercase;margin-bottom:4px}
+.who .row span{font-size:16px;color:var(--muted);max-width:68ch;display:block;line-height:1.5}
+.who .row img[src$='csk.svg']{max-width:200px;max-height:44px}
+.who.three{grid-template-columns:repeat(3,1fr);gap:0 40px}
+.who.three .row{grid-template-columns:1fr;gap:12px;align-items:start;padding:26px 0}
+.who.three .row img{max-height:44px;max-width:150px}
+.who.three .row b{font-size:20px}
+.who.three .row span{font-size:15px}
+@media (max-width:900px){.who.three{grid-template-columns:1fr}.who.three .row{grid-template-columns:140px 1fr;gap:24px;align-items:center}}
+@media (max-width:600px){.who .row,.who.three .row{grid-template-columns:1fr;gap:10px;align-items:start}.grp{margin-top:48px}}
 .contact{background:var(--navy);color:#fff;border-radius:8px;padding:32px;margin:56px 0 8px}
 .contact h2{color:#fff;margin:0 0 8px}
 .contact p{margin:0;color:var(--water);font-size:17px;max-width:60ch}
