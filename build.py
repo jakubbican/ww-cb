@@ -428,12 +428,20 @@ directory = [
 ]
 for d in directory:
     if not d['external']: d['url'] = d['url'].replace('../', '')
+# Závody a akce na HP: v sezoně nejbližší akce kalendáře, po sezoně ohlédnutí za poslední
+def hp_ev(e):
+    href = e['links'].get('clanek') or ''
+    if href and not href.startswith('http'): href = href.replace('../', '')
+    return dict(date_short=e['date_short'], title=e['title'], organizer=e['organizer'], org_name=e['org_name'], href=href if e['past'] else '')
+if next_event:
+    hp_events = dict(note='', list=[hp_ev(e) for e in calendar if not e['past']][:4], label=f'Celý kalendář {cal_year}')
+else:
+    last_year = past[-1]['year'] if past else None
+    season = [e for e in past if e['year'] == last_year and e['organizer'] == 'klub']
+    hp_events = dict(note=f'Sezona {last_year} skončila. Kalendář {cal_year} doplníme, jakmile budou známé termíny.' if last_year else '',
+                     list=[hp_ev(e) for e in season][-4:], label=f'Ohlédnutí za sezonou {last_year}' if last_year else 'Kalendář akcí')
 render('home.html', OUT / 'index.html', '', title=None, section='home', latest=posts[:3], stats=STATS, voda=VODA, voda_url=VODA_URL,
-       hero=dict(path='photos/hero/13.jpg'),
-       feat=dict(deti=first_photo('akce', '2025-05-cp-zaci-veltrusy', 'photos/akce/2024-06-odm/01.jpg'),
-                 areal=(photos_in('areal')[1]['path'] if len(photos_in('areal')) > 1 else first_photo('areal')),
-                 zavody=first_photo('akce', '2026-09-nkz-cb', first_photo('hero'))),
-       directory=directory)
+       hero=dict(path='photos/hero/13.jpg'), hp_events=hp_events, directory=directory)
 
 # 404 + .nojekyll
 (OUT / '.nojekyll').write_text('')

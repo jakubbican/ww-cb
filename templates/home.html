@@ -9,8 +9,9 @@
     <h1>Vodní slalom<br>v Budějovicích<br>od roku 1965</h1>
     <p>Trénujeme děti, vychováváme reprezentanty a pořádáme závody od lokálních po mezinárodní. Slalomovou trať jsme si postavili sami a rozvíjíme areál, ve kterém jsou všichni vítáni.</p>
     <div class="actions">
-      <a class="btn btn-primary" href="{{ rel }}akce/">Přijď se podívat</a>
-      <a class="btn btn-outline-light" href="{{ rel }}kronika/">Zápisník klubu</a>
+      <a class="btn btn-primary" href="{{ rel }}kronika/">Zápisník klubu</a>
+      <a class="btn btn-outline-light" href="{{ rel }}areal/">Pro návštěvníky</a>
+      <a class="btn btn-outline-light" href="{{ rel }}akce/">Akce</a>
     </div>
     {% if voda %}
     <div class="wl" id="voda" hidden><b></b><span></span><a href="{{ voda_url }}" target="_blank" rel="noopener">celý rozpis</a></div>
@@ -51,22 +52,33 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section club">
   <div class="wrap">
-    <div class="section-head"><h2>Co u nás najdeš</h2></div>
-    <div class="grid-3">
-      <article class="card">
-        <div class="img"><img src="{{ rel }}{{ feat.deti }}" alt="" loading="lazy"></div>
-        <div class="body"><h3>Děti a mládež</h3><p>Nábor od 8 let, tréninky na vodě i v bazénu, zimní a letní soustředění. Dovednosti na vodě i výkonnostní sport.</p><a class="more" href="{{ rel }}klub/#nabor">Jak se přihlásit →</a></div>
-      </article>
-      <article class="card">
-        <div class="img"><img src="{{ rel }}{{ feat.areal }}" alt="" loading="lazy"></div>
-        <div class="body"><h3>Areál Lídy Polesné</h3><p>Divoká voda, kemp, restaurace. Výkonnostní sport, zábava i odpočinek pro všechny příchozí.</p><a class="more" href="{{ rel }}areal/">Více o areálu →</a></div>
-      </article>
-      <article class="card">
-        <div class="img"><img src="{{ rel }}{{ feat.zavody }}" alt="" loading="lazy"></div>
-        <div class="body"><h3>Závody a akce</h3><p>Veřejné, kvalifikační i mezinárodní závody. Propozice, výsledky a informace pro návštěvníky.</p><a class="more" href="{{ rel }}akce/">Kalendář →</a></div>
-      </article>
+    <div class="club-main">
+      <div class="club-text">
+        <div class="eyebrow">Oddíl</div>
+        <h2>Učíme děti jezdit na divoké vodě</h2>
+        <p>Hledáme děti od 8 let, které se nebojí vody – plavat umět musí, pádlovat je naučíme. Trénujeme v areálu v Českém Vrbném od dubna do října, v zimě v bazénu a tělocvičně. Kdo chce, jezdí závody od krajských po mistrovství republiky.</p>
+        <div class="actions"><a class="more" href="{{ rel }}klub/#nabor">Chci do oddílu →</a><a class="more" href="{{ rel }}klub/">Kdo jsme →</a></div>
+      </div>
+      <div class="club-img"><img src="{{ rel }}photos/klub/oddil.jpg" alt="Oddíl s medailemi po závodech" loading="lazy"></div>
+    </div>
+    <div class="club-strip">
+      <div>
+        <div class="eyebrow">Závody a akce</div>
+        {% if hp_events.note %}<p>{{ hp_events.note }}</p>{% endif %}
+        <ul class="ev-mini">
+          {% for e in hp_events.list %}
+          <li><span class="d">{{ e.date_short }}</span><span class="t">{% if e.href %}<a href="{{ e.href }}">{{ e.title }}</a>{% else %}{{ e.title }}{% endif %}{% if e.organizer != 'klub' and e.org_name %} <em>· {{ e.org_name }}</em>{% endif %}</span></li>
+          {% endfor %}
+        </ul>
+        <a class="more" href="{{ rel }}akce/">{{ hp_events.label }} →</a>
+      </div>
+      <div>
+        <div class="eyebrow">Areál Lídy Polesné</div>
+        <p>Slalomovou trať jsme si postavili a provozujeme ji sami. Kolem ní rafty, paddleboardy, river surf, dračí lodě a hospoda nad vodou – otevřeno denně, pro návštěvníky zdarma.</p>
+        <a class="more" href="{{ rel }}areal/">Pro návštěvníky →</a>
+      </div>
     </div>
   </div>
 </section>
