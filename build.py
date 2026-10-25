@@ -280,21 +280,74 @@ for p in posts: by_year.setdefault(p['year'], []).append(p)
 render('kronika.html', OUT / 'kronika' / 'index.html', '../', title='Zápisník', section='kronika',
        by_year=sorted(by_year.items(), reverse=True))
 
+# Čísla na HP (pod partnery) – upravit tady
+STATS = [
+    dict(n='130', l='Členů', d='z toho 50 dětí a mládeže – trénujeme celoročně, na vodě i v bazénu', m='Kdo jsme →', href='klub/'),
+    dict(n='28 000', l='Startů', d='na závodech, které jsme uspořádali od otevření nové trati v roce 2012 – nejvíc v Česku', m='Co se u nás děje →', href='akce/'),
+    dict(n='4', l='Olympionici', d='a řada mistrů světa – odchovanci klubu od Lídy Polesné po Jakuba Krejčího', m='Úspěchy →', href='uspechy/'),
+]
+
 # ---------- akce ----------
+# Stránka Akce = program areálu: příští akce, kalendář aktuální sezony, ohlédnutí za poslední
+# sezonou (mimo sezonu) a stálý text „Co pořádáme“ z content/pages/akce.md.
+# Hlavička akce (content/events/*.md): title, date, end_date, location, subtitle (co to je, pro koho),
+#   organizer: klub | jiny (+ org_name, org_url), why (proč přijít – 1–2 věty, jen u příštích akcí),
+#   links: {propozice, startovka, vysledky, live, clanek}. Viz README.
+DAYS = ['po', 'út', 'st', 'čt', 'pá', 'so', 'ne']
+TODAY = date.fromisoformat(os.environ["WWCB_TODAY"]) if os.environ.get("WWCB_TODAY") else date.today()  # WWCB_TODAY=YYYY-MM-DD pro testování překlopení sezony
 for e in events:
     d1, d2 = e['dt'], parse_dt(e['fm'].get('end_date'))
+    if not d2: d2 = d1
     if d1 and d2 and d2.date() != d1.date():
-        if d1.month == d2.month and d1.year == d2.year: e['date_range'] = f'{d1.day}.–{d2.day}. {d1.month}. {d1.year}'
-        else: e['date_range'] = f'{cz_date(d1)} – {cz_date(d2)}'
-    else: e['date_range'] = cz_date(d1)
+        if d1.month == d2.month and d1.year == d2.year:
+            e['date_short'] = f'{d1.day}.–{d2.day}. {d1.month}.'
+            e['date_range'] = f'{d1.day}.–{d2.day}. {d1.month}. {d1.year}'
+        else:
+            e['date_short'] = f'{d1.day}. {d1.month}. – {d2.day}. {d2.month}.'
+            e['date_range'] = f'{cz_date(d1)} – {cz_date(d2)}'
+        e['days'] = f'{DAYS[d1.weekday()]}–{DAYS[d2.weekday()]}'
+    else:
+        e['date_short'] = f'{d1.day}. {d1.month}.' if d1 else ''
+        e['date_range'] = cz_date(d1)
+        e['days'] = DAYS[d1.weekday()] if d1 else ''
     e['year'] = d1.year if d1 else 0
+    e['month'] = MONTHS[d1.month - 1].capitalize() if d1 else ''
+    e['month_name'] = {'Ledna':'Leden','Února':'Únor','Března':'Březen','Dubna':'Duben','Května':'Květen','Června':'Červen','Července':'Červenec','Srpna':'Srpen','Září':'Září','Října':'Říjen','Listopadu':'Listopad','Prosince':'Prosinec'}.get(e['month'], e['month'])
     e['location'] = e['fm'].get('location') or ''
-    e['description'] = strip_markers(e['fm'].get('description') or '')
-events.sort(key=lambda e: e['dt'] or datetime.min, reverse=True)
-ev_by_year = {}
-for e in events: ev_by_year.setdefault(e['year'], []).append(e)
-render('akce.html', OUT / 'akce' / 'index.html', '../', title='Závody a akce', section='akce',
-       by_year=sorted(ev_by_year.items(), reverse=True))
+    e['subtitle'] = strip_markers(e['fm'].get('subtitle') or e['fm'].get('description') or '')
+    e['organizer'] = (e['fm'].get('organizer') or 'klub').strip().lower()
+    e['org_name'] = e['fm'].get('org_name') or ''
+    e['org_url'] = e['fm'].get('org_url') or ''
+    e['why'] = strip_markers(e['fm'].get('why') or '')
+    links = e['fm'].get('links') or {}
+    e['links'] = {k: v for k, v in links.items() if v} if isinstance(links, dict) else {}
+    e['past'] = bool(d2) and d2.date() < TODAY
+    e['days_to'] = (d1.date() - TODAY).days if d1 else None
+events.sort(key=lambda e: e['dt'] or datetime.min)
+upcoming = [e for e in events if not e['past']]
+past = [e for e in events if e['past']]
+# Rok kalendáře: rok příští akce. Bez příští akce končí sezona měsíc po poslední akci –
+# do té doby zůstává letošní kalendář, pak se překlopí na příští rok (prázdný) + ohlédnutí.
+if upcoming: cal_year = upcoming[0]['year']
+elif past and (TODAY - past[-1]['dt'].date()).days <= 30: cal_year = past[-1]['year']
+elif past: cal_year = past[-1]['year'] + 1
+else: cal_year = TODAY.year
+calendar = [e for e in events if e['year'] == cal_year]
+cal_by_month = []
+for e in calendar:
+    if cal_by_month and cal_by_month[-1][0] == e['month_name']: cal_by_month[-1][1].append(e)
+    else: cal_by_month.append((e['month_name'], [e]))
+next_event = upcoming[0] if upcoming and upcoming[0]['year'] == cal_year else None
+# Ohlédnutí: poslední uzavřený rok, pokud to není rok kalendáře
+recap_year = past[-1]['year'] if past and past[-1]['year'] != cal_year and len(calendar) < 3 else None
+recap = [e for e in events if e['year'] == recap_year] if recap_year else []
+akce_fm, akce_body = read_md(CONTENT / 'akce.md')
+akce_html, _ = md_to_html(strip_markers(akce_body), '../')
+render('akce.html', OUT / 'akce' / 'index.html', '../', title=akce_fm.get('title') or 'Akce', section='akce',
+       heading=akce_fm.get('heading'), eyebrow=akce_fm.get('eyebrow'), lead=akce_fm.get('lead'), description=akce_fm.get('lead'),
+       note=akce_fm.get('note'), cal_year=cal_year, cal_by_month=cal_by_month, next_event=next_event,
+       recap_year=recap_year, recap=recap, body_html=akce_html, stats=STATS)
+print(f'  akce: kalendář {cal_year} ({len(calendar)}), příští: {next_event["title"] if next_event else "–"}, ohlédnutí: {recap_year or "–"}')
 
 # ---------- vlastní stránky ----------
 def content_page(name, section, extra_html='', aside=None, hero=None):
@@ -365,13 +418,6 @@ directory = [
 ]
 for d in directory:
     if not d['external']: d['url'] = d['url'].replace('../', '')
-# Čísla na HP (pod partnery) – upravit tady
-STATS = [
-    dict(n='130', l='Členů', d='z toho 50 dětí a mládeže – trénujeme celoročně, na vodě i v bazénu', m='Kdo jsme →', href='klub/'),
-    dict(n='28 000', l='Startů', d='na závodech, které jsme uspořádali od otevření nové trati v roce 2012 – nejvíc v Česku', m='Co se u nás děje →', href='akce/'),
-    dict(n='4', l='Olympionici', d='a řada mistrů světa – odchovanci klubu od Lídy Polesné po Jakuba Krejčího', m='Úspěchy →', href='uspechy/'),
-]
-
 render('home.html', OUT / 'index.html', '', title=None, section='home', latest=posts[:3], stats=STATS, voda=VODA, voda_url=VODA_URL,
        hero=dict(path='photos/hero/13.jpg'),
        feat=dict(deti=first_photo('akce', '2025-05-cp-zaci-veltrusy', 'photos/akce/2024-06-odm/01.jpg'),

@@ -32,7 +32,29 @@ python -m http.server -d dist 8000
 3. Commit + push → za pár minut je článek na webu.
 
 ## Přidat akci
-`content/events/<slug>.md` s `kind: "event"`, `date`, `end_date`, `location`, `description`.
+`content/events/<slug>.md` – hlavička:
+```
+---
+title: "Jarní slalomy"
+date: "2027-04-17T09:00:00+02:00"
+end_date: "2027-04-18T18:00:00+02:00"
+kind: "event"
+location: "Areál Lídy Polesné"
+subtitle: "Veřejný závod a nominace mládeže"        # co to je, pro koho – jedna řádka
+organizer: "klub"                                   # klub | jiny
+# org_name: "Rafting CB"                            # u cizích akcí jméno pořadatele (zobrazí se místo oválku)
+# org_url: "https://raftingcb.cz/"
+why: "Proč přijít – jedna až dvě věty. Zobrazí se jen u příští akce."
+links:
+  propozice: "https://..."                          # doplňovat průběžně: před akcí propozice/startovka,
+  startovka: "https://..."                          #   po akci výsledky a článek v zápisníku
+  live: "https://zive.results.cz/..."
+  vysledky: "https://..."
+  clanek: "kronika/<slug-clanku>/"                  # relativní odkaz na článek v zápisníku
+---
+```
+Stránka Akce se skládá sama podle data: **Příští akce** (první budoucí), **Kalendář <rok>** (rok příští akce; bez budoucích akcí se měsíc po poslední akci překlopí na další rok), **Jak dopadl rok <předchozí>** (jen když je kalendář skoro prázdný) a text **Co pořádáme** z `content/pages/akce.md` (úvod, poznámka pro mezidobí a profily tradičních závodů – běžný Markdown, měsíc u nadpisu jako `### Název *měsíc*`).
+Pro vyzkoušení stavu k jinému datu: `WWCB_TODAY=2027-01-10 python build.py`.
 
 ## Dnes teče voda
 Homepage ukazuje dnešní (po 19:00 zítřejší) časy pouštění vody. Build je stahuje z http://itdev.cz/SlalomCourse/OpeningTimes.aspx; workflow proto běží každý den ráno. `python build.py --no-voda` build přeskočí stahování.

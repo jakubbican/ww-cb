@@ -1,5 +1,5 @@
 ---
-title: "ECA Junior cup"
+title: "ECA Junior Cup"
 date: "2026-07-19T09:00:00+02:00"
 author: null
 source_url: "https://www.ww-cb.cz/event-details/eca-junior-cup"
@@ -8,9 +8,13 @@ kind: "event"
 images: 
   - "img/event-eca-junior-cup/01.png"
 end_date: "2026-07-20T18:00:00+02:00"
-location: "Kanál České Budějovice"
+location: "Areál Lídy Polesné"
 address: "České Vrbné 1995, 370 11 České Budějovice, Česko"
 description: "One full race every day!"
+subtitle: "Mezinárodní závod mládeže · každý den jeden celý závod"
+organizer: "klub"
+links:
+  clanek: "kronika/eca-junior-cup/"
 ---
 ![cover](img/event-eca-junior-cup/01.png)
 

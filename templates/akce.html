@@ -2,34 +2,77 @@
 {% block content %}
 <div class="wrap">
   <div class="article-head">
-    <div class="meta">Závody a akce</div>
-    <h1>Co pořádáme</h1>
-    <p class="lead">Veřejné závody, nominační závody, Český pohár, mistrovství i mezinárodní akce v Areálu Lídy Polesné a na Lipně. Aktuální propozice a výsledky najdeš na <a href="https://www.kanoe.cz" target="_blank" rel="noopener">kanoe.cz</a> a <a href="https://zive.results.cz" target="_blank" rel="noopener">results.cz</a>.</p>
+    {% if eyebrow %}<div class="meta">{{ eyebrow }}</div>{% endif %}
+    <h1>{{ heading or title }}</h1>
+    {% if lead %}<p class="lead">{{ lead }}</p>{% endif %}
   </div>
-  <div class="two-col">
-    <div>
-    {% for year, items in by_year %}
-    <div class="year-block">
-      <h2>{{ year }}</h2>
-      <ul class="events">
-        {% for e in items %}
-        <li><span class="d">{{ e.date_range }}</span><span><span class="t">{{ e.title }}</span>{% if e.location %}<br><span class="l">{{ e.location }}</span>{% endif %}{% if e.description %}<br><span class="l">{{ e.description }}</span>{% endif %}</span></li>
-        {% endfor %}
-      </ul>
+
+  {% if next_event %}
+  <div class="next">
+    <div class="next-main">
+      <div class="when"><small>Příští akce{% if next_event.days_to is not none and next_event.days_to > 0 %} · za {{ next_event.days_to }} {{ 'den' if next_event.days_to == 1 else ('dny' if next_event.days_to < 5 else 'dní') }}{% elif next_event.days_to == 0 %} · dnes{% else %} · právě probíhá{% endif %}</small>{{ next_event.date_range }}</div>
+      <h3>{% if next_event.organizer != 'klub' and next_event.org_name %}<span class="org">{{ next_event.org_name }}</span> {% endif %}{{ next_event.title }}</h3>
+      {% if next_event.subtitle or next_event.location %}<div class="sub">{{ next_event.subtitle }}{% if next_event.subtitle and next_event.location %} · {% endif %}{{ next_event.location }}</div>{% endif %}
+      {% if next_event.why %}<p class="why">{{ next_event.why }}</p>{% endif %}
+      {% if next_event.links.propozice or next_event.links.startovka or next_event.links.live or next_event.links.vysledky or next_event.org_url %}
+      <div class="links">
+        {% if next_event.links.propozice %}<a href="{{ next_event.links.propozice }}" target="_blank" rel="noopener">Propozice</a>{% endif %}
+        {% if next_event.links.startovka %}<a href="{{ next_event.links.startovka }}" target="_blank" rel="noopener">Startovka</a>{% endif %}
+        {% if next_event.links.live %}<a href="{{ next_event.links.live }}" target="_blank" rel="noopener">Živé výsledky</a>{% endif %}
+        {% if next_event.links.vysledky %}<a href="{{ next_event.links.vysledky }}" target="_blank" rel="noopener">Výsledky</a>{% endif %}
+        {% if next_event.org_url %}<a href="{{ next_event.org_url }}" target="_blank" rel="noopener">Pořadatel</a>{% endif %}
+      </div>
+      {% endif %}
     </div>
+  </div>
+  {% endif %}
+
+  <div class="season">
+    <div class="season-head"><h2>Kalendář {{ cal_year }}</h2><span class="legend"><span><i></i>pořádá náš klub</span><span>ostatní akce nesou jméno pořadatele</span></span></div>
+    {% for month, items in cal_by_month %}
+    <div class="month">{{ month }}</div>
+    <ul class="ev">
+      {% for e in items %}
+      <li class="{% if e.organizer != 'klub' %}other{% endif %}{% if e.past %} past{% endif %}">
+        <span class="d">{{ e.date_short }}<small>{{ e.days }}</small></span>
+        <span><span class="t">{% if e.organizer == 'klub' %}<span class="oval"></span>{% elif e.org_name %}<span class="org">{{ e.org_name }}</span>{% endif %}{{ e.title }}</span>
+          {% if e.subtitle or e.location %}<span class="s">{{ e.subtitle }}{% if e.subtitle and e.location %} · {% endif %}{{ e.location }}</span>{% endif %}</span>
+        <span class="lk">
+          {% if not e.past and e.links.propozice %}<a href="{{ e.links.propozice }}" target="_blank" rel="noopener">Propozice</a>{% endif %}
+          {% if e.links.clanek %}<a href="{{ rel }}{{ e.links.clanek }}">Článek</a>{% endif %}
+          {% if e.links.vysledky %}<a href="{{ e.links.vysledky }}" target="_blank" rel="noopener">Výsledky</a>{% endif %}
+          {% if e.org_url and not e.links %}<a href="{{ e.org_url }}" target="_blank" rel="noopener">Pořadatel</a>{% endif %}
+        </span>
+      </li>
+      {% endfor %}
+    </ul>
     {% endfor %}
+    {% if not cal_by_month %}<p class="note-off">Pro rok {{ cal_year }} zatím nemáme žádný potvrzený termín.</p>{% endif %}
+    {% if note and (not next_event or cal_by_month|length < 3) %}<p class="note-off">{{ note }}</p>{% endif %}
+  </div>
+
+  {% if recap %}
+  <div class="recap">
+    <div class="season-head"><h2>Jak dopadl rok {{ recap_year }}</h2></div>
+    <ul>
+      {% for e in recap %}
+      <li><b>{% if e.organizer != 'klub' and e.org_name %}<span class="org">{{ e.org_name }}</span> {% endif %}{{ e.title }}</b><span class="d">{{ e.date_short }}</span>
+        {% if e.links.clanek %}<br><a href="{{ rel }}{{ e.links.clanek }}">Jak to dopadlo →</a>{% elif e.links.vysledky %}<br><a href="{{ e.links.vysledky }}" target="_blank" rel="noopener">Výsledky →</a>{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <div class="season read-section">
+    <article class="read">{{ body_html | safe }}</article>
+  </div>
+
+  <div class="host">
+    <div class="big">{{ stats[1].n }}<small>startů od roku 2012</small></div>
+    <div>
+      <p>Od otevření nové trati jsme uspořádali víc závodů než kterýkoli jiný klub v Česku, včetně mistrovství Evropy juniorů a U23 (2022), mistrovství Evropy v raftingu (2023) a Olympiády dětí a mládeže (2024).</p>
+      <p>Co se u nás dělo dřív, najdeš v <a href="{{ rel }}kronika/">Zápisníku</a>; jak areál vznikal, v <a href="{{ rel }}historie/">Historii</a>.</p>
     </div>
-    <aside class="aside">
-      <h3>Tradiční závody</h3>
-      <ul>
-        <li><b>Jarní slalomy</b> – duben, veřejný závod a nominace mládeže</li>
-        <li><b>Letní slalomy</b> – červenec, veřejný závod a Český pohár veteránů</li>
-        <li><b>NKZ České Vrbné</b> – nominační a kvalifikační závod</li>
-        <li><b>Český pohár žáků</b></li>
-        <li><b>MČR a Český pohár na Lipně</b> – srpen</li>
-        <li><b>Mezinárodní akce</b> – ECA Junior Cup, evropské poháry ve sprintu a raftingu</li>
-      </ul>
-    </aside>
   </div>
 </div>
 {% endblock %}
