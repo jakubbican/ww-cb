@@ -135,6 +135,10 @@ p{margin:0 0 1em}
 .p-intro{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:40px;align-items:center;padding:8px 0}
 .p-intro .img img{border-radius:8px;aspect-ratio:4/3;object-fit:cover;width:100%}
 .p-intro-text p{font-size:18px;max-width:60ch}
+.p-cta{margin-top:28px;padding:18px 22px;border-left:4px solid var(--accent);background:#fff;border-radius:0 8px 8px 0;max-width:60ch}
+.p-cta h3{margin:0 0 4px;font-size:24px}
+.p-cta p{margin:0;font-size:16px;color:var(--muted)}
+.p-cta a{font-weight:600}
 .p-where{margin-top:36px}.p-where p{font-size:18px;max-width:64ch;margin:0}
 .p-sec{margin-top:56px}
 .p-sec h2{margin-bottom:6px}
@@ -147,7 +151,7 @@ p{margin:0 0 1em}
 .who .row a{display:block}
 .who .row b{display:block;font-family:var(--display);font-weight:700;font-size:22px;text-transform:uppercase;margin-bottom:4px}
 .who .row span{font-size:16px;color:var(--muted);max-width:68ch;display:block;line-height:1.5}
-.who .row img[src$='csk.png']{max-height:90px;max-width:170px}
+.who .row img[src$='csk-znak.svg']{max-height:96px;max-width:170px}
 .who.three{grid-template-columns:repeat(3,1fr);gap:0 40px}
 .who.three .row{grid-template-columns:1fr;gap:12px;align-items:start;padding:26px 0}
 .who.three .row img{max-height:48px;max-width:160px;margin-bottom:2px}
@@ -155,10 +159,6 @@ p{margin:0 0 1em}
 .who.three .row span{font-size:15px}
 @media (max-width:900px){.who.three{grid-template-columns:1fr}.who.three .row{grid-template-columns:140px 1fr;gap:24px;align-items:center}}
 @media (max-width:600px){.who .row,.who.three .row{grid-template-columns:1fr;gap:10px;align-items:start}.grp{margin-top:48px}}
-.contact{background:var(--navy);color:#fff;border-radius:8px;padding:32px;margin:56px 0 8px}
-.contact h2{color:#fff;margin:0 0 8px}
-.contact p{margin:0;color:var(--water);font-size:17px;max-width:60ch}
-.contact a{color:#fff;text-decoration:underline;text-underline-offset:3px}
 @media (max-width:900px){.p-intro,.who,.who.three{grid-template-columns:1fr}}
 @media (max-width:600px){.who .row{grid-template-columns:90px 1fr}.who.one .row{grid-template-columns:1fr}}
 

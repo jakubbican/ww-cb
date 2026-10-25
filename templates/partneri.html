@@ -8,7 +8,9 @@
   </div>
 
   <div class="p-intro">
-    <div class="p-intro-text">{{ html | safe }}</div>
+    <div class="p-intro-text">{{ html | safe }}
+      <div class="p-cta"><h3>{{ contact_heading }}</h3><p>{{ contact_text }} <a href="{{ rel }}kontakt/">Kontakt</a>.</p></div>
+    </div>
     {% if photo %}<div class="img"><img src="{{ rel }}{{ photo }}" alt="" loading="lazy"></div>{% endif %}
   </div>
 
@@ -38,9 +40,5 @@
     {% endfor %}
   </div>
 
-  <div class="contact">
-    <h2>{{ contact_heading }}</h2>
-    <p>{{ contact_text }} <a href="{{ rel }}kontakt/">Kontakt</a>.</p>
-  </div>
 </div>
 {% endblock %}

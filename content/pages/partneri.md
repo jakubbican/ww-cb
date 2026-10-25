@@ -10,7 +10,7 @@ groups:
     wide: true
     partners:
       - name: Český svaz kanoistů
-        logo: csk.png
+        logo: csk-znak.svg
         url: https://www.kanoe.cz/
         text: Náš mateřský svaz. Jsme jeho aktivním členem a nejčinnějším pořadatelem – řadu závodů vypsaných svazem pořádáme právě u nás. Spolupracujeme na velkých akcích, jako bylo ME juniorů a U23 2022 nebo MS ve sprintu na divoké vodě 2025, a přispíváme i technicky, třeba svazovou časomírou.
   - title: Veřejná podpora
