@@ -26,8 +26,6 @@ Areál je ostrov mezi slalomovou tratí a narovnaným korytem Vltavy. Návštěv
 Areál žije i mimo oddíl. Každý má svoje – tady je rozcestník, aby se v tom návštěvník vyznal.
 
 - **SK Vodní slalom České Budějovice** – vlastník a správce areálu, domácí klub. Tréninky dětí a mládeže, závodní oddíl, pořádání závodů.
-- **Rafting CB** – komerční jízdy na raftech, půjčovna, ubytování a kemp, plánování tréninkových hodin na trati. [raftingcb.cz](https://raftingcb.cz/)
-- **Hospoda Na Kanále** – jídlo, pití a terasa nad vodou. [Facebook](https://www.facebook.com/hospodanakanale/)
 - **BUDE Sport** – paddleboarding na klidné vodě nad jezem.
 - **River surf** – surfování na stojaté vlně.
 - **CB Dragons** – dračí lodě, tréninky a firemní jízdy na klidné vodě.
@@ -36,8 +34,6 @@ Areál žije i mimo oddíl. Každý má svoje – tady je rozcestník, aby se v 
 
 Film **Bylo nebylo** o lásce ke sportu, vodácích a závodech a festivalový film **Wave 2014** najdeš na stránce [Historie](../historie/#filmy).
 
-## Rozvoj areálu
+## Nedávný rozvoj areálu
 
 Po přestavbě trati (2009–2012, cca 26 mil. Kč, převážně z evropských fondů a od města) následovala v letech 2019–2022 dostavba zázemí: nová loděnice, šatny a sociální zařízení, klubovna a bufet s pergolou. Přispělo město České Budějovice, Jihočeský kraj a milionem korun i sestra Lídy Polesné. V roce 2025 jsme z dotace Jihočeského kraje vyměnili část překážkového systému, který sloužil od roku 2012.
-
-Tento projekt je spolufinancován Statutárním městem České Budějovice a z dotačního programu Jihočeského kraje. Děkujeme.
