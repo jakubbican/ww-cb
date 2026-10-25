@@ -10,13 +10,13 @@ lead: Najdeš nás v Českém Vrbném na severním okraji Českých Budějovic, 
 370 11 České Budějovice
 IČO 15770729
 
-E-mail: [info@ww-cb.cz](mailto:info@ww-cb.cz)
+E-mail: [skvscb@ww-cb.cz](mailto:skvscb@ww-cb.cz)
 
 Sociální sítě: [Facebook](https://www.facebook.com/skvscb) · [Instagram](https://www.instagram.com/vodnislalomcb)
 
 ## Nábor a tréninky
 
-Zájem o tréninky dětí a mládeže: [info@ww-cb.cz](mailto:info@ww-cb.cz) nebo přímo na tréninku v areálu. Víc v sekci [Klub – nábor](../klub/#nabor).
+Zájem o tréninky dětí a mládeže: [skvscb@ww-cb.cz](mailto:skvscb@ww-cb.cz) nebo přímo na tréninku v areálu. Víc v sekci [Klub – nábor](../klub/#nabor).
 
 ## Trať, ubytování, kemp, půjčovna
 
@@ -31,4 +31,4 @@ Hospoda Na Kanále: [Facebook](https://www.facebook.com/hospodanakanale/)
 - **MHD:** linka do Českého Vrbného, zastávka u areálu.
 - **Lodí:** zastávka pravidelné lodní dopravy u mariny České Vrbné.
 
-[Otevřít v Google Maps](https://www.google.com/maps/search/?api=1&query=Vod%C3%A1ck%C3%BD+are%C3%A1l+L%C3%ADdy+Polesn%C3%A9+%C4%8Cesk%C3%A9+Vrbn%C3%A9)
+[Otevřít v Google Maps](https://maps.app.goo.gl/Si22dwhfWqGhAB4E7)
