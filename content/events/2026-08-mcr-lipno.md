@@ -11,6 +11,8 @@ location: "Lipno nad Vltavou - Pod Přehradou"
 address: "382 78 Lipno nad Vltavou, Česko"
 subtitle: "Mistrovství republiky na přírodní trati · pořádáme mimo areál"
 organizer: "klub"
+links:
+  clanek: "kronika/mcr-dospelych-a-cesky-pohar-na-lipne-2026/"
 ---
 **Kdy:** 21. 8. 2026 9:00 – 23. 8. 2026 18:00
 
