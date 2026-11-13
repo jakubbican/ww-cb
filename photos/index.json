@@ -9,7 +9,7 @@
   "hero": 17,
   "areal": 9,
   "historie": 16,
-  "akce": 83
+  "akce": 89
  },
  "events": [
   {
@@ -123,6 +123,13 @@
    "folder": "NKZ",
    "date": "2026-09-19",
    "count": 5
+  },
+  {
+   "slug": "2022-08-mej-cb",
+   "title": "ME juniorů a U23 2022 České Budějovice",
+   "folder": "MEJ 2022",
+   "date": "2022-08-12",
+   "count": 6
   }
  ],
  "photos": [
@@ -1816,6 +1823,84 @@
    "width": 800,
    "height": 600,
    "source": "Promo a marketing/Vystupy"
+  },
+  {
+   "path": "akce/2022-08-mej-cb/01.jpg",
+   "thumb": "akce/2022-08-mej-cb/01_thumb.jpg",
+   "group": "akce",
+   "event_slug": "2022-08-mej-cb",
+   "event_folder": "MEJ 2022",
+   "title": "ME juniorů a U23 2022 České Budějovice",
+   "date": "2022-08-12",
+   "width": 1800,
+   "height": 1198,
+   "source": "zaslal Kuba Bican",
+   "original_name": "_DSC7246.jpg"
+  },
+  {
+   "path": "akce/2022-08-mej-cb/02.jpg",
+   "thumb": "akce/2022-08-mej-cb/02_thumb.jpg",
+   "group": "akce",
+   "event_slug": "2022-08-mej-cb",
+   "event_folder": "MEJ 2022",
+   "title": "ME juniorů a U23 2022 České Budějovice",
+   "date": "2022-08-12",
+   "width": 1800,
+   "height": 1143,
+   "source": "zaslal Kuba Bican",
+   "original_name": "DSC00368.jpg"
+  },
+  {
+   "path": "akce/2022-08-mej-cb/03.jpg",
+   "thumb": "akce/2022-08-mej-cb/03_thumb.jpg",
+   "group": "akce",
+   "event_slug": "2022-08-mej-cb",
+   "event_folder": "MEJ 2022",
+   "title": "ME juniorů a U23 2022 České Budějovice",
+   "date": "2022-08-12",
+   "width": 1800,
+   "height": 1200,
+   "source": "zaslal Kuba Bican",
+   "original_name": "20220809MEJ_22.JPG"
+  },
+  {
+   "path": "akce/2022-08-mej-cb/04.jpg",
+   "thumb": "akce/2022-08-mej-cb/04_thumb.jpg",
+   "group": "akce",
+   "event_slug": "2022-08-mej-cb",
+   "event_folder": "MEJ 2022",
+   "title": "ME juniorů a U23 2022 České Budějovice",
+   "date": "2022-08-12",
+   "width": 1800,
+   "height": 1202,
+   "source": "zaslal Kuba Bican",
+   "original_name": "D75_0161.JPG"
+  },
+  {
+   "path": "akce/2022-08-mej-cb/05.jpg",
+   "thumb": "akce/2022-08-mej-cb/05_thumb.jpg",
+   "group": "akce",
+   "event_slug": "2022-08-mej-cb",
+   "event_folder": "MEJ 2022",
+   "title": "ME juniorů a U23 2022 České Budějovice",
+   "date": "2022-08-12",
+   "width": 1800,
+   "height": 1202,
+   "source": "zaslal Kuba Bican",
+   "original_name": "D75_0452.JPG"
+  },
+  {
+   "path": "akce/2022-08-mej-cb/06.jpg",
+   "thumb": "akce/2022-08-mej-cb/06_thumb.jpg",
+   "group": "akce",
+   "event_slug": "2022-08-mej-cb",
+   "event_folder": "MEJ 2022",
+   "title": "ME juniorů a U23 2022 České Budějovice",
+   "date": "2022-08-12",
+   "width": 1800,
+   "height": 1200,
+   "source": "zaslal Kuba Bican",
+   "original_name": "20220814MEJ_93.JPG"
   }
  ]
 }

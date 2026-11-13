@@ -7,7 +7,7 @@ hero: photos/hero/08.jpg
 # galerie pod textem: nadpis, sada fotek z photos/index.json (skupina akce), kolik fotek (0 = všechny)
 galerie:
   - ["Kuba mistrem světa 2026", "2026-07-kuba-mistr", 0]
-  - ["ME juniorů a U23 2022 u nás", "2026-07-eca-cup-cb", 3]
+  - ["ME juniorů a U23 2022 u nás", "2022-08-mej-cb", 0]
 # boční box
 vysledky:
   - ["kanoe.cz – Český svaz kanoistů", "https://www.kanoe.cz"]
