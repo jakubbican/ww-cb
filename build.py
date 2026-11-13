@@ -383,9 +383,11 @@ render('partneri.html', OUT / 'partneri' / 'index.html', '../', title=_pfm.get('
        photo=_pfm.get('photo'), stats=STATS, where=_pfm.get('where'), groups=_pfm.get('groups') or [],
        contact_heading=_pfm.get('contact_heading') or 'Pojďme se potkat u vody', contact_text=_pfm.get('contact_text') or '')
 
-content_page('uspechy', 'uspechy', extra_html='<h2>Kuba mistrem světa 2026</h2>' + gallery_html(photos_in('akce', '2026-07-kuba-mistr'), '../') +
-    '<h2>ME juniorů a U23 2022 u nás</h2>' + gallery_html(photos_in('akce', '2026-07-eca-cup-cb')[:3], '../'),
-    aside='<h3>Sleduj výsledky</h3><ul><li><a href="https://www.kanoe.cz" target="_blank" rel="noopener">kanoe.cz – Český svaz kanoistů</a></li><li><a href="https://zive.results.cz" target="_blank" rel="noopener">results.cz – živé výsledky</a></li><li><a href="https://www.canoeicf.com" target="_blank" rel="noopener">canoeicf.com</a></li></ul><h3 style="margin-top:18px">Ze zápisníku</h3><ul><li><a href="../kronika/jakub-krejci-na-mistrovstvi-sveta/">Jakub Krejčí na mistrovství světa</a></li><li><a href="../kronika/jakub-krejci-ovladl-anketu-sportovec-okresu-za-rok-2025/">Sportovec okresu 2025</a></li><li><a href="../kronika/ms-rafting-u23/">MS v raftingu U23</a></li><li><a href="../kronika/mlade-nadeje-skvscb-sbiraji-oceneni/">Mladé naděje sbírají ocenění</a></li></ul>')
+_ufm, _ = read_md(CONTENT / 'uspechy.md')
+_ugal = ''.join(f'<h2>{html.escape(t)}</h2>' + gallery_html(photos_in('akce', sada)[:n or None], '../') for t, sada, n in _ufm.get('galerie', []))
+_uaside = ('<h3>Sleduj výsledky</h3><ul>' + ''.join(f'<li><a href="{u}" target="_blank" rel="noopener">{html.escape(t)}</a></li>' for t, u in _ufm.get('vysledky', [])) + '</ul>' +
+           '<h3 style="margin-top:18px">Ze zápisníku</h3><ul>' + ''.join(f'<li><a href="../kronika/{slug}/">{html.escape(t)}</a></li>' for t, slug in _ufm.get('zapisnik', [])) + '</ul>')
+content_page('uspechy', 'uspechy', extra_html=_ugal, aside=_uaside)
 
 # ---------- historie (content/pages/historie-src.md: hlavička + sekce ## Název) ----------
 hist_src = CONTENT / 'historie-src.md'

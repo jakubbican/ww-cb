@@ -4,6 +4,20 @@ heading: Úspěchy členů a odchovanců
 eyebrow: Od Plánského jezu po mistrovství světa
 lead: Za víc než půl století prošly budějovickým slalomem stovky dětí. Někteří z nich došli až na olympiádu a na stupně vítězů mistrovství světa. Tady je výběr – stránku průběžně doplňujeme.
 hero: photos/hero/08.jpg
+# galerie pod textem: nadpis, sada fotek z photos/index.json (skupina akce), kolik fotek (0 = všechny)
+galerie:
+  - ["Kuba mistrem světa 2026", "2026-07-kuba-mistr", 0]
+  - ["ME juniorů a U23 2022 u nás", "2026-07-eca-cup-cb", 3]
+# boční box
+vysledky:
+  - ["kanoe.cz – Český svaz kanoistů", "https://www.kanoe.cz"]
+  - ["live.ww-cb.cz – naše vlastní časomíra", "https://live.ww-cb.cz"]
+  - ["canoeicf.com", "https://www.canoeicf.com"]
+zapisnik:
+  - ["Jakub Krejčí na mistrovství světa", "jakub-krejci-na-mistrovstvi-sveta"]
+  - ["Sportovec okresu 2025", "jakub-krejci-ovladl-anketu-sportovec-okresu-za-rok-2025"]
+  - ["MS v raftingu U23", "ms-rafting-u23"]
+  - ["Mladé naděje sbírají ocenění", "mlade-nadeje-skvscb-sbiraji-oceneni"]
 ---
 ## Jakub Krejčí – mistr světa a Evropy 2026
 
@@ -15,48 +29,52 @@ Odchovanec našeho klubu, narozený v Českých Budějovicích. Na slalomové tr
 - **2023 – MS Londýn:** zlato v hlídkách 3×K1. **ME 2024:** zlato v hlídkách.
 - **U23:** mistr světa 2021 (K1 i hlídky), mistr Evropy 2021 (K1 i kayak cross) a **2022 na domácí trati v Českých Budějovicích** (K1).
 - **Junioři:** čtyři stříbra z MSJ 2018 a 2019, bronzy z MEJ 2018 a 2020.
-- **Sportovec okresu České Budějovice za rok 2025.**
 
 ## Olympionici z Českého Vrbného
 
 - **Vlastimil Ouředník** – K1, olympijské hry 1972 v Mnichově (20. místo); mistr republiky 1972, 1973 a 1974. Člen TJ Stadion České Budějovice, později Dukla.
 - **Lída Polesná** – K1, olympijské hry 1972 v Mnichově (16. místo). Čtyřnásobná mistryně světa (1961, 1963, 1967, 1969), v letech 1962–1964 závodila za Dynamo České Budějovice. Areál nese její jméno. Více v sekci [Historie](../historie/).
-- **Jakub Prüher** – C1, olympijské hry 1992 v Barceloně (29. místo). Odchovanec TJ Škoda České Budějovice, dnes předseda klubu a autor koncepce nové trati.
-- **Tomáš Kobes** – K1, olympijské hry 2000 v Sydney (7. místo ve finále, v kvalifikaci 6.). Bronz z mistrovství světa 1999 v hlídkách 3×K1, medailista z mistrovství Evropy; jako junior mistr světa v hlídkách 1996 – doma na Lipně, na šampionátu, který pořádal náš oddíl – a mistr Evropy 1995 v hlídkách. Od poloviny 90. let závodil za náš klub, později za Duklu. Dobré výsledky doma i ve světě sbíral i jeho bratr **Jan Kobes**.
+- **Jakub Prüher** – C1, olympijské hry 1992 v Barceloně (29. místo), rok předtím 6. na mistrovství světa v Tacenu. Odchovanec TJ Škoda České Budějovice, dnes předseda klubu a autor koncepce nové trati.
+- **Tomáš Kobes** – K1, olympijské hry 2000 v Sydney (7. místo ve finále, v kvalifikaci 6.). Bronz z mistrovství světa 1999 v hlídkách 3×K1, medailista z mistrovství Evropy; jako junior mistr světa v hlídkách 1996 – doma na Lipně, na šampionátu, který pořádal náš oddíl – a mistr Evropy juniorů 1995 v hlídkách, k tomu bronz v K1. Od poloviny 90. let závodil za náš klub, později za Duklu. Dobré výsledky doma i ve světě sbíral i jeho bratr **Jan Kobes**.
 
 ## Reprezentanti a medailisté současnosti
 
-- **Rozárie Švehlová** – rafting. **Absolutní mistryně světa do 23 let** (zlato v celkovém pořadí, slalomu i raft crossu, stříbro ve sprintu), s českou mix posádkou dva bronzy.
-- **Kateřina Švehlová** – K1 ženy, mistryně světa v raftingu 2022; vítězka Jarních slalomů 2026 s absolutně nejrychlejším časem.
-- **Ondřej Pinkava** – C1, dlouholetý reprezentant ve slalomu (SK VS ČB, Dukla Brandýs). V raftingu s posádkou HIKO vicemistr světa R4 2014 (Brazílie, k tomu zlato ve slalomu), bronz z MS 2010 (Nizozemsko) a 2013 (Nový Zéland, slalom), trojnásobný mistr Evropy R4 (2010, 2012, 2014) a mistr Evropy 2023 na domácí trati v Českých Budějovicích (R4 i R6 masters).
-- **Václav Kuna** – C1 muži, dvojnásobný absolutní vítěz Jarních slalomů 2026.
-- **Jana Matulková** – C1 a K1 ženy, zlatý double na Jarních slalomech 2026; trenérka mládeže.
-- **Vilém Vlčnovský** – C1 muži, dvě absolutní vítězství na Vodáckých závodech v Českém Krumlově 2026.
-- **Johana Štindlová** – C1 a K1 ženy, tři vítězství v Krumlově 2026; účastnice stáže Erasmus+ Sport v La Seu d'Urgell.
-- **Adam Rezek** – K1, mladší dorostenec, který na Jarních slalomech 2026 porazil všechny dospělé muže.
-- **Martin Petr** – K1, vítěz staršího dorostu na Jarních slalomech 2026.
-- **Matěj Krejčí** – C1, vítěz kategorie U16 na ECA Junior Cupu v Českých Budějovicích 2026; člen SCM, oceněný městem České Budějovice mezi talentovanými dětmi.
-- **Ondřej Sebastian Pinkava** – C1/K1 žáci, 3. místo na Českém poháru žáků v Opavě 2026 a 3. v celkovém hodnocení ECA Junior Cupu U14; oceněný městem České Budějovice.
-- **Viktor Mulač, Matyáš Kolínský, Jakub Komárek** a další – vítězství a umístění v první desítce na Krumlovském slalomu, ECA Junior Cupu a Českém poháru žáků 2026.
+- **Adam Rezek** – K1, juniorský reprezentant. **Stříbro na mistrovství Evropy juniorů 2026** v hlídkách 3×K1 (Épinal), celkový vítěz Českého poháru juniorů 2026, tři medaile z mistrovství republiky juniorů a vítěz své kategorie na Olympijských nadějích 2026.
+- **Matěj Krejčí** – C1, dorostenec. **Bronz z Olympiády dětí a mládeže 2026**, vítěz své kategorie na Olympijských nadějích 2026 a vítěz kategorie U16 na ECA Junior Cupu v Českých Budějovicích; oceněný městem mezi talentovanými dětmi.
+- **Ondřej Sebastian Pinkava** – starší žák. Vítěz time trialu na mistrovství republiky v kayak crossu 2026, bronz z mistrovství republiky žáků v hlídkách C1 a nominace na Olympiádu dětí a mládeže.
+- **Jana Matulková** – C1 a K1 ženy, 8. na mistrovství republiky dospělých 2026 a 5. na World Ranking Race v Troji; trenérka mládeže.
+- **Týmy 2026** – bronz starších žáků na mistrovství republiky v hlídkách C1 (Ondřej Sebastian Pinkava, Daniel Drahokoupil, Štěpán Šitra), 3. místo juniorek v hlídkách C1; Lenka Petrová 4. na Olympiádě dětí a mládeže.
+- **Rozárie Švehlová** – rafting. **Mistryně světa do 23 let** s českou posádkou (Solkan 2025, celkové pořadí) a absolutní mistryně světa U23 z dalšího šampionátu (zlato v celkovém pořadí, slalomu i raft crossu, s mix posádkou dva bronzy) [ověřit místo a rok]; 7. nejlepší jihočeská sportovkyně do 19 let.
 
-Přes 700 medailí z mistrovství republiky – tolik jich podle České televize nasbírali budějovičtí slalomáři za prvních padesát let klubu.
+Přes 700 medailí jen z mistrovství republiky – tolik jich podle České televize (2012) nasbírali budějovičtí slalomáři za prvních téměř padesát let klubu.
 
 ## Z historie
 
 - **Zdeněk Matějovský** (Dynamo) – 6. místo na mistrovství světa 1957 v Augsburgu.
-- **Otto Částa a Miroslav Königsmark** (Rudá hvězda, později Škoda) – mistři ČSSR ve sjezdu C2 1973, první v celostátním žebříčku 1974, reprezentanti; Otto Částa později trenér oddílu.
 - **Pavel Hrbek** (Koh-i-noor) – v roce 1961 porazil na Čeňkově pile pětinásobného mistra světa Vladimíra Jiráska.
+- **Otto Částa a Miroslav Königsmark** (Rudá hvězda, později Škoda) – mistři ČSSR ve sjezdu C2 1973, první v celostátním žebříčku 1974, reprezentanti; Otto Částa později trenér oddílu.
 - **Bratři Benhákové, Königsmark, Prüher, Krejčová, Hajná** – československá špička osmdesátých let, která vyrostla na staré dráze v Českém Vrbném. Celkem na ní vyrostlo šest seniorských reprezentantů a dva olympionici.
-- **Daniel Stach** – bývalý juniorský reprezentant a odchovanec klubu, dnes moderátor České televize a komentátor závodů ve vodním slalomu.
+- **Ondřej Pinkava** – C1, dlouholetý reprezentant ve slalomu, mistr Evropy 2004 v hlídkách C1 (Skopje). V raftingu s posádkou HIKO vicemistr světa R4 2014, bronz z MS 2010 a 2013, trojnásobný mistr Evropy R4 (2010, 2012, 2014) a mistr Evropy 2023 na domácí trati.
+- **Zdeněk Boček** – K1 a C1, v našem dresu od devadesátých let dodnes. Patří k železným mužům českého slalomu: má jeden z nejdelších seznamů výsledků v celé databázi a jako jeden z mála jel všechny ročníky Krumlovského vodáckého maratonu. K tomu ředitel festivalu Wave a našich závodů.
+- **Jan Kobes** – K1, bratr Tomáše. Bronz na mistrovství Evropy do 23 let 2002 (Bratislava) a mistr ČR 2005; za náš klub jezdil od roku 2007.
+- **Oldřich Weber** – C2, s Lukášem Tomkem bronz na mistrovství republiky 2008 na Lipně, které jsme pořádali; za sebou nechali i reprezentační dvojici Rohan–Mašek. S Bárou Čekalovou mistr ČR v C2 mix 2014. Dnes obětavý trenér juniorů.
+- **Alois Kuna** – C1, 6. místo na mistrovství světa juniorů 2006 (Solkan) a mistr ČR dorostu 2006.
+- **Veronika Vojtová** – K1, za náš klub závodila v letech 2006–2007 a v té době vyhrála mistrovství Evropy juniorů 2007 v hlídkách. Později za USK Praha mistryně světa.
+- **Daniel Stach a Míra Lenc** – odchovanci klubu. Dan byl juniorský reprezentant a bronzový na mistrovství republiky dorostu 2006, Míra šikovný žákovský a juniorský závodník a chvíli i trenér v oddíle. Na festivalu Wave se z nich stala komentátorská dvojice, která dnes moderuje Světové poháry v Troji; Dan je navíc moderátor České televize.
+- **Monika Jančová** – C1, za náš klub 2010–2012: mistryně ČR dorostu 2010, vicemistryně ČR 2012 a stříbro na mistrovství světa do 23 let 2012 (Wausau). Později za Duklu medailistka z MS v hlídkách.
+- **Marek Cepek a Radek Pospíchal** – C2, bronz na mistrovství světa juniorů 2012 (Wausau) a na ME juniorů 2012 v hlídkách, mistři ČR dorostu 2012 na domácí trati. Marek Cepek k tomu bronz v C1 na MS juniorů 2012.
+- **Jana Matulková** – C1, za náš klub bronz na mistrovství Evropy juniorů 2013 (Bourg-Saint-Maurice); později za Duklu medailistka z ME a MS do 23 let, od roku 2024 znovu u nás.
+- **Jan Zvolánek** – K1, juniorský reprezentant 2013 (MS i ME juniorů) a bronz na mistrovství republiky dorostu 2013.
+- **Vít Šedivý a Vojtěch Prüher** – C2, mistři ČR žáků 2018 a dorostu 2019 a 2021, všechny tituly na domácí trati. Vít Šedivý těsně minul nominaci na domácí ME juniorů 2022.
+- **Kateřina Švehlová** – K1, v roce 2022 mistryně světa (Ivrea) i mistryně Evropy (České Budějovice) juniorů v hlídkách s Klárou Kneblovou a Olgou Samkovou.
 
 ## Co jsme uspořádali
 
-- **2022 – Mistrovství Evropy juniorů a do 23 let ve vodním slalomu** (ECA), 11.–14. 8. 2022. Poprvé v historii v České republice. Česko vyhrálo medailovou tabulku (8 zlatých, 5 stříbrných) a Jakub Krejčí získal zlato v K1 U23 na domácí trati.
-- **2012 – Mistrovství světa v raftingu juniorů a veteránů** a závěrečný závod olympijské nominace na Londýn 2012.
-- **2023 – Mistrovství Evropy v raftingu** a závody Světového a Evropského poháru ve sprintu na divoké vodě.
-- **2021 – ICF World Ranking Race** ve slalomu včetně otevřeného MČR v extrémním slalomu.
+- **Od roku 1973 – mistrovství republiky pod Lipnem** – desítky ročníků na přírodní trati pod lipenskou hrází; oddíl je pravidelným pořadatelem už půl století.
+- **1996 – Mistrovství světa juniorů ve vodním slalomu na Lipně**, ve spolupráci s Českým svazem kanoistů. Čeští junioři získali 6 zlatých z 8 medailí.
 - **2006–2015 – Mezinárodní vodácký festival Wave** – mezinárodní slalom ICF s olympijskými vítězi na startu, mládežnické závody, masokros, kapely a vstup zdarma. Od 2013 spojený s **ECA Junior Cupem** (2013–2017, znovu 2026). Více v [Historii](../historie/#wave).
-- **2026 – MČR žáků v kayak crossu** a Český pohár žáků v Areálu Lídy Polesné.
-- **Každý rok** – Jarní a Letní slalomy, nominační závody, mistrovství republiky na Lipně, Český pohár veteránů.
+- **2022 – Mistrovství Evropy juniorů a do 23 let ve vodním slalomu** (ECA), 9.–14. 8. 2022. Poprvé v historii v České republice. Česko vyhrálo medailovou tabulku (8 zlatých, 5 stříbrných) a Jakub Krejčí získal zlato v K1 U23 na domácí trati.
+
+Za každým závodem stojí parta lidí, kteří pro něj obětují víkendy i dovolené. Mezi nejzkušenější pořadatele patří Jakub Bican a Zdeněk Boček, před nimi Karel Krejčí a mnoho dalších. Bez nich bychom nebyli zdaleka nejaktivnějším pořadatelem slalomových závodů v Česku.
 
 <div class="note">Chybí ti tu někdo nebo nějaký výsledek? Stránku sestavujeme z klubových aktualit, svazových výsledků a historických pramenů a rádi ji doplníme – napiš na <a href="mailto:info@ww-cb.cz">info@ww-cb.cz</a>.</div>
