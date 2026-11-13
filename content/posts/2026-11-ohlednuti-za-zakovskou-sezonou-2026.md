@@ -7,6 +7,9 @@ images:
   - "img/ohlednuti-za-zakovskou-sezonou-2026/01.jpg"
   - "img/ohlednuti-za-zakovskou-sezonou-2026/02.jpg"
   - "img/ohlednuti-za-zakovskou-sezonou-2026/03.jpg"
+  - "img/ohlednuti-za-zakovskou-sezonou-2026/04.jpg"
+  - "img/ohlednuti-za-zakovskou-sezonou-2026/05.jpg"
+  - "img/ohlednuti-za-zakovskou-sezonou-2026/06.jpg"
 description: "Celá naše parta žáků letos odvedla obrovský kus práce a posouvala se závod od závodu. Velkým vrcholem bylo parádní 3. místo v týmech na MČR."
 ---
 ![cover](img/ohlednuti-za-zakovskou-sezonou-2026/01.jpg)
@@ -27,3 +30,9 @@ Díky celé partě, trenérům i rodičům za skvělou sezónu!
 ![](img/ohlednuti-za-zakovskou-sezonou-2026/02.jpg)
 
 ![](img/ohlednuti-za-zakovskou-sezonou-2026/03.jpg)
+
+![](img/ohlednuti-za-zakovskou-sezonou-2026/04.jpg)
+
+![](img/ohlednuti-za-zakovskou-sezonou-2026/05.jpg)
+
+![](img/ohlednuti-za-zakovskou-sezonou-2026/06.jpg)
