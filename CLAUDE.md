@@ -4,7 +4,7 @@ Statický web klubu SK Vodní slalom České Budějovice. Pracuj česky. Čtená
 
 ## Jak to funguje
 - `python build.py` → `dist/`. Žádný JS framework, žádný CMS. Šablony Jinja2 v `templates/`, styl `static/style.css`.
-- Obsah: `content/posts/` (zápisník – v menu a nadpisech „Zápisník“, URL zůstává `/kronika/`; soubory `YYYY-MM-<slug>.md`, prefix s datem slouží jen k řazení v adresáři a build ho odřízne – URL je `/kronika/<slug>/`, obrázky `img/<slug>/` bez prefixu; u nového článku název souboru s prefixem podle data, obrázky do `img/<slug>/`), `content/events/` (akce – soubory `YYYY-MM-<název>.md`, nový ročník = kopie loňského souboru se změnou roku v názvu i v `date`/`end_date`; hlavička viz README: subtitle, organizer, why, links), `content/pages/` (klub, areal, akce, partneri, kontakt, uspechy, wave, historie-src). Formát hlaviček viz README.
+- Obsah: `content/posts/` (zápisník – v menu a nadpisech „Zápisník“, URL zůstává `/kronika/`; soubory `YYYY-MM-<slug>.md`, prefix s datem slouží jen k řazení v adresáři a build ho odřízne – URL je `/kronika/<slug>/`, obrázky `img/<slug>/` bez prefixu; u nového článku název souboru s prefixem podle data, obrázky do `img/<slug>/`), `content/events/` (akce – soubory `YYYY-MM-<název>.md`, nový ročník = kopie loňského souboru se změnou roku v názvu i v `date`/`end_date`; hlavička viz README: subtitle, organizer, why, links), `content/pages/` (klub, areal, akce, partneri, kontakt, uspechy, historie-src). Formát hlaviček viz README.
 - Obrázky článků `img/<slug>/NN.jpg` (build zmenší na 1600 px a vyrobí náhledy `_t.jpg`), fotky archivu `photos/` + `photos/index.json` (skupiny hero/areal/historie/wave/akce).
 - „Dnes teče voda“ na HP: `build.py` stáhne rozpis z itdev.cz (`fetch_voda`, 14 dní) a vloží ho do stránky jako JSON; JS vybere dnes/zítra (po 19:00). Workflow běží i denně ráno (cron), aby byl rozpis čerstvý. Při výpadku zdroje se řádek nezobrazí. `--no-voda` build bez stahování.
 - Čísla na HP (pod partnery): blok `STATS` v `build.py`. Pod nimi blok Oddíl (text + `photos/klub/oddil.jpg`) a dvojice Závody a akce / Areál: seznam akcí (`hp_events` v `build.py`) ukazuje v sezoně nejbližší akce kalendáře, po sezoně poslední naše závody s odkazy na články.
@@ -19,7 +19,7 @@ Statický web klubu SK Vodní slalom České Budějovice. Pracuj česky. Čtená
 
 ## Pravidla obsahu
 - Články převzaté ze starého webu (do 10/2026) jsou 1:1, včetně fotek – needitovat zpětně.
-- Historie (`content/pages/historie-src.md`) vychází z diplomové práce Štumbauer (JU 2017) a dalších pramenů; značky `[ověřit]` build odstraní – při doplňování faktů uvádět zdroj v `## 4. Zdroje`.
+- Historie (`content/pages/historie-src.md`) vychází z diplomové práce Štumbauer (JU 2017) a dalších pramenů; značky `[ověřit]` build odstraní – při doplňování faktů uvádět zdroj v `## Zdroje`. Soubor drží celou stránku: v hlavičce nadpis, úvod, film, box „V kostce“ a krátké „Prameny“, v těle sekce Příběh místa, Lída Polesná, Časová osa, Festival Wave (2006–2015) a Zdroje (nezobrazuje se); rozcestník „Na této stránce“ skládá build.
 - Fotky dětí: přednost závodům a areálu, vyhýbat se detailním portrétům z tréninků.
 - Partneři: pořadí a rozdělení (Hlavní partneři / Podporují nás) v `templates/partners.html`.
 

@@ -64,7 +64,7 @@ def read_md(path):
     return fm, body
 
 def strip_markers(s):
-    s = re.sub(r'\s*\*{0,2}\[ověřit[^\]]*\]\*{0,2}', '', s)
+    s = re.sub(r'\s*(?:[–-]\s*)?\*{0,2}\[ověřit[^\]]*\]\*{0,2}', '', s)
     s = re.sub(r'\(\s*\)', '', s)
     return s
 
@@ -387,39 +387,36 @@ content_page('uspechy', 'uspechy', extra_html='<h2>Kuba mistrem světa 2026</h2>
     '<h2>ME juniorů a U23 2022 u nás</h2>' + gallery_html(photos_in('akce', '2026-07-eca-cup-cb')[:3], '../'),
     aside='<h3>Sleduj výsledky</h3><ul><li><a href="https://www.kanoe.cz" target="_blank" rel="noopener">kanoe.cz – Český svaz kanoistů</a></li><li><a href="https://zive.results.cz" target="_blank" rel="noopener">results.cz – živé výsledky</a></li><li><a href="https://www.canoeicf.com" target="_blank" rel="noopener">canoeicf.com</a></li></ul><h3 style="margin-top:18px">Ze zápisníku</h3><ul><li><a href="../kronika/jakub-krejci-na-mistrovstvi-sveta/">Jakub Krejčí na mistrovství světa</a></li><li><a href="../kronika/jakub-krejci-ovladl-anketu-sportovec-okresu-za-rok-2025/">Sportovec okresu 2025</a></li><li><a href="../kronika/ms-rafting-u23/">MS v raftingu U23</a></li><li><a href="../kronika/mlade-nadeje-skvscb-sbiraji-oceneni/">Mladé naděje sbírají ocenění</a></li></ul>')
 
-# ---------- historie (z rešerše) ----------
+# ---------- historie (content/pages/historie-src.md: hlavička + sekce ## Název) ----------
 hist_src = CONTENT / 'historie-src.md'
 if hist_src.exists():
-    txt = strip_markers(hist_src.read_text(encoding='utf-8'))
+    hfm, txt = read_md(hist_src)
+    txt = strip_markers(txt)
     def section(title):
-        m = re.search(r'^## \d+\. ' + re.escape(title) + r'\s*$(.*?)(?=^## \d+\. |\Z)', txt, re.M | re.S)
+        m = re.search(r'^## (?:\d+\. )?' + re.escape(title) + r'\s*$(.*?)(?=^## |\Z)', txt, re.M | re.S)
         return m.group(1).strip() if m else ''
-    story, lida, timeline = section('Příběh místa'), section('Lída Polesná'), section('Časová osa')
-    timeline = re.sub(r'^### ', '#### ', timeline, flags=re.M)
-    timeline = timeline.replace('- **2007–2008**', '- **2006** – První ročník Mezinárodního vodáckého festivalu Wave: mezinárodní slalom ICF (na startu Tony Estanguet, Štěpánka Hilgertová, Stanislav Ježek), mládežnické závody, kapely a večírky. Koná se do roku 2015.\n- **2007–2008**', 1)
-    timeline = timeline.replace('- **2016**', '- **2015** – Poslední ročník festivalu Wave (Memoriál Zdenky Husákové) spolu s ECA Junior Cupem.\n- **2016**', 1)
-    wave_md = (CONTENT / 'wave.md').read_text(encoding='utf-8') if (CONTENT / 'wave.md').exists() else ''
-    body = (story + '\n\n## Lída Polesná\n\n' + lida + '\n\nWAVESECTION\n\n## Časová osa\n\n' + timeline +
-            '\n\n## Prameny\n\n- Štumbauer, P. (2017): *Historie vodáckého areálu Lídy Polesné v Českém Vrbném.* Diplomová práce, Pedagogická fakulta JU v Českých Budějovicích. [dspace.jcu.cz](https://dspace.jcu.cz/handle/20.500.14390/33558)\n'
-            '- Štumbauer, J. & Štumbauer, P. (2017): Historie českobudějovické kanoistiky od jejích počátků do poloviny 80. let 20. století. *Studia Kinanthropologica* 18(2). [PDF](https://sk.pf.jcu.cz/pdfs/stk/2017/02/08.pdf)\n'
-            '- Polesná, L. (1979): *Hranaté medaile.* Jihočeské nakladatelství.\n'
-            '- [Vodácký areál Lídy Polesné – Wikipedie](https://cs.wikipedia.org/wiki/Vod%C3%A1ck%C3%BD_are%C3%A1l_L%C3%ADdy_Polesn%C3%A9), [Ludmila Polesná – Wikipedie](https://cs.wikipedia.org/wiki/Ludmila_Polesn%C3%A1), dobový tisk a klubový archiv.\n')
     rel = '../'
-    h, _ = md_to_html(body, rel)
-    hist_photos = photos_in('historie')
-    h = h.replace('<h2>Lída Polesná</h2>', '<h2>Ze starého alba</h2>' + gallery_html(hist_photos, rel) + '<h2>Lída Polesná</h2>', 1)
     def yt(vid, title):
         return f'<figure><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/{vid}" title="{html.escape(title)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><figcaption>{html.escape(title)}</figcaption></figure>'
-    wave_html, _ = md_to_html(wave_md, rel)
-    wave_html = wave_html.replace('<h2>Festival Wave (2006–2015)</h2>', '<h2 id="wave">Festival Wave (2006–2015)</h2>', 1)
-    wave_html += gallery_html(photos_in('wave'), rel) + '<div class="video-grid">' + yt('idyDTOz1l1g', 'Festivalový film Wave 2014') + yt('LvP5XhDhKbw', 'Velký vodácký festival WAVE 2008') + '</div>'
-    h = h.replace('<p>WAVESECTION</p>', wave_html, 1)
-    intro = '<h2 id="filmy">Bylo nebylo</h2><p>Film o lásce ke sportu, vodácích, závodech a síle, která nás pohání vpřed.</p>' + yt('XQZUWNTBx80', 'Bylo nebylo – film o klubu a areálu')
-    h = intro + h
-    render('page.html', OUT / 'historie' / 'index.html', rel, title='Historie', heading='Příběh místa', eyebrow='Historie klubu a areálu',
-           lead='Od propusti starého jezu, kde trénovala Lída Polesná, přes dráhu postavenou rukama členů oddílu až po trať olympijských parametrů.',
-           hero_img=first_photo('historie', fallback='photos/areal/01.jpg'), section='historie', html=h,
-           aside='<h3>V kostce</h3><ul><li><b>1950</b> první slalom v jižních Čechách</li><li><b>1965</b> založen oddíl TJ Škoda</li><li><b>1978–1983</b> stavba umělé dráhy</li><li><b>2002</b> povodeň</li><li><b>2009–2012</b> přestavba trati</li><li><b>2019–2022</b> nové zázemí</li><li><b>2022</b> ME juniorů a U23</li></ul>',
+    def sec_html(md):
+        h, _ = md_to_html(md, rel)
+        return h
+    timeline = re.sub(r'^### ', '#### ', section('Časová osa'), flags=re.M)
+    film_title = hfm.get('film_title', 'Bylo nebylo')
+    toc = [('filmy', 'Film ' + film_title), ('pribeh', 'Příběh místa'), ('album', 'Ze starého alba'), ('lida', 'Lída Polesná'),
+           ('osa', 'Časová osa'), ('wave', 'Festival Wave (2006–2015)'), ('prameny', 'Prameny')]
+    h = (f'<h2 id="filmy">{html.escape(film_title)}</h2><p>{html.escape(hfm.get("film_text", ""))}</p>' + yt('XQZUWNTBx80', film_title + ' – film o klubu a areálu') +
+         '<h2 id="pribeh">Příběh místa</h2>' + sec_html(section('Příběh místa')) +
+         '<h2 id="album">Ze starého alba</h2>' + gallery_html(photos_in('historie'), rel) +
+         '<h2 id="lida">Lída Polesná</h2>' + sec_html(section('Lída Polesná')) +
+         '<h2 id="osa">Časová osa</h2>' + sec_html(timeline) +
+         '<h2 id="wave">Festival Wave (2006–2015)</h2>' + sec_html(section('Festival Wave (2006–2015)')) +
+         gallery_html(photos_in('wave'), rel) + '<div class="video-grid">' + yt('idyDTOz1l1g', 'Festivalový film Wave 2014') + yt('LvP5XhDhKbw', 'Velký vodácký festival WAVE 2008') + '</div>' +
+         '<h2 id="prameny">Prameny</h2>' + sec_html(hfm.get('prameny', '')))
+    aside = ('<h3>Na této stránce</h3><ul class="toc">' + ''.join(f'<li><a href="#{i}">{html.escape(t)}</a></li>' for i, t in toc) + '</ul>' +
+             '<h3 style="margin-top:18px">V kostce</h3><ul>' + ''.join(f'<li><b>{html.escape(str(y))}</b> {html.escape(t)}</li>' for y, t in hfm.get('kostce', [])) + '</ul>')
+    render('page.html', OUT / 'historie' / 'index.html', rel, title='Historie', heading=hfm.get('heading', 'Příběh místa'), eyebrow=hfm.get('eyebrow', ''),
+           lead=hfm.get('lead', ''), hero_img=first_photo('historie', fallback='photos/areal/01.jpg'), section='historie', html=h, aside=aside,
            description='Historie SK Vodní slalom České Budějovice a Vodáckého areálu Lídy Polesné.')
 
 # ---------- úvodní stránka ----------

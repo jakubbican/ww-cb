@@ -1,10 +1,46 @@
-# Historie: SK Vodní slalom České Budějovice a Vodácký areál Lídy Polesné
-
-Podklad pro stránku „Historie“ nového klubového webu. Zdroje jsou uvedeny na konci; nejisté nebo nepotvrzené údaje jsou označeny **[ověřit]**. Hlavním pramenem je diplomová práce Petra Štumbauera (JU 2017), která vychází z osobního archivu Jakuba Prühera a z dobových tiskovin klubu.
-
 ---
+heading: Příběh místa
+eyebrow: Historie klubu a areálu
+lead: Od propusti starého jezu, kde trénovala Lída Polesná, přes dráhu postavenou rukama členů oddílu až po trať olympijských parametrů.
+film_title: Bylo nebylo
+film_text: Film o lásce ke sportu, vodácích, závodech a síle, která nás pohání vpřed.
+# boční box „V kostce“
+kostce:
+  - ["1950", "první slalom v jižních Čechách"]
+  - ["1965", "založen oddíl TJ Škoda"]
+  - ["1978–1983", "stavba umělé dráhy"]
+  - ["2002", "povodeň"]
+  - ["2009–2012", "přestavba trati"]
+  - ["2019–2022", "nové zázemí"]
+  - ["2022", "ME juniorů a U23"]
+# krátký seznam pod stránkou
+prameny: |
+  - Štumbauer, P. (2017): *Historie vodáckého areálu Lídy Polesné v Českém Vrbném.* Diplomová práce, Pedagogická fakulta JU v Českých Budějovicích. [dspace.jcu.cz](https://dspace.jcu.cz/handle/20.500.14390/33558)
+  - Štumbauer, J. & Štumbauer, P. (2017): Historie českobudějovické kanoistiky od jejích počátků do poloviny 80. let 20. století. *Studia Kinanthropologica* 18(2). [PDF](https://sk.pf.jcu.cz/pdfs/stk/2017/02/08.pdf)
+  - Polesná, L. (1979): *Hranaté medaile.* Jihočeské nakladatelství.
+  - [Vodácký areál Lídy Polesné – Wikipedie](https://cs.wikipedia.org/wiki/Vod%C3%A1ck%C3%BD_are%C3%A1l_L%C3%ADdy_Polesn%C3%A9), [Ludmila Polesná – Wikipedie](https://cs.wikipedia.org/wiki/Ludmila_Polesn%C3%A1), dobový tisk a klubový archiv.
+---
+<!-- Stránka Historie. Sekce (## nadpisy) se na webu skládají v pořadí: film, Příběh místa, fotky Ze starého alba, Lída Polesná, Časová osa, Festival Wave (+ fotky a filmy), Prameny. Sekce Zdroje se nezobrazuje. Značky [ověřit] build odstraní. -->
 
-## 1. Časová osa
+## Příběh místa
+
+Když v červnu 1875 projížděli dva angličtí obchodníci na kánoi kolem Českých Budějovic, nikdo netušil, že se Vltava pod městem stane jedním z míst, kde se budou psát dějiny české kanoistiky. Na úseku mezi Budějovicemi a Prahou se od roku 1922 jezdil legendární 189 kilometrů dlouhý závod a jednou z jeho nejobávanějších překážek byla propust starého jezu v Českém Vrbném. Právě tady, u elektrárny pivovaru Budvar, trénovali v padesátých a šedesátých letech budějovičtí slalomáři. Dynamo tu mělo loděnici ze starého železničního vagonu a mezi těmi, kdo si zdejší šlajsnu vyzkoušeli, byla i mladá Lída Veberová, později Polesná.
+
+Vodní slalom se do jižních Čech dostal v roce 1950 prvním závodem na Plánském jezu. V šedesátých letech už byl region slalomovou velmocí: na Čertových proudech pod Lipnem se v roce 1967 jelo mistrovství světa a Lída Polesná tam před patnácti tisíci diváky vyhrála. O dva roky dříve, v roce 1965, vznikl oddíl kanoistiky TJ Škoda, z něhož se postupně stal dnešní SK Vodní slalom České Budějovice. Založil ho Karel Krejčí po návratu z vojenské Dukly Bechyně a oddíl se od začátku věnoval výhradně slalomu a sjezdu.
+
+Rozhodující impuls přišel v roce 1972. Vodní slalom se poprvé objevil na olympijských hrách a na umělé trati v Augsburgu českoslovenští závodníci, zvyklí jen na přírodní řeky, propadli. Bylo jasné, že bez umělé trati se špičkový slalom dělat nedá. V roce 1973 se v oddíle TJ Škoda zrodila myšlenka postavit takovou dráhu v Budějovicích. Následovalo pět let jednání s úřady a ČSTV, při kterých oddílu pomáhala i Lída Polesná jako členka ústředního výboru svazu. Místo pod Slepým ramenem v centru neuspělo kvůli malému spádu; vybrán byl prostor starého jezu v Českém Vrbném, který po narovnání Vltavy zůstal daleko od nového koryta. Stavební povolení bylo vydáno 18. dubna 1978 a hned začala stavba – z velké části rukama samotných členů oddílu, kteří tu odpracovali tisíce brigádnických hodin.
+
+První tréninky na nedokončené trati proběhly v roce 1981. Jako jeden z prvních byl hotový úsek pod starou propustí, které se říkalo Kolovadlo – křest ohněm pro každého, kdo se do něj pustil. Dráha byla oficiálně předána do provozu 1. června 1983 a stala se jednou z nejlepších tréninkových tratí v Československu. Vyrostlo na ní šest seniorských reprezentantů a dva olympionici, mezi nimi Jakub Prüher, který v roce 1992 startoval v Barceloně. Jméno Lídy Polesné nesl areál nejpozději od poloviny devadesátých let.
+
+Po povodni v roce 2002 a třech desetiletích provozu bylo zřejmé, že betonové prahy a Kolovadlo už nestačí. V roce 2008 získal klub podporu z evropských fondů a koncem roku 2009 začaly bagry starou trať bourat. Nová trať, jejíž koncepci navrhl Jakub Prüher, opustil tradiční strouhu s jednotným spádem a napodobil přirozenou řeku: střídání skluzů a lagun, které nepotřebuje přečerpávání, a kolejnice pro mobilní překážky stejného typu jako na olympijské trati v Londýně. Přestavba stála zhruba 26 milionů korun. První voda protekla tratí 21. prosince 2011 a na jaře 2012 na ní čeští slalomáři bojovali o nominaci na olympijské hry v Londýně.
+
+Od té doby prošly Českým Vrbným mistrovství světa v raftingu juniorů a veteránů (2012), evropské poháry ve slalomu, sjezdu i raftingu, mistrovství Evropy v raftingu (2023) a především mistrovství Evropy juniorů a do 23 let ve vodním slalomu v roce 2022 – první v historii České republiky, kterému předcházela dostavba nové loděnice a zázemí. Na ni přispěla milionem korun i sestra Lídy Polesné. Areál, kde kdysi stál mlýn a kde se bortily skládací kajaky závodníků z Prahy, dnes slouží slalomářům, sjezdařům, raftařům, surfařům na říční vlně i veřejnosti – a dál ho spravuje a rozvíjí klub, který ho před půl stoletím vysnil a postavil. Zůstává přitom otevřený všem.
+
+## Lída Polesná
+
+Ludmila Polesná (31. 8. 1934 Písek – 9. 12. 1988 Praha), rozená Štyndlová, poprvé provdaná Veberová, patří k největším postavám československé a světové kanoistiky. Ve vodním slalomu v kategorii K1 získala čtyři tituly mistryně světa (1961 Hainsberg, 1963 Spittal, 1967 Lipno, 1969 Bourg-Saint-Maurice), pět stříbrných a dvě bronzové medaile; v roce 1969 vyhrála na MS i sjezd. (Štumbauerova práce uvádí celkem 6 zlatých, 9 stříbrných a 4 bronzové z MS včetně sjezdu a 36 titulů mistryně republiky – **[ověřit, počty se mezi zdroji liší podle započtení disciplín]**.) Startovala na olympijských hrách 1972 v Mnichově (16. místo) a reprezentovala až do svých 41 let. V letech 1962–1964 závodila za Dynamo České Budějovice, poté žila a pracovala na Lipně; v roce 1965 se stala první vítězkou ankety o nejlepšího sportovce Jihočeského kraje. Své vzpomínky sepsala v knize *Hranaté medaile* (1979). Jako členka ÚV ČSTV podpořila v 70. letech stavbu umělé slalomové dráhy v Českém Vrbném – na propusti starého jezu v tomto místě sama trénovala. Areál dnes nese její jméno.
+
+## Časová osa
 
 ### Počátky kanoistiky v Českých Budějovicích
 
@@ -52,6 +88,7 @@ Podklad pro stránku „Historie“ nového klubového webu. Zdroje jsou uvedeny
 - **11.–14. 7. 1996** – **Mistrovství světa juniorů ve vodním slalomu na Lipně** – pořádá oddíl ve spolupráci s Českým svazem kanoistů na přírodní trati pod lipenskou hrází. Čeští junioři získali 6 zlatých z 8 medailí, v hlídkách K1 i odchovanec klubu Tomáš Kobes.
 - **2000** – Tomáš Kobes, odchovanec klubu z 90. let, startuje jako druhý jihočeský slalomář na OH v Sydney (7. místo K1).
 - **2002** – Srpnová povodeň vážně poškozuje umělé dráhy na Vltavě a Labi včetně Českého Vrbného; areál je po opravě znovu zprovozněn.
+- **2006** – První ročník Mezinárodního vodáckého festivalu Wave: mezinárodní slalom ICF (na startu Tony Estanguet, Štěpánka Hilgertová, Stanislav Ježek), mládežnické závody, kapely a večírky. Koná se do roku 2015.
 - **2007–2008** – Příprava revitalizace: hydraulický model trati v měřítku 1:15 na ČVUT v Praze; 2008 rozhodnuto o stavbě po přiznání dotace z EU (ROP Jihozápad).
 - **2009** – Mezinárodní vodácký festival Wave (opakovaně i v dalších letech, 2014 spojený s ECA Junior Cupem). Koncem roku 2009 začíná demolice staré dráhy – včetně betonového Kolovadla.
 
@@ -63,75 +100,70 @@ Podklad pro stránku „Historie“ nového klubového webu. Zdroje jsou uvedeny
 - **Jaro 2012** – Dokončení stavby (duben 2012) a otevření nové trati, rozdělené na část pro začátečníky a mládež, tréninkovou část a závodní úsek s mobilními překážkami. Koncem dubna 2012 se zde jede závěrečný závod nominace českých slalomářů na OH v Londýně.
 - **24.–26. 8. 2012** – Mistrovství světa v raftingu juniorů a veteránů; Češi získávají čtyři zlaté hned v úvodních sprintech.
 - **2014** – Wave 2014 & ECA Slalom Junior Cup – evropský pohár juniorů ve slalomu.
+- **2015** – Poslední ročník festivalu Wave (Memoriál Zdenky Husákové) spolu s ECA Junior Cupem.
 - **2016** – Deník píše, že areál „vyrostl do krásy“; zájem o sport od otevření nové trati výrazně roste.
 - **2017** – Evropský a Český pohár v raftingu (12.–13. 8.) a evropský pohár ve sjezdu na divoké vodě; v areálu vzniká infopoint Vltavské vodní cesty, přesouvá se sem cyklostezka.
 - **2019** – Zastupitelstvo města schvaluje dotaci 3,9 mil. Kč na dostavbu zázemí (loděnice, terénní úpravy, klubovna). Sestra Lídy Polesné, paní Valová, věnuje klubu 1 mil. Kč na novou restauraci. Začíná demolice staré loděnice; poprvé v historii klubu má vzniknout šatna s WC.
-- **2020** – První stupeň trati upraven pro surfaře na říční vlně. Dokončení nového zázemí (loděnice, klubovna, bufet s pergolou) probíhá v letech 2019–2022 s cílem pořádat MEJ 2022 **[ověřit přesný rok dokončení a kolaudace]**.
+- **2020** – První stupeň trati upraven pro surfaře na říční vlně. Dokončení nového zázemí (loděnice, klubovna, bufet s pergolou) probíhá v letech 2019–2022 s cílem pořádat MEJ 2022 a je podpořeno celkovou částkou 7,5 mil. Kč z rozpočtů města a Jihočeského kraje **[ověřit přesný rok dokončení a kolaudace]**.
 - **23.–25. 7. 2021** – ICF World Ranking Race (WRR 2021) ve slalomu včetně extrémního slalomu (otevřené MČR). V září ECA European Cup ve sprintu na divoké vodě (8 zemí).
 - **9.–14. 8. 2022** – **Mistrovství Evropy juniorů a do 23 let ve vodním slalomu (ECA)** – poprvé v historii v České republice; 20 medailových disciplín, Česko vítězí v medailové tabulce (8–5–0). Ředitelem závodu je Jakub Bican, pořadatelem SK Vodní slalom ČB.
 - **2023** – Mistrovství Evropy v raftingu (21.–26. 8., slalom v Českém Vrbném, sjezd z Vyššího Brodu a Loučovic) a závody Světového poháru a evropského poháru ve sprintu na divoké vodě (začátek září).
-- **30. 8. – 1. 9. 2024** – ICF Wildwater Sprint Pre-World Championship (generálka na MS ve sprintu) **[ověřit, zda MS 2025 skutečně proběhlo v areálu]**.
-- **28.–30. 8. 2026** – Český pohár ve sprintu, MČR veteránů, MČR družstev, ČP juniorů a žáků a 5. PEU Cup – pořadatel SK Vodní slalom České Budějovice (ředitel závodu Oldřich Weber).
+- **2025** – Mistrovství světa ve sprintu na divoké vodě (ICF Wildwater Canoeing Sprint World Championships). Rok předtím se tu jela generálka, Pre-World Championship 2024.
 
----
+## Festival Wave (2006–2015)
 
-## 2. Příběh místa
+**Když se do Českého Vrbného sjel celý vodácký svět.** V létě 2006 uspořádal klub na dráze v Českém Vrbném první ročník Mezinárodního vodáckého festivalu WAVE. Myšlenka byla na české poměry neobvyklá: spojit špičkový mezinárodní slalom zařazený v kalendáři ICF s mládežnickými závody, hromadnými starty, raftingem a večerním kulturním programem pod širým nebem – a dát tomu všemu atmosféru, kvůli které se po finále nejezdilo domů.
 
-Když v červnu 1875 projížděli dva angličtí obchodníci na kánoi kolem Českých Budějovic, nikdo netušil, že se Vltava pod městem stane jedním z míst, kde se budou psát dějiny české kanoistiky. Na úseku mezi Budějovicemi a Prahou se od roku 1922 jezdil legendární 189 kilometrů dlouhý závod a jednou z jeho nejobávanějších překážek byla propust starého jezu v Českém Vrbném. Právě tady, u elektrárny pivovaru Budvar, trénovali v padesátých a šedesátých letech budějovičtí slalomáři. Dynamo tu mělo loděnici ze starého železničního vagonu a mezi těmi, kdo si zdejší šlajsnu vyzkoušeli, byla i mladá Lída Veberová, později Polesná.
+Hned první rok se na startu objevili olympijští vítězové **Tony Estanguet** a **Štěpánka Hilgertová** a mistr světa **Stanislav Ježek**; v dalších letech přijížděly výpravy z Francie, Německa, Slovinska, Británie, Japonska, Austrálie či Nového Zélandu. Mezi vítězi Wave najdeme Vavřince Hradilka, Mateje Beňuše, Nica Bettgeho i patnáctiletého **Jiřího Prskavce**, který tu v roce 2008 vyhrál Teen Cup a v roce 2012 už hlavní závod. Festival měl vlastní web, vlastní filmy a pověst akce, kde pátek a sobota patřily kapelám, mezi závody se jel masokros v nafukovacích lodích, raft rodeo nebo plavání v divoké vodě – a vstup byl zdarma.
 
-Vodní slalom se do jižních Čech dostal v roce 1950 prvním závodem na Plánském jezu. V šedesátých letech už byl region slalomovou velmocí: na Čertových proudech pod Lipnem se v roce 1967 jelo mistrovství světa a Lída Polesná tam před patnácti tisíci diváky vyhrála. O dva roky dříve, v roce 1965, vznikl oddíl kanoistiky TJ Škoda, z něhož se postupně stal dnešní SK Vodní slalom České Budějovice. Založil ho Karel Krejčí po návratu z vojenské Dukly Bechyně a oddíl se od začátku věnoval výhradně slalomu a sjezdu.
+Na festivalu Wave se jako komentátoři zrodili tehdejší junioři Míra Lenc a Dan Stach – k mikrofonu se poprvé postavili právě tady. Jejich stylu si všiml Jiří Rohan, šéf organizačního výboru v pražské Troji, a od té doby patří k nejznámějším dvojicím u slalomových tratí. Prezentaci sportu přímo u trati změnili od základu a už mnoho let moderují Světové poháry i mistrovské závody v Troji.
 
-Rozhodující impuls přišel v roce 1972. Vodní slalom se poprvé objevil na olympijských hrách a na umělé trati v Augsburgu českoslovenští závodníci, zvyklí jen na přírodní řeky, propadli. Bylo jasné, že bez umělé trati se špičkový slalom dělat nedá. V roce 1973 se v oddíle TJ Škoda zrodila myšlenka postavit takovou dráhu v Budějovicích. Následovalo pět let jednání s úřady a ČSTV, při kterých oddílu pomáhala i Lída Polesná jako členka ústředního výboru svazu. Místo pod Slepým ramenem v centru neuspělo kvůli malému spádu; vybrán byl prostor starého jezu v Českém Vrbném, který po narovnání Vltavy zůstal daleko od nového koryta. Stavební povolení bylo vydáno 18. dubna 1978 a hned začala stavba – z velké části rukama samotných členů oddílu, kteří tu odpracovali tisíce brigádnických hodin.
+Během přestavby areálu (2010–2011) festival pauzíroval, v roce 2012 se vrátil na novou dráhu a od roku 2013 hostil i evropskou juniorskou sérii **ECA Junior Cup**, která do Vrbného přivedla přes čtyři stovky mladých závodníků. Poslední ročník se jel v srpnu 2015 jako **Memoriál Zdenky Husákové** – vrchní rozhodčí prvního ročníku. ECA Junior Cup pokračoval ještě v letech 2016–2017.
 
-První tréninky na nedokončené trati proběhly v roce 1981. Jako jeden z prvních byl hotový úsek pod starou propustí, které se říkalo Kolovadlo – křest ohněm pro každého, kdo se do něj pustil. Dráha byla oficiálně předána do provozu 1. června 1983 a stala se jednou z nejlepších tréninkových tratí v Československu. Vyrostlo na ní šest seniorských reprezentantů a dva olympionici, mezi nimi Jakub Prüher, který v roce 1992 startoval v Barceloně. Jméno Lídy Polesné nesl areál nejpozději od poloviny devadesátých let.
+Ročníky: 2006 · 2007 · 2008 (Teen Cup + ICF Slalom Race, film) · 2009 · 2012 · 2013 · 2014 (ECA Junior Cup, film) · 2015. Ředitelem závodů byl po většinu let Zdeněk Boček.
 
-Po povodni v roce 2002 a třech desetiletích provozu bylo zřejmé, že betonové prahy a Kolovadlo už nestačí. V roce 2008 získal klub podporu z evropských fondů a koncem roku 2009 začaly bagry starou trať bourat. Nová trať, jejíž koncepci navrhl Jakub Prüher, opustil tradiční strouhu s jednotným spádem a napodobil přirozenou řeku: střídání skluzů a lagun, které nepotřebuje přečerpávání, a kolejnice pro mobilní překážky stejného typu jako na olympijské trati v Londýně. Přestavba stála zhruba 26 milionů korun. První voda protekla tratí 21. prosince 2011 a na jaře 2012 na ní čeští slalomáři bojovali o nominaci na olympijské hry v Londýně.
+## Zdroje
 
-Od té doby prošly Českým Vrbným mistrovství světa v raftingu juniorů a veteránů (2012), evropské poháry ve slalomu, sjezdu i raftingu, mistrovství Evropy v raftingu (2023) a především mistrovství Evropy juniorů a do 23 let ve vodním slalomu v roce 2022 – první v historii České republiky, kterému předcházela dostavba nové loděnice a zázemí. Na ni přispěla milionem korun i sestra Lídy Polesné. Areál, kde kdysi stál mlýn a kde se bortily skládací kajaky závodníků z Prahy, dnes slouží slalomářům, sjezdařům, raftařům, surfařům na říční vlně i veřejnosti – a dál ho spravuje klub, který ho před půl stoletím vysnil a postavil.
-
----
-
-## 3. Lída Polesná
-
-Ludmila Polesná (31. 8. 1934 Písek – 9. 12. 1988 Praha), rozená Štyndlová, poprvé provdaná Veberová, patří k největším postavám československé a světové kanoistiky. Ve vodním slalomu v kategorii K1 získala čtyři tituly mistryně světa (1961 Hainsberg, 1963 Spittal, 1967 Lipno, 1969 Bourg-Saint-Maurice), pět stříbrných a dvě bronzové medaile; v roce 1969 vyhrála na MS i sjezd. (Štumbauerova práce uvádí celkem 6 zlatých, 9 stříbrných a 4 bronzové z MS včetně sjezdu a 36 titulů mistryně republiky – **[ověřit, počty se mezi zdroji liší podle započtení disciplín]**.) Startovala na olympijských hrách 1972 v Mnichově (16. místo) a reprezentovala až do svých 41 let. V letech 1962–1964 závodila za Dynamo České Budějovice, poté žila a pracovala na Lipně; v roce 1965 se stala první vítězkou ankety o nejlepšího sportovce Jihočeského kraje. Své vzpomínky sepsala v knize *Hranaté medaile* (1979). Jako členka ÚV ČSTV podpořila v 70. letech stavbu umělé slalomové dráhy v Českém Vrbném – na propusti starého jezu v tomto místě sama trénovala. Areál dnes nese její jméno.
-
----
-
-## 4. Zdroje
+Pracovní seznam pramenů – na webu se nezobrazuje. Krátký seznam „Prameny“ pod stránkou je v hlavičce souboru (`prameny`).
 
 Primární prameny (historie):
-- Štumbauer, P. (2017). *Historie vodáckého areálu Lídy Polesné v Českém Vrbném.* Diplomová práce, PF JU České Budějovice. Záznam: https://dspace.jcu.cz/handle/20.500.14390/33558 – PDF: https://dspace.jcu.cz/bitstreams/0fcacf24-9c8e-42f4-a188-eef0dfaeae68/download
-- Štumbauer, J., & Štumbauer, P. (2017). Historie českobudějovické kanoistiky od jejích počátků do poloviny 80. let 20. století. *Studia Kinanthropologica*, 18(2), 143–161. https://sk.pf.jcu.cz/pdfs/stk/2017/02/08.pdf
+
+- Štumbauer, P. (2017). *Historie vodáckého areálu Lídy Polesné v Českém Vrbném.* Diplomová práce, PF JU České Budějovice. [Záznam](https://dspace.jcu.cz/handle/20.500.14390/33558) – [PDF](https://dspace.jcu.cz/bitstreams/0fcacf24-9c8e-42f4-a188-eef0dfaeae68/download)
+- Štumbauer, J., & Štumbauer, P. (2017). Historie českobudějovické kanoistiky od jejích počátků do poloviny 80. let 20. století. *Studia Kinanthropologica*, 18(2), 143–161. [PDF](https://sk.pf.jcu.cz/pdfs/stk/2017/02/08.pdf)
 - Polesná, L. (1979). *Hranaté medaile.* České Budějovice: Jihočeské nakladatelství (citováno dle Štumbauera).
 
 Encyklopedie a klubové stránky:
-- https://cs.wikipedia.org/wiki/Vod%C3%A1ck%C3%BD_are%C3%A1l_L%C3%ADdy_Polesn%C3%A9
-- https://cs.wikipedia.org/wiki/Ludmila_Polesn%C3%A1
-- https://en.wikipedia.org/wiki/Jakub_Pr%C3%BCher
-- https://en.wikipedia.org/wiki/2022_European_Junior_and_U23_Canoe_Slalom_Championships
-- https://en.wikipedia.org/wiki/1996_World_Junior_Canoe_Slalom_Championships (MS juniorů Lipno 1996 – termín a výsledky; pořadatelství: sdělení klubu)
-- https://www.ww-cb.cz , https://www.ww-cb.cz/bylo-nebylo (stránka obsahuje jen trailer a fotogalerie z MEJ 2022, žádný historický text), https://www.ww-cb.cz/activities , https://www.ww-cb.cz/en/wrr21
-- https://www.ww-cb.cz/_files/ugd/ce7577_17066c56a4d44441ad4ce97a1f1706bc.pdf (Bulletin č. 1, ME juniorů a U23 2022)
-- https://www.czechcanoe.cz/?catid=27&id=300&view=article
-- https://www.hlidacstatu.cz/subjekt/VazbyOsoby/15770729 (SK Vodní slalom České Budějovice, z. s., IČO)
+
+- [Vodácký areál Lídy Polesné – Wikipedie](https://cs.wikipedia.org/wiki/Vod%C3%A1ck%C3%BD_are%C3%A1l_L%C3%ADdy_Polesn%C3%A9)
+- [Ludmila Polesná – Wikipedie](https://cs.wikipedia.org/wiki/Ludmila_Polesn%C3%A1)
+- [Jakub Prüher – Wikipedia](https://en.wikipedia.org/wiki/Jakub_Pr%C3%BCher)
+- [2022 European Junior and U23 Canoe Slalom Championships – Wikipedia](https://en.wikipedia.org/wiki/2022_European_Junior_and_U23_Canoe_Slalom_Championships)
+- [1996 World Junior Canoe Slalom Championships – Wikipedia](https://en.wikipedia.org/wiki/1996_World_Junior_Canoe_Slalom_Championships) (MS juniorů Lipno 1996 – termín a výsledky; pořadatelství: sdělení klubu)
+- [ww-cb.cz](https://www.ww-cb.cz), [Bylo nebylo](https://www.ww-cb.cz/bylo-nebylo) (stránka obsahuje jen trailer a fotogalerie z MEJ 2022, žádný historický text), [activities](https://www.ww-cb.cz/activities), [WRR 2021](https://www.ww-cb.cz/en/wrr21)
+- [Bulletin č. 1, ME juniorů a U23 2022](https://www.ww-cb.cz/_files/ugd/ce7577_17066c56a4d44441ad4ce97a1f1706bc.pdf)
+- [czechcanoe.cz – článek](https://www.czechcanoe.cz/?catid=27&id=300&view=article)
+- [Hlídač státu – SK Vodní slalom České Budějovice, z. s.](https://www.hlidacstatu.cz/subjekt/VazbyOsoby/15770729) (IČO)
 - Stránky www.slalom.cz (vodacky-areal-lidy-polesne.php, slc51-co-je-projekt-revitalizace, slc125-slalomova-trat-v-ceskem-vrbnem-otevrena, sportovni-klub-vodni-slalom-ceske-budejovice.php) – v době rešerše (9. 10. 2026) vracely chybu 500 a nebyly dostupné ani přes archiv; údaje z nich jsou převzaty nepřímo přes Štumbauera a Wikipedii.
 
 Zpravodajství a tiskové zdroje:
-- https://budejcka.drbna.cz/sport/ostatni-sporty/vodacky-areal-lidy-polesne-byl-opet-otevren.html (první průplach 21. 12. 2011)
-- https://ct24.ceskatelevize.cz/clanek/regiony/v-ceskych-budejovicich-by-ted-chtel-zit-kazdy-vodni-slalomar-266500 (ČT24, 9. 3. 2012)
-- https://budejcka.drbna.cz/sport/ostatni-sporty/mistrovstvi-sveta-zahajeno-cesi-uz-maji-ctyri-zlate.html (MS v raftingu juniorů a veteránů 2012)
-- https://ceskobudejovicky.denik.cz/ostatni_region/areal-v-ceskem-vrbnem-vyrostl-do-krasy-20160303.html
-- https://www.novinky.cz/clanek/vase-zpravy-v-ceskem-vrbnem-vyrusta-centrum-kanoistiky-i-vltavske-lodni-dopravy-40187635 (27. 7. 2017)
-- https://budejovice.rozhlas.cz/spravne-najizdet-do-vln-se-snazili-na-kanale-v-ceskem-vrbnem-sjezdari-z-cele-7039547 (evropský pohár ve sjezdu 2017)
-- https://www.padler.cz/ve-vodackem-arealu-lidy-polesne-vyroste-nova-lodenice/ (20. 6. 2019)
-- https://budejovice.rozhlas.cz/sestra-lidy-polesne-venovala-milion-na-dostavbu-vodackeho-arealu-v-ceskem-vrbnem-8040581 (25. 8. 2019)
-- https://internationalrafting.com/2021/06/czech-racing-full-swing/
-- https://paddle-europe.eu/news/czech-and-slovenian-paddlers-take-wins-at-eca-wildwater-sprint-canoeing-european-cup-in-ceske-budejovice-2117 (2021)
-- https://paddle-europe.eu/news/czech-team-concludes-home-junior-u23-canoe-slalom-european-championships-in-style-2483 (MEJ/U23 2022)
-- https://paddle-europe.eu/news/after-world-cup-ceske-budejovice-hosted-eca-wildwater-sprint-canoeing-european-cup-race-2813 (2023)
-- https://www.visitczechia.com/de-de/news/2023/08/n-ceske-budejovice-european-rafting-championship (ME v raftingu 2023)
-- https://cdn.paddleworldwide.com/media/2024_ceskebudejovice-bulletina5web.pdf (ICF Wildwater Sprint Pre-World Championship 2024)
-- https://zive.results.cz/event/2026-113-mcr/propozice.pdf (ČP sprint, MČR veteránů a družstev, PEU Cup, 28.–30. 8. 2026)
-- https://www.rvc.gov.cz/admin-data/storage/get/64-a0-ceske-vrbne-opt.pdf (informační tabule Přístav České Vrbné, 2016)
-- https://www.budejovice2028.eu/files/pribehy-vodnika-vltavina-web.pdf
-- https://www.budejce.cz/en/activities/51-vodacke-centrum-ceske-budejovice
+
+- [Drbna: areál byl opět otevřen](https://budejcka.drbna.cz/sport/ostatni-sporty/vodacky-areal-lidy-polesne-byl-opet-otevren.html) (první průplach 21. 12. 2011)
+- [ČT24, 9. 3. 2012](https://ct24.ceskatelevize.cz/clanek/regiony/v-ceskych-budejovicich-by-ted-chtel-zit-kazdy-vodni-slalomar-266500)
+- [Drbna: MS v raftingu juniorů a veteránů 2012](https://budejcka.drbna.cz/sport/ostatni-sporty/mistrovstvi-sveta-zahajeno-cesi-uz-maji-ctyri-zlate.html)
+- [Deník: areál vyrostl do krásy (2016)](https://ceskobudejovicky.denik.cz/ostatni_region/areal-v-ceskem-vrbnem-vyrostl-do-krasy-20160303.html)
+- [Novinky, 27. 7. 2017](https://www.novinky.cz/clanek/vase-zpravy-v-ceskem-vrbnem-vyrusta-centrum-kanoistiky-i-vltavske-lodni-dopravy-40187635)
+- [Rozhlas: evropský pohár ve sjezdu 2017](https://budejovice.rozhlas.cz/spravne-najizdet-do-vln-se-snazili-na-kanale-v-ceskem-vrbnem-sjezdari-z-cele-7039547)
+- [Padler: vyroste nová loděnice (20. 6. 2019)](https://www.padler.cz/ve-vodackem-arealu-lidy-polesne-vyroste-nova-lodenice/)
+- [Rozhlas: sestra Lídy Polesné věnovala milion (25. 8. 2019)](https://budejovice.rozhlas.cz/sestra-lidy-polesne-venovala-milion-na-dostavbu-vodackeho-arealu-v-ceskem-vrbnem-8040581)
+- [International Rafting 2021](https://internationalrafting.com/2021/06/czech-racing-full-swing/)
+- [Paddle Europe: ECA sprint 2021](https://paddle-europe.eu/news/czech-and-slovenian-paddlers-take-wins-at-eca-wildwater-sprint-canoeing-european-cup-in-ceske-budejovice-2117)
+- [Paddle Europe: MEJ/U23 2022](https://paddle-europe.eu/news/czech-team-concludes-home-junior-u23-canoe-slalom-european-championships-in-style-2483)
+- [Paddle Europe: sprint 2023](https://paddle-europe.eu/news/after-world-cup-ceske-budejovice-hosted-eca-wildwater-sprint-canoeing-european-cup-race-2813)
+- [VisitCzechia: ME v raftingu 2023](https://www.visitczechia.com/de-de/news/2023/08/n-ceske-budejovice-european-rafting-championship)
+- [Bulletin ICF Wildwater Sprint Pre-World Championship 2024](https://cdn.paddleworldwide.com/media/2024_ceskebudejovice-bulletina5web.pdf)
+- [Propozice ČP sprint, MČR veteránů a družstev, PEU Cup 2026](https://zive.results.cz/event/2026-113-mcr/propozice.pdf)
+- [Informační tabule Přístav České Vrbné (2016)](https://www.rvc.gov.cz/admin-data/storage/get/64-a0-ceske-vrbne-opt.pdf)
+- [Příběhy vodníka Vltavína](https://www.budejovice2028.eu/files/pribehy-vodnika-vltavina-web.pdf)
+- [budejce.cz: Vodácké centrum](https://www.budejce.cz/en/activities/51-vodacke-centrum-ceske-budejovice)
+- [Slalom Troja: Meet our moderators Dan Stach and Mira Lenc (2021)](https://www.slalomtroja.cz/en/archive/world-cup-2021/859-meet-our-moderators-dan-stach-and-mira-lenc)
+- [Slalom Troja: 2018 Media Professional Daniel Stach](https://slalomtroja.cz/en/top-news/722-2018-media-professional-daniel-stach-we-need-to-be-more-oriented-on-the-public)

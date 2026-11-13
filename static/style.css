@@ -232,6 +232,9 @@ p{margin:0 0 1em}
 .aside{background:#fff;border:1px solid var(--line-soft);border-radius:6px;padding:22px;font-size:15px}
 .aside h3{font-size:18px;margin-bottom:10px}
 .aside ul{padding-left:1.1em;margin:0}
+.aside:has(.toc){position:sticky;top:24px}
+.aside .toc a{text-decoration:none}
+.prose h2[id]{scroll-margin-top:24px}
 .year-block{margin:0 0 40px}
 .year-block h2{border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:20px}
 .list-posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:24px 20px}
