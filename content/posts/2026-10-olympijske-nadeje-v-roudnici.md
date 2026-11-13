@@ -1,6 +1,6 @@
 ---
 title: "Olympijské naděje v Roudnici"
-date: "2026-11-13T19:00:00+01:00"
+date: "2026-10-07T19:00:00+02:00"
 category: "Závody"
 kind: "post"
 images:
