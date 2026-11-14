@@ -19,7 +19,7 @@ Máme za sebou úspěšnou juniorskou sezónu! Dřina ze zimní přípravy a jar
 - **Adam Rezek (K1)** – vítězství v celkovém poháru juniorů, 3 medaile na MČR juniorů a první medaile z ME v týmech.
 - **Matěj Krejčí (C1)** – dva parádní bronzy, z Olympijských nadějí a z Olympiády dětí a mládeže.
 - **Lenka Petrová (K1)** – kousek od medaile! Na Olympiádě dětí a mládeže vybojovala parádní 4. místo.
-- **Martin Petr** – 5. místo na MČR juniorů, jen kousek od medaile.
+- **Martin Petr (K1)** – 5. místo na MČR juniorů, jen kousek od medaile.
 
 **Týmy**
 
