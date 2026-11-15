@@ -68,7 +68,7 @@
       <article class="read">{{ body_html | safe }}</article>
       {% if read_photos %}
       <figure class="read-fig">
-        {% for ph in read_photos %}<a href="{{ rel }}{{ ph.path }}" data-lb><img src="{{ rel }}{{ ph.path }}" alt="{{ ph.title }}" loading="lazy"></a><figcaption>{{ ph.title }}</figcaption>{% endfor %}
+        {% for ph in read_photos %}<div class="rf"><a href="{{ rel }}{{ ph.path }}" data-lb><img src="{{ rel }}{{ ph.thumb }}" alt="{{ ph.title }}" loading="lazy"></a><figcaption>{{ ph.title }}</figcaption></div>{% endfor %}
       </figure>
       {% endif %}
     </div>

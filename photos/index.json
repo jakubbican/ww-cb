@@ -9,7 +9,7 @@
   "hero": 17,
   "areal": 9,
   "historie": 16,
-  "akce": 89,
+  "akce": 91,
   "klub": 14
  },
  "events": [
@@ -2056,6 +2056,28 @@
    "height": 955,
    "source": "zaslal Kuba Bican",
    "original_name": "1794777334542_image.png"
+  },
+  {
+   "path": "akce/lipno/01.jpg",
+   "thumb": "akce/lipno/01_thumb.jpg",
+   "group": "akce",
+   "event_slug": "lipno",
+   "title": "Mistrovství republiky pod Lipnem",
+   "width": 1600,
+   "height": 1067,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794777523567_image.png"
+  },
+  {
+   "path": "akce/lipno/02.jpg",
+   "thumb": "akce/lipno/02_thumb.jpg",
+   "group": "akce",
+   "event_slug": "lipno",
+   "title": "Trať pod lipenskou hrází",
+   "width": 1800,
+   "height": 1350,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794777529328_image.png"
   }
  ]
 }
