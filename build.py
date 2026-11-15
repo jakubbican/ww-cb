@@ -368,7 +368,7 @@ def content_page(name, section, extra_html='', aside=None, hero=None):
 content_page('klub', 'klub', extra_html='<h2>Z klubového života</h2>' + gallery_html(
     # klubový život: nové fotky (photos/klub/zivot) + výběr ze starších sad; pořadí stavba → sezona → zima
     photos_in('klub', 'zivot')[:2] + [photos_in('akce', '2022-10-brigada')[i] for i in (0, 1, 2, 4)] + photos_in('akce', '2025-04-den-zeme')[2:4] +
-    [photos_in('akce', '2024-06-odm')[2]] + photos_in('klub', 'zivot')[2:], '../'),
+    [photos_in('akce', '2024-06-odm')[2]] + photos_in('klub', 'zivot')[2:8] + photos_in('klub', 'zivot')[13:14] + photos_in('klub', 'zivot')[8:13], '../'),
     aside='<h3>Rychle</h3><ul><li><a href="#nabor">Nábor dětí od 8-10 let</a></li><li><a href="../kronika/">Zápisník</a></li><li><a href="../akce/">Závody a akce</a></li><li><a href="../uspechy/">Úspěchy</a></li><li><a href="../kontakt/">Kontakt</a></li></ul>'
           '<h3 style="margin-top:18px">Bylo nebylo</h3><p>Film o lásce ke sportu, vodácích, závodech a síle, která nás pohání vpřed.</p><p><a class="more" href="https://www.youtube.com/watch?v=XQZUWNTBx80" target="_blank" rel="noopener">Přehrát na YouTube →</a></p>')
 # Z hero sady do galerie Areálu jen celkové záběry areálu (ne závodní detaily)

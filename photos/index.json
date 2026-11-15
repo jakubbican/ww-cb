@@ -10,7 +10,7 @@
   "areal": 9,
   "historie": 16,
   "akce": 89,
-  "klub": 13
+  "klub": 14
  },
  "events": [
   {
@@ -2045,6 +2045,17 @@
    "height": 900,
    "source": "zaslal Kuba Bican",
    "original_name": "1794776174156_image.png"
+  },
+  {
+   "path": "klub/zivot/14.jpg",
+   "thumb": "klub/zivot/14_thumb.jpg",
+   "group": "klub",
+   "event_slug": "zivot",
+   "title": "Z klubového života – Lipno 2025",
+   "width": 716,
+   "height": 955,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794777334542_image.png"
   }
  ]
 }

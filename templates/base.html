@@ -65,10 +65,32 @@
   </div>
   <div class="bottom">© {{ year }} SK Vodní slalom České Budějovice, z. s. · Fotografie: archiv klubu</div>
 </footer>
-<div class="lightbox" id="lb" onclick="this.classList.remove('open')"><button aria-label="Zavřít">Zavřít ×</button><img alt=""></div>
+<div class="lightbox" id="lb" role="dialog" aria-modal="true" aria-label="Fotografie">
+  <button class="lb-close" aria-label="Zavřít">Zavřít ×</button>
+  <button class="lb-nav lb-prev" aria-label="Předchozí fotka">‹</button>
+  <img alt="">
+  <button class="lb-nav lb-next" aria-label="Další fotka">›</button>
+  <div class="lb-count"></div>
+</div>
 <script>
-document.addEventListener('click',function(e){var a=e.target.closest('a[data-lb]');if(!a)return;e.preventDefault();var lb=document.getElementById('lb');lb.querySelector('img').src=a.getAttribute('href');lb.classList.add('open');});
-document.addEventListener('keydown',function(e){if(e.key==='Escape')document.getElementById('lb').classList.remove('open');});
+(function(){
+  var lb=document.getElementById('lb'),img=lb.querySelector('img'),cnt=lb.querySelector('.lb-count'),list=[],i=0,x0=null;
+  function show(n){if(!list.length)return;i=(n+list.length)%list.length;img.src=list[i].getAttribute('href');
+    cnt.textContent=list.length>1?(i+1)+' / '+list.length:'';lb.classList.toggle('single',list.length<2);
+    var nx=list[(i+1)%list.length];if(nx){var p=new Image();p.src=nx.getAttribute('href');}}
+  function close(){lb.classList.remove('open');img.removeAttribute('src');}
+  document.addEventListener('click',function(e){var a=e.target.closest('a[data-lb]');if(!a)return;e.preventDefault();
+    var box=a.closest('.gallery,.read-fig,.prose,article,main')||document;list=[].slice.call(box.querySelectorAll('a[data-lb]'));
+    lb.classList.add('open');show(list.indexOf(a));});
+  lb.addEventListener('click',function(e){
+    if(e.target.closest('.lb-prev')){show(i-1);return;} if(e.target.closest('.lb-next')){show(i+1);return;}
+    if(e.target===img&&list.length>1){show(i+1);return;} close();});
+  document.addEventListener('keydown',function(e){if(!lb.classList.contains('open'))return;
+    if(e.key==='Escape')close();else if(e.key==='ArrowRight')show(i+1);else if(e.key==='ArrowLeft')show(i-1);});
+  lb.addEventListener('touchstart',function(e){x0=e.touches[0].clientX;},{passive:true});
+  lb.addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;x0=null;
+    if(Math.abs(dx)>40){show(dx<0?i+1:i-1);}},{passive:true});
+})();
 </script>
 </body>
 </html>
