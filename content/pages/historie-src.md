@@ -114,13 +114,15 @@ Ludmila Polesná (31. 8. 1934 Písek – 9. 12. 1988 Praha), rozená Štyndlová
 
 **Když se do Českého Vrbného sjel celý vodácký svět.** V létě 2006 uspořádal klub na dráze v Českém Vrbném první ročník Mezinárodního vodáckého festivalu WAVE. Myšlenka byla na české poměry neobvyklá: spojit špičkový mezinárodní slalom zařazený v kalendáři ICF s mládežnickými závody, hromadnými starty, raftingem a večerním kulturním programem pod širým nebem – a dát tomu všemu atmosféru, kvůli které se po finále nejezdilo domů.
 
-Hned první rok se na startu objevili olympijští vítězové **Tony Estanguet** a **Štěpánka Hilgertová** a mistr světa **Stanislav Ježek**; v dalších letech přijížděly výpravy z Francie, Německa, Slovinska, Británie, Japonska, Austrálie či Nového Zélandu. Mezi vítězi Wave najdeme Vavřince Hradilka, Mateje Beňuše, Nica Bettgeho i patnáctiletého **Jiřího Prskavce**, který tu v roce 2008 vyhrál Teen Cup a v roce 2012 už hlavní závod. Festival měl vlastní web, vlastní filmy a pověst akce, kde pátek a sobota patřily kapelám, mezi závody se jel masokros v nafukovacích lodích, raft rodeo nebo plavání v divoké vodě – a vstup byl zdarma.
+Hned první rok se na startu objevili olympijští vítězové **Tony Estanguet** a **Štěpánka Hilgertová** a mistr světa **Stanislav Ježek**; v dalších letech přijížděly výpravy z Francie, Německa, Slovinska, Británie, Japonska, Austrálie či Nového Zélandu. Mezi vítězi Wave najdeme Vavřince Hradilka, Mateje Beňuše, Nica Bettgeho i patnáctiletého **Jiřího Prskavce**, který tu v roce 2008 vyhrál Teen Cup a v roce 2012 už hlavní závod. Pátek a sobota patřily kapelám, mezi závody se jel masokros v nafukovacích lodích nebo raft rodeo – a vstup byl zdarma.
+
+Nejcennější ale bylo, co se dělo mimo závod. Hvězdy přijížděly o tři až čtyři dny dřív a každá dostala skupinku pěti dětí, se kterými tři dny trénovala. Tak vznikl koncept tréninkových kempů, které spojují malé žáky se světovou špičkou – dnes ho používá třeba Brandýs. Spojení závodu a setkávání převzala i pražská série World Ranking Race.
 
 Na festivalu Wave se jako komentátoři zrodili tehdejší junioři Míra Lenc a Dan Stach – k mikrofonu se poprvé postavili právě tady. Jejich stylu si všiml Jiří Rohan, šéf organizačního výboru v pražské Troji, a od té doby patří k nejznámějším dvojicím u slalomových tratí. Prezentaci sportu přímo u trati změnili od základu a už mnoho let moderují Světové poháry i mistrovské závody v Troji.
 
 Během přestavby areálu (2010–2011) festival pauzíroval, v roce 2012 se vrátil na novou dráhu a od roku 2013 hostil i evropskou juniorskou sérii **ECA Junior Cup**, která do Vrbného přivedla přes čtyři stovky mladých závodníků. Poslední ročník se jel v srpnu 2015 jako **Memoriál Zdenky Husákové** – vrchní rozhodčí prvního ročníku. ECA Junior Cup pokračoval ještě v letech 2016–2017.
 
-Ročníky: 2006 · 2007 · 2008 (Teen Cup + ICF Slalom Race, film) · 2009 · 2012 · 2013 · 2014 (ECA Junior Cup, film) · 2015. Ředitelem závodů byl po většinu let Zdeněk Boček.
+Ročníky: 2006 · 2007 · 2008 (Teen Cup + ICF Slalom Race, film) · 2009 · 2012 · 2013 · 2014 (ECA Junior Cup, film) · 2015. Festival řídil realizační tým, ve kterém měl každý na starost jednu oblast – na svou dobu nový způsob řízení závodu: Pischek (masokros, zahraniční hvězdy), Boček (slalom), Galuška (záštita), K. Stach (technické zajištění), D. Stach (PR a média), Prüher (technické zajištění a kapely) a Toncar (festival).
 
 ## Zdroje
 
