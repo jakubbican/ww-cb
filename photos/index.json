@@ -9,7 +9,8 @@
   "hero": 17,
   "areal": 9,
   "historie": 16,
-  "akce": 89
+  "akce": 89,
+  "klub": 13
  },
  "events": [
   {
@@ -1901,6 +1902,149 @@
    "height": 1200,
    "source": "zaslal Kuba Bican",
    "original_name": "20220814MEJ_93.JPG"
+  },
+  {
+   "path": "klub/zivot/01.jpg",
+   "thumb": "klub/zivot/01_thumb.jpg",
+   "group": "klub",
+   "event_slug": "zivot",
+   "title": "Z klubového života",
+   "width": 1599,
+   "height": 899,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794776265797_image.png"
+  },
+  {
+   "path": "klub/zivot/02.jpg",
+   "thumb": "klub/zivot/02_thumb.jpg",
+   "group": "klub",
+   "event_slug": "zivot",
+   "title": "Z klubového života",
+   "width": 899,
+   "height": 1599,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794776275855_image.png"
+  },
+  {
+   "path": "klub/zivot/03.jpg",
+   "thumb": "klub/zivot/03_thumb.jpg",
+   "group": "klub",
+   "event_slug": "zivot",
+   "title": "Z klubového života",
+   "width": 1600,
+   "height": 1200,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794775206126_image.png"
+  },
+  {
+   "path": "klub/zivot/04.jpg",
+   "thumb": "klub/zivot/04_thumb.jpg",
+   "group": "klub",
+   "event_slug": "zivot",
+   "title": "Z klubového života",
+   "width": 1600,
+   "height": 1200,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794775203522_image.png"
+  },
+  {
+   "path": "klub/zivot/05.jpg",
+   "thumb": "klub/zivot/05_thumb.jpg",
+   "group": "klub",
+   "event_slug": "zivot",
+   "title": "Z klubového života",
+   "width": 1440,
+   "height": 1794,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794776154902_image.png"
+  },
+  {
+   "path": "klub/zivot/06.jpg",
+   "thumb": "klub/zivot/06_thumb.jpg",
+   "group": "klub",
+   "event_slug": "zivot",
+   "title": "Z klubového života",
+   "width": 1358,
+   "height": 1800,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794776104302_image.png"
+  },
+  {
+   "path": "klub/zivot/07.jpg",
+   "thumb": "klub/zivot/07_thumb.jpg",
+   "group": "klub",
+   "event_slug": "zivot",
+   "title": "Z klubového života",
+   "width": 1065,
+   "height": 710,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794776073313_image.png"
+  },
+  {
+   "path": "klub/zivot/08.jpg",
+   "thumb": "klub/zivot/08_thumb.jpg",
+   "group": "klub",
+   "event_slug": "zivot",
+   "title": "Z klubového života",
+   "width": 1440,
+   "height": 960,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794776201143_image.png"
+  },
+  {
+   "path": "klub/zivot/09.jpg",
+   "thumb": "klub/zivot/09_thumb.jpg",
+   "group": "klub",
+   "event_slug": "zivot",
+   "title": "Z klubového života",
+   "width": 1800,
+   "height": 1021,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794776023674_image.png"
+  },
+  {
+   "path": "klub/zivot/10.jpg",
+   "thumb": "klub/zivot/10_thumb.jpg",
+   "group": "klub",
+   "event_slug": "zivot",
+   "title": "Z klubového života",
+   "width": 1350,
+   "height": 1800,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794776048772_image.png"
+  },
+  {
+   "path": "klub/zivot/11.jpg",
+   "thumb": "klub/zivot/11_thumb.jpg",
+   "group": "klub",
+   "event_slug": "zivot",
+   "title": "Z klubového života",
+   "width": 1200,
+   "height": 900,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794776135622_image.png"
+  },
+  {
+   "path": "klub/zivot/12.jpg",
+   "thumb": "klub/zivot/12_thumb.jpg",
+   "group": "klub",
+   "event_slug": "zivot",
+   "title": "Z klubového života",
+   "width": 1440,
+   "height": 1800,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794776144981_image.png"
+  },
+  {
+   "path": "klub/zivot/13.jpg",
+   "thumb": "klub/zivot/13_thumb.jpg",
+   "group": "klub",
+   "event_slug": "zivot",
+   "title": "Z klubového života",
+   "width": 1200,
+   "height": 900,
+   "source": "zaslal Kuba Bican",
+   "original_name": "1794776174156_image.png"
   }
  ]
 }
