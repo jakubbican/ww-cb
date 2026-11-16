@@ -25,17 +25,17 @@ Odchovanec našeho klubu, narozený v Českých Budějovicích. Na slalomové tr
 
 - **2026 – mistr světa K1** (Oklahoma City, 23. 7. 2026) – první individuální světový titul; k tomu **stříbro v kayak cross time trialu**.
 - **2026 – mistr Evropy K1** (Ivrea, 25. 9. 2026) a dvě vítězství ve Světovém poháru (Praha, Augsburg).
-- **2025 – MS Penrith:** stříbro K1, bronz kayak cross time trial. **ME 2025:** zlato kayak cross.
-- **2023 – MS Londýn:** zlato v hlídkách 3×K1. **ME 2024:** zlato v hlídkách.
+- **2025 – mistrovství světa v Penrithu:** stříbro v K1, bronz v kayak cross time trialu. **Mistrovství Evropy 2025:** zlato v kayak crossu.
+- **2023 – mistrovství světa v Londýně:** zlato v hlídkách 3×K1. **Mistrovství Evropy 2024:** zlato v hlídkách.
 - **U23:** mistr světa 2021 (K1 i hlídky), mistr Evropy 2021 (K1 i kayak cross) a **2022 na domácí trati v Českých Budějovicích** (K1).
-- **Junioři:** čtyři stříbra z MSJ 2018 a 2019, bronzy z MEJ 2018 a 2020.
+- **Junioři:** čtyři stříbrné medaile z mistrovství světa juniorů 2018 a 2019, bronzové z mistrovství Evropy juniorů 2018 a 2020.
 
 ## Olympionici z Českého Vrbného
 
-- **Vlastimil Ouředník** – K1, olympijské hry 1972 v Mnichově (20. místo); mistr republiky 1972, 1973 a 1974. Člen TJ Stadion České Budějovice, později Dukla.
+- **Vlastimil Ouředník** – K1, olympijské hry 1972 v Mnichově (20. místo); mistr republiky 1972, 1973 a 1974. Člen TJ Stadion České Budějovice, později Dukla. Po skončení kariéry vedl VSC Dukla a v 90. letech byl reprezentačním trenérem seniorů, mimo jiné v realizačním týmu olympijských her v Atlantě 1996 [ověřit roky].
 - **Lída Polesná** – K1, olympijské hry 1972 v Mnichově (16. místo). Čtyřnásobná mistryně světa (1961, 1963, 1967, 1969), v letech 1962–1964 závodila za Dynamo České Budějovice. Areál nese její jméno. Více v sekci [Historie](../historie/).
 - **Jakub Prüher** – C1, olympijské hry 1992 v Barceloně (29. místo), rok předtím 6. na mistrovství světa v Tacenu. Odchovanec TJ Škoda České Budějovice, dnes předseda klubu a autor koncepce nové trati.
-- **Tomáš Kobes** – K1, olympijské hry 2000 v Sydney (7. místo ve finále, v kvalifikaci 6.). Bronz z mistrovství světa 1999 v hlídkách 3×K1, medailista z mistrovství Evropy; jako junior mistr světa v hlídkách 1996 – doma na Lipně, na šampionátu, který pořádal náš oddíl – a mistr Evropy juniorů 1995 v hlídkách, k tomu bronz v K1. Od poloviny 90. let závodil za náš klub, později za Duklu. Dobré výsledky doma i ve světě sbíral i jeho bratr **Jan Kobes**.
+- **Tomáš Kobes** – K1, olympijské hry 2000 v Sydney (7. místo ve finále, v kvalifikaci 6.). Bronz z mistrovství světa 1999 v hlídkách 3×K1, medailista z mistrovství Evropy; jako junior mistr světa v hlídkách 1996 – doma na Lipně, na šampionátu, který pořádal náš oddíl – a mistr Evropy juniorů 1995 v hlídkách, k tomu bronz v K1. Od poloviny 90. let závodil za náš klub, později za Duklu. Mezinárodních úspěchů dosáhl i jeho bratr **Jan Kobes**.
 
 ## Reprezentanti a medailisté současnosti
 
@@ -52,15 +52,16 @@ Přes 700 medailí jen z mistrovství republiky – tolik jich podle České tel
 
 - **Zdeněk Matějovský** (Dynamo) – 6. místo na mistrovství světa 1957 v Augsburgu.
 - **Pavel Hrbek** (Koh-i-noor) – v roce 1961 porazil na Čeňkově pile pětinásobného mistra světa Vladimíra Jiráska.
-- **Otto Částa a Miroslav Königsmark** (Rudá hvězda, později Škoda) – mistři ČSSR ve sjezdu C2 1973, první v celostátním žebříčku 1974, reprezentanti; Otto Částa později trenér oddílu.
+- **Otto Částa a Miroslav Königsmark** (Rudá hvězda, později Škoda) – mistři ČSSR ve sjezdu C2 1973, první v celostátním žebříčku 1974, reprezentanti; Otto Částa později trenér oddílu, Miroslav Königsmark reprezentační trenér juniorů.
 - **Bratři Benhákové, Königsmark, Prüher, Krejčová, Hajná** – československá špička osmdesátých let, která vyrostla na staré dráze v Českém Vrbném. Celkem na ní vyrostlo šest seniorských reprezentantů a dva olympionici.
-- **Ondřej Pinkava** – C1, dlouholetý reprezentant ve slalomu, mistr Evropy 2004 v hlídkách C1 (Skopje). V raftingu s posádkou HIKO vicemistr světa R4 2014, bronz z MS 2010 a 2013, trojnásobný mistr Evropy R4 (2010, 2012, 2014) a mistr Evropy 2023 na domácí trati.
-- **Zdeněk Boček** – K1 a C1, v našem dresu od devadesátých let dodnes. Patří k železným mužům českého slalomu: má jeden z nejdelších seznamů výsledků v celé databázi a jako jeden z mála jel všechny ročníky Krumlovského vodáckého maratonu. K tomu ředitel festivalu Wave a našich závodů.
+- **Luděk Kyrián** – K1, dorostenecký mistr republiky 1991 a juniorský reprezentant: na mistrovství světa juniorů 1994 ve Wausau (USA) skončil 25., jako starší žák vyhrál přebor ČR.
+- **Ondřej Pinkava** – C1, odchovanec Škody: dorostenecký mistr republiky 1991, dlouholetý reprezentant ve slalomu, mistr Evropy 2004 v hlídkách C1 (Skopje). V raftingu s posádkou HIKO vicemistr světa R4 2014, bronz z MS 2010 a 2013, trojnásobný mistr Evropy R4 (2010, 2012, 2014) a mistr Evropy 2023 na domácí trati.
+- **Zdeněk Boček** – K1 a C1, v našem dresu od devadesátých let dodnes. Patří k nejvytrvalejším závodníkům českého slalomu: má jeden z nejdelších seznamů výsledků v celé databázi a jako jeden z mála jel všechny ročníky Krumlovského vodáckého maratonu. K tomu ředitel festivalu Wave a našich závodů.
 - **Jan Kobes** – K1, bratr Tomáše. Bronz na mistrovství Evropy do 23 let 2002 (Bratislava) a mistr ČR 2005; za náš klub jezdil od roku 2007.
-- **Oldřich Weber** – C2, s Lukášem Tomkem bronz na mistrovství republiky 2008 na Lipně, které jsme pořádali; za sebou nechali i reprezentační dvojici Rohan–Mašek. S Bárou Čekalovou mistr ČR v C2 mix 2014. Dnes obětavý trenér juniorů.
+- **Oldřich Weber** – C2, s Lukášem Tomkem bronz na mistrovství republiky 2008 na Lipně, které jsme pořádali – před reprezentační dvojicí Rohan–Mašek. S Bárou Čekalovou mistr ČR v C2 mix 2014. Dnes trenér juniorů.
 - **Alois Kuna** – C1, 6. místo na mistrovství světa juniorů 2006 (Solkan) a mistr ČR dorostu 2006.
 - **Veronika Vojtová** – K1, za náš klub závodila v letech 2006–2007 a v té době vyhrála mistrovství Evropy juniorů 2007 v hlídkách. Později za USK Praha mistryně světa.
-- **Daniel Stach a Míra Lenc** – odchovanci klubu. Dan byl juniorský reprezentant a bronzový na mistrovství republiky dorostu 2006, Míra šikovný žákovský a juniorský závodník a chvíli i trenér v oddíle. Na festivalu Wave se z nich stala komentátorská dvojice, která dnes moderuje Světové poháry v Troji; Dan je navíc moderátor České televize.
+- **Daniel Stach a Míra Lenc** – odchovanci klubu. Dan byl juniorský reprezentant a bronzový na mistrovství republiky dorostu 2006, Míra úspěšný žákovský a juniorský závodník a chvíli i trenér v oddíle. Na festivalu Wave se z nich stala komentátorská dvojice, která dnes moderuje Světové poháry v Troji; Dan je navíc moderátor České televize.
 - **Monika Jančová** – C1, za náš klub 2010–2012: mistryně ČR dorostu 2010, vicemistryně ČR 2012 a stříbro na mistrovství světa do 23 let 2012 (Wausau). Později za Duklu medailistka z MS v hlídkách.
 - **Marek Cepek a Radek Pospíchal** – C2, bronz na mistrovství světa juniorů 2012 (Wausau) a na ME juniorů 2012 v hlídkách, mistři ČR dorostu 2012 na domácí trati. Marek Cepek k tomu bronz v C1 na MS juniorů 2012.
 - **Jana Matulková** – C1, za náš klub bronz na mistrovství Evropy juniorů 2013 (Bourg-Saint-Maurice); později za Duklu medailistka z ME a MS do 23 let, od roku 2024 znovu u nás.
@@ -75,6 +76,6 @@ Přes 700 medailí jen z mistrovství republiky – tolik jich podle České tel
 - **2006–2015 – Mezinárodní vodácký festival Wave** – mezinárodní slalom ICF s olympijskými vítězi na startu, mládežnické závody, masokros, kapely a vstup zdarma. Od 2013 spojený s **ECA Junior Cupem** (2013–2017, znovu 2026). Více v [Historii](../historie/#wave).
 - **2022 – Mistrovství Evropy juniorů a do 23 let ve vodním slalomu** (ECA), 9.–14. 8. 2022. Poprvé v historii v České republice. Česko vyhrálo medailovou tabulku (8 zlatých, 5 stříbrných) a Jakub Krejčí získal zlato v K1 U23 na domácí trati.
 
-Za každým závodem stojí parta lidí, kteří pro něj obětují víkendy i dovolené. Mezi nejzkušenější pořadatele patří Jakub Bican a Zdeněk Boček, před nimi Karel Krejčí a mnoho dalších. Bez nich bychom nebyli zdaleka nejaktivnějším pořadatelem slalomových závodů v Česku.
+Za každým závodem stojí tým dobrovolníků, kteří mu věnují víkendy i dovolené. Mezi nejzkušenější pořadatele patří Jakub Bican a Zdeněk Boček, před nimi Karel Krejčí a mnoho dalších. Bez nich bychom nebyli zdaleka nejaktivnějším pořadatelem slalomových závodů v Česku.
 
 <div class="note">Chybí ti tu někdo nebo nějaký výsledek? Stránku sestavujeme z klubových aktualit, svazových výsledků a historických pramenů a rádi ji doplníme – napiš na <a href="mailto:info@ww-cb.cz">info@ww-cb.cz</a>.</div>
