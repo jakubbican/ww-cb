@@ -62,7 +62,7 @@ Přes 700 medailí jen z mistrovství republiky – tolik jich podle České tel
 - **Alois Kuna** – C1, 6. místo na mistrovství světa juniorů 2006 (Solkan) a mistr ČR dorostu 2006.
 - **Veronika Vojtová** – K1, za náš klub závodila v letech 2006–2007 a v té době vyhrála mistrovství Evropy juniorů 2007 v hlídkách. Později za USK Praha mistryně světa.
 - **Daniel Stach a Míra Lenc** – odchovanci klubu. Dan byl juniorský reprezentant a bronzový na mistrovství republiky dorostu 2006, Míra úspěšný žákovský a juniorský závodník a chvíli i trenér v oddíle. Na festivalu Wave se z nich stala komentátorská dvojice, která dnes moderuje Světové poháry v Troji; Dan je navíc moderátor České televize.
-- **Monika Jančová** – C1, za náš klub 2010–2012: mistryně ČR dorostu 2010, vicemistryně ČR 2012 a stříbro na mistrovství světa do 23 let 2012 (Wausau). Později za Duklu medailistka z MS v hlídkách.
+- **Monika Jančová** – C1, za náš klub 2010–2012: mistryně ČR dorostu 2010 a vicemistryně ČR 2012. V sezoně 2012 jezdila za náš klub i ve Světovém poháru, na mistrovství Evropy dospělých v Augsburgu byla 5., na mistrovství světa do 23 let ve Wausau získala stříbro a v září se stala mistryní Evropy do 23 let. Později za Duklu medailistka z MS v hlídkách.
 - **Marek Cepek a Radek Pospíchal** – C2, bronz na mistrovství světa juniorů 2012 (Wausau) a na ME juniorů 2012 v hlídkách, mistři ČR dorostu 2012 na domácí trati. Marek Cepek k tomu bronz v C1 na MS juniorů 2012.
 - **Jana Matulková** – C1, za náš klub bronz na mistrovství Evropy juniorů 2013 (Bourg-Saint-Maurice); později za Duklu medailistka z ME a MS do 23 let, od roku 2024 znovu u nás.
 - **Jan Zvolánek** – K1, juniorský reprezentant 2013 (MS i ME juniorů) a bronz na mistrovství republiky dorostu 2013.
