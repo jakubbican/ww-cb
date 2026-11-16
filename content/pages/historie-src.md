@@ -20,7 +20,7 @@ prameny: |
   - Polesná, L. (1979): *Hranaté medaile.* Jihočeské nakladatelství.
   - [Vodácký areál Lídy Polesné – Wikipedie](https://cs.wikipedia.org/wiki/Vod%C3%A1ck%C3%BD_are%C3%A1l_L%C3%ADdy_Polesn%C3%A9), [Ludmila Polesná – Wikipedie](https://cs.wikipedia.org/wiki/Ludmila_Polesn%C3%A1), dobový tisk a klubový archiv.
 ---
-<!-- Stránka Historie. Sekce (## nadpisy) se na webu skládají v pořadí: film, Příběh místa, fotky Ze starého alba, Lída Polesná, Časová osa, Festival Wave (+ fotky a filmy), Prameny. Sekce Zdroje se nezobrazuje. Značky [ověřit] build odstraní. -->
+<!-- Stránka Historie. Sekce (## nadpisy) se na webu skládají v pořadí: film, Příběh místa, fotky Ze starého alba, Lída Polesná, Časová osa, Festival Wave (+ fotky a filmy), Prameny. Sekce Zdroje se nezobrazuje. Značky [ověřit] build odstraní. Odkaz na YouTube s textem začínajícím „▶ “ se vloží jako video. -->
 
 ## Příběh místa
 
@@ -96,7 +96,7 @@ Ludmila Polesná (31. 8. 1934 Písek – 9. 12. 1988 Praha), rozená Štyndlová
 
 ### Revitalizace a Vodácký areál Lídy Polesné (2009–dnes)
 
-- **2009–2012** – Projekt revitalizace s rozpočtem 29,7 mil. Kč ve třech etapách: I. etapa (cca 26 mil. Kč) – přestavba vlastní trati, hlavní stavební práce v roce 2011; II. etapa – nová loděnice (odhad 13 mil. Kč); III. etapa – další zázemí. Financováno převážně z ROP Jihozápad a částečně městem České Budějovice. Projektový tým klubu tvořili Jakub Prüher, Monika Jandová, Dan Stach a Jakub Bican; hlavním iniciátorem a autorem koncepce je předseda klubu Jakub Prüher: členité koryto skluzů a lagun po vzoru přirozených řek, bez energeticky náročného přečerpávání, s kolejnicemi pro mobilní překážky RapidBlocs (stejná technologie jako na olympijské trati v Londýně 2012). [Video ze stavby](https://www.youtube.com/watch?v=n2H4P_RT2hk).
+- **2009–2012** – Projekt revitalizace s rozpočtem 29,7 mil. Kč ve třech etapách: I. etapa (cca 26 mil. Kč) – přestavba vlastní trati, hlavní stavební práce v roce 2011; II. etapa – nová loděnice (odhad 13 mil. Kč); III. etapa – další zázemí. Financováno převážně z ROP Jihozápad a částečně městem České Budějovice. Projektový tým klubu tvořili Jakub Prüher, Monika Jandová, Dan Stach a Jakub Bican; hlavním iniciátorem a autorem koncepce je předseda klubu Jakub Prüher: členité koryto skluzů a lagun po vzoru přirozených řek, bez energeticky náročného přečerpávání, s kolejnicemi pro mobilní překážky RapidBlocs (stejná technologie jako na olympijské trati v Londýně 2012). [▶ Video ze stavby trati](https://www.youtube.com/watch?v=n2H4P_RT2hk)
 - **2008–2011** – V těsném sousedství vzniká v rámci splavnění Vltavy plavební komora a ochranný přístav Marina České Vrbné.
 - **21. 12. 2011** – Po cca 730 dnech čekání první „průplach“ nové trati při výroční schůzi klubu.
 - **Jaro 2012** – Dokončení stavby (duben 2012) a otevření nové trati, rozdělené na část pro začátečníky a mládež, tréninkovou část a závodní úsek s mobilními překážkami. Koncem dubna 2012 se zde jede závěrečný závod nominace českých slalomářů na OH v Londýně.

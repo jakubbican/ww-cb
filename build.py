@@ -406,6 +406,8 @@ if hist_src.exists():
         h, _ = md_to_html(md, rel)
         return h
     timeline = re.sub(r'^### ', '#### ', section('Časová osa'), flags=re.M)
+    def embed_videos(h):  # odkaz [▶ Název](youtube) → vložené video
+        return re.sub(r'<a href="https://www\.youtube\.com/watch\?v=([\w-]+)"[^>]*>▶\s*([^<]+)</a>', lambda m: yt(m.group(1), m.group(2).strip()), h)
     film_title = hfm.get('film_title', 'Bylo nebylo')
     toc = [('filmy', 'Film ' + film_title), ('pribeh', 'Příběh místa'), ('album', 'Ze starého alba'), ('lida', 'Lída Polesná'),
            ('osa', 'Časová osa'), ('wave', 'Festival Wave (2006–2015)'), ('prameny', 'Prameny')]
@@ -413,7 +415,7 @@ if hist_src.exists():
          '<h2 id="pribeh">Příběh místa</h2>' + sec_html(section('Příběh místa')) +
          '<h2 id="album">Ze starého alba</h2>' + gallery_html(photos_in('historie'), rel) +
          '<h2 id="lida">Lída Polesná</h2>' + sec_html(section('Lída Polesná')) +
-         '<h2 id="osa">Časová osa</h2>' + sec_html(timeline) +
+         '<h2 id="osa">Časová osa</h2>' + embed_videos(sec_html(timeline)) +
          '<h2 id="wave">Festival Wave (2006–2015)</h2>' + sec_html(section('Festival Wave (2006–2015)')) +
          gallery_html(photos_in('wave'), rel) + '<div class="video-grid">' + yt('idyDTOz1l1g', 'Festivalový film Wave 2014') + yt('LvP5XhDhKbw', 'Velký vodácký festival WAVE 2008') + '</div>' +
          '<h2 id="prameny">Prameny</h2>' + sec_html(hfm.get('prameny', '')))
