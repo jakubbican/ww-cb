@@ -53,7 +53,7 @@ Přes 700 medailí jen z mistrovství republiky – tolik jich podle České tel
 - **Zdeněk Matějovský** (Dynamo) – 6. místo na mistrovství světa 1957 v Augsburgu.
 - **Pavel Hrbek** (Koh-i-noor) – v roce 1961 porazil na Čeňkově pile pětinásobného mistra světa Vladimíra Jiráska.
 - **Otto Částa a Miroslav Königsmark** (Rudá hvězda, později Škoda) – mistři ČSSR ve sjezdu C2 1973, první v celostátním žebříčku 1974, reprezentanti; Otto Částa později trenér oddílu, Miroslav Königsmark reprezentační trenér juniorů.
-- **Bratři Benhákové, Königsmark, Prüher, Krejčová, Hajná** – československá špička osmdesátých let, která vyrostla na staré dráze v Českém Vrbném. Celkem na ní vyrostlo šest seniorských reprezentantů a dva olympionici.
+- **Bratři Benhákové, Königsmark, Prüher, Petr Štětka, Krejčová, Hajná** – československá špička osmdesátých let, která vyrostla na staré dráze v Českém Vrbném. Celkem na ní vyrostlo šest seniorských reprezentantů a dva olympionici.
 - **Luděk Kyrián** – K1, dorostenecký mistr republiky 1991 a juniorský reprezentant: na mistrovství světa juniorů 1994 ve Wausau (USA) skončil 25., jako starší žák vyhrál přebor ČR.
 - **Ondřej Pinkava** – C1, odchovanec Škody: dorostenecký mistr republiky 1991, dlouholetý reprezentant ve slalomu, mistr Evropy 2004 v hlídkách C1 (Skopje). V raftingu s posádkou HIKO vicemistr světa R4 2014, bronz z MS 2010 a 2013, trojnásobný mistr Evropy R4 (2010, 2012, 2014) a mistr Evropy 2023 na domácí trati.
 - **Zdeněk Boček** – K1 a C1, v našem dresu od devadesátých let dodnes. Patří k nejvytrvalejším závodníkům českého slalomu: má jeden z nejdelších seznamů výsledků v celé databázi a jako jeden z mála jel všechny ročníky Krumlovského vodáckého maratonu. K tomu ředitel festivalu Wave a našich závodů.
