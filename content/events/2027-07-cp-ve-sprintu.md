@@ -8,7 +8,7 @@ images: []
 end_date: "2027-08-01T18:00:00+02:00"
 location: "Areál Lídy Polesné"
 address: "České Vrbné 1995, 370 11 České Budějovice, Česko"
-subtitle: "Sprint na divoké vodě · krátké jízdy, hodně startů za hodinu"
+subtitle: "Sprint na divoké vodě · mnoho závodů během jednoho víkendu"
 organizer: "klub"
 ---
 
