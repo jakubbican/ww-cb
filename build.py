@@ -343,7 +343,10 @@ for e in calendar:
     else: cal_by_month.append((e['month_name'], [e]))
 next_event = upcoming[0] if upcoming and upcoming[0]['year'] == cal_year else None
 # Ohlédnutí: poslední uzavřený rok, pokud to není rok kalendáře
-recap_year = past[-1]['year'] if past and past[-1]['year'] != cal_year and len(calendar) < 3 else None
+# Zimní přechod: od konce sezony do 31. 1. se vedle nového kalendáře ukazuje i ohlédnutí za loňskem.
+last_year = past[-1]['year'] if past else None
+winter = bool(last_year) and last_year != cal_year and TODAY <= date(last_year + 1, 1, 31)
+recap_year = last_year if last_year and last_year != cal_year and (winter or len(calendar) < 3) else None
 recap = [e for e in events if e['year'] == recap_year] if recap_year else []
 akce_fm, akce_body = read_md(CONTENT / 'akce.md')
 akce_html, _ = md_to_html(strip_markers(akce_body), '../')
@@ -438,10 +441,13 @@ def hp_ev(e):
     href = e['links'].get('clanek') or ''
     if href and not href.startswith('http'): href = href.replace('../', '')
     return dict(date_short=e['date_short'], title=e['title'], organizer=e['organizer'], org_name=e['org_name'], href=href if e['past'] else '')
-if next_event:
+if winter:
+    season = [e for e in past if e['year'] == last_year and e['organizer'] == 'klub']
+    hp_events = dict(note=f'Sezona {last_year} skončila. Tohle jsme uspořádali:', list=[hp_ev(e) for e in season][-4:],
+                     label=f'Kalendář {cal_year}' if calendar else 'Kalendář akcí')
+elif next_event:
     hp_events = dict(note='', list=[hp_ev(e) for e in calendar if not e['past']][:4], label=f'Celý kalendář {cal_year}')
 else:
-    last_year = past[-1]['year'] if past else None
     season = [e for e in past if e['year'] == last_year and e['organizer'] == 'klub']
     hp_events = dict(note=f'Sezona {last_year} skončila. Kalendář {cal_year} doplníme, jakmile budou známé termíny.' if last_year else '',
                      list=[hp_ev(e) for e in season][-4:], label=f'Ohlédnutí za sezonou {last_year}' if last_year else 'Kalendář akcí')
