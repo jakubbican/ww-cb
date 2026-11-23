@@ -91,6 +91,8 @@ Ludmila Polesná (31. 8. 1934 Písek – 9. 12. 1988 Praha), rozená Štyndlová
 - **1991** – Oddíl se osamostatňuje jako **Sportovní klub vodní slalom České Budějovice** (IČO 15770729). Karel Krejčí se stává prvním placeným pracovníkem; klub se začíná živit i pronájmem trati jiným klubům.
 - **1992** – Jakub Prüher startuje v C1 na OH v Barceloně (29. místo) – první olympijské hry s vodním slalomem po dvaceti letech.
 - **1993** – Kolaudace vodáckého tábořiště v Českém Vrbném (listopad), správcem je Zdeněk Kozák. Postupně přibývá restaurace a v areálu sídlí výrobce pádel TNP.
+- **1994** – Oddíl za sezonu pořádá osm závodů na umělé dráze i pod Lipnem, včetně MČR ve slalomu na Lipně. Na MS juniorů ve Wausau (USA) jede s Luďkem Kyriánem a trenérem Miroslavem Königsmarkem i Karel Krejčí jako pořadatel příštího šampionátu – „Lipno 96“ (Českobudějovicko, 6. 8. 1994).
+- **5.–9. 7. 1995** – Předmistrovský závod na Lipně jako generálka MS juniorů. Rozpočet obou akcí je 2,6 mil. Kč, z toho 800 tisíc od svazu; na MS se hlásí kolem 44 federací. Starostí přibývá: elektrárnu ve Vrbném koupila První jihočeská energetická společnost a o vypouštění vody na trať se klub musí znovu dohadovat (rozhovor K. Jáši s Karlem Krejčím, 1995).
 - **1995** – Klub vydává brožuru „Vodácké centrum Lídy Polesné České Budějovice – České Vrbné“ – název po Lídě Polesné je tedy používán nejpozději od poloviny 90. let, ne až od přestavby **[ověřit, kdy byl název oficiálně přijat]**.
 - **30.–31. 3. 1996** – V Českém Vrbném se jedou první dva nominační závody na olympijské hry v Atlantě – kvůli termínu Světového poháru v Atlantě už na konci března; sobotní závod musel být přerušen kvůli hustému sněžení.
 - **11.–14. 7. 1996** – **Mistrovství světa juniorů ve vodním slalomu na Lipně** – pořádá oddíl ve spolupráci s Českým svazem kanoistů na přírodní trati pod lipenskou hrází. Čeští junioři získali 6 zlatých z 8 medailí, v hlídkách K1 i odchovanec klubu Tomáš Kobes.
@@ -139,6 +141,7 @@ Pracovní seznam pramenů – na webu se nezobrazuje. Krátký seznam „Prameny
 
 Primární prameny (historie):
 
+- Výstřižky z Jihočeských listů a Českobudějovicka (Českobudějovicko – sport 6. 8. 1994 „Návrat ze zámoří“; K. Jáša „Vodáci mají pestrou sezonu“, 1995; M. Toncar „Uplynulý rok na divoké vodě“, 1995; „Elitní pádla v Českém Vrbném“, 1994; mistrovství ČSFR žáků ve Dvoře Králové) – výstřižky zaslané 11/2026.
 - *Sportovní klub vodní slalom v Českých Budějovicích 1968–1998* – almanach k 30. výročí (M. Toncar st., předseda klubu). Ze vzpomínek pamětníků, obsahuje nepřesnosti; jména opravena.
 - Štumbauer, P. (2017). *Historie vodáckého areálu Lídy Polesné v Českém Vrbném.* Diplomová práce, PF JU České Budějovice. [Záznam](https://dspace.jcu.cz/handle/20.500.14390/33558) – [PDF](https://dspace.jcu.cz/bitstreams/0fcacf24-9c8e-42f4-a188-eef0dfaeae68/download)
 - Štumbauer, J., & Štumbauer, P. (2017). Historie českobudějovické kanoistiky od jejích počátků do poloviny 80. let 20. století. *Studia Kinanthropologica*, 18(2), 143–161. [PDF](https://sk.pf.jcu.cz/pdfs/stk/2017/02/08.pdf)
