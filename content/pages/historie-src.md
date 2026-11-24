@@ -82,6 +82,7 @@ Ludmila Polesná (31. 8. 1934 Písek – 9. 12. 1988 Praha), rozená Štyndlová
 - **1981** – Oddíl TJ Škoda začíná trénovat na nedokončené trati; jako jeden z prvních úseků je hotové obávané Kolovadlo – propust starého jezu.
 - **1982** – Trenérem se stává Otto Částa; oddíl má kolem 15 stálých závodníků.
 - **1. 6. 1983** – **Umělá slalomová dráha v Českém Vrbném oficiálně předána do provozu** (náklad 10 mil. Kčs; později dostavěny v akci Z ubytovna, čistička odpadních vod a tábořiště). Horní úsek cca 350 m s pěti betonovými prahy a start v 50m bazénu, pod Kolovadlem dalších cca 250 m zpět do Vltavy; obtížnost WW2–WW4 podle vpouštěné vody. Jedna ze tří nových čs. drah otevřených do roku 1985 (vedle Trnávky 1984 a Veltrus 1985).
+- **Srpen 1983** – Budějovičtí slalomáři pomáhají při natáčení filmu *Svatební cesta do Jiljí* (režie Hynek Bočan) na Vltavě u Purkarce. Patnáctiletý Jakub Prüher je „vodácký kameraman“ – kameru upevněnou na lodi trefí do šlajsny až napotřetí – a jeho vrstevnice Monika Sýkorová (dnes Jandová) dabluje Libuši Šafránkovou ve scéně, kdy se loď pod jezem převrátí. „Libuška Šafránková opravdu určitě nebyla vodačka,“ vzpomíná Prüher (ČRo České Budějovice a Deník, 2025).
 - **1983 a 1985** – První zahraniční výjezdy s mládeží: trénink ve Spittalu, kde někteří jezdí předmistrovský závod ME juniorů 1984, a na tratích v Meranu a Tacenu.
 - **1984** – Trénink budějovických slalomářů probíhá již prakticky jen v Českém Vrbném; k nejlepším patří Miroslav Königsmark ml., Prüher, Krejčová, Hajná a bratři Benhákové (čs. špička C2). Oddíl je druhý v ČSSR dorostu ve sjezdu.
 - **1985** – II. ročník Českobudějovického slalomu na USD, oddíl má 18 závodníků; Jakub Prüher zařazen do seniorské reprezentace. (Článek Štumbauer & Štumbauer 2017 uvádí, že se v Českém Vrbném jelo i mistrovství ČSSR 1985; diplomová práce je klade na Lipno – **[ověřit]**.)
@@ -141,6 +142,7 @@ Pracovní seznam pramenů – na webu se nezobrazuje. Krátký seznam „Prameny
 
 Primární prameny (historie):
 
+- K. Jáša: [Libuška opravdu nebyla vodačka…](https://budejovice.rozhlas.cz/libuska-opravdu-nebyla-vodacka-vzpomina-kanoista-ktery-pomahal-pri-nataceni-9419429), ČRo České Budějovice, 24. 2. 2025; [Natáčení Svatební cesty do Jiljí? Šafránkovou vyděsily myši](https://www.denik.cz/regiony/safrankova-abrham-svatebni-cesta-do-jilji-bocan-pruher-mysi-20250313.html), Deník, 14. 3. 2025.
 - Výstřižky z Jihočeských listů a Českobudějovicka (Českobudějovicko – sport 6. 8. 1994 „Návrat ze zámoří“; K. Jáša „Vodáci mají pestrou sezonu“, 1995; M. Toncar „Uplynulý rok na divoké vodě“, 1995; „Elitní pádla v Českém Vrbném“, 1994; mistrovství ČSFR žáků ve Dvoře Králové) – výstřižky zaslané 11/2026.
 - *Sportovní klub vodní slalom v Českých Budějovicích 1968–1998* – almanach k 30. výročí (M. Toncar st., předseda klubu). Ze vzpomínek pamětníků, obsahuje nepřesnosti; jména opravena.
 - Štumbauer, P. (2017). *Historie vodáckého areálu Lídy Polesné v Českém Vrbném.* Diplomová práce, PF JU České Budějovice. [Záznam](https://dspace.jcu.cz/handle/20.500.14390/33558) – [PDF](https://dspace.jcu.cz/bitstreams/0fcacf24-9c8e-42f4-a188-eef0dfaeae68/download)
